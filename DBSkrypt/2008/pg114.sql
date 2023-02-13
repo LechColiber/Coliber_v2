@@ -1,0 +1,4 @@
+ALTER TABLE nadania
+   ALTER COLUMN data_od SET NOT NULL,
+   ADD COLUMN Zast Boolean DEFAULT false ;
+ALTER TABLE nadania ALTER COLUMN data_od SET STATISTICS -1;

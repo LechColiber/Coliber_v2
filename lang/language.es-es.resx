@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="search" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="numbers" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="biweekly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="bimonthly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="quarterly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="irregular" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="institution" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="authors" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="sources" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="publisher" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="summaries" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="issn" xml:space="preserve">
+    <value>ISSN</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="borrows" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="borrowed" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="searching" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="ordered" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="articles" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="magazines" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="books" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="resources" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="orders" xml:space="preserve">
+    <value>?por qué?</value>
+  </data>
+  <data name="edition" xml:space="preserve">
+    <value>s edition</value>
+  </data>
+  <data name="isbn" xml:space="preserve">
+    <value>s isbn</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>s description</value>
+  </data>
+  <data name="database" xml:space="preserve">
+    <value>s database</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>s author</value>
+  </data>
+  <data name="additionalOrderInfo" xml:space="preserve">
+    <value>s additionalOrderInfo</value>
+  </data>
+  <data name="additionalTitle" xml:space="preserve">
+    <value>s additionalTitle</value>
+  </data>
+  <data name="articleTitle" xml:space="preserve">
+    <value>s articleTitle</value>
+  </data>
+  <data name="authorsName" xml:space="preserve">
+    <value>s authorsName</value>
+  </data>
+  <data name="basket" xml:space="preserve">
+    <value>s basket</value>
+  </data>
+  <data name="borrowDate" xml:space="preserve">
+    <value>s borrowDate</value>
+  </data>
+  <data name="coAuthor" xml:space="preserve">
+    <value>s coAuthor</value>
+  </data>
+  <data name="deleteChecked" xml:space="preserve">
+    <value>s deleteChecked</value>
+  </data>
+  <data name="fieldRequired" xml:space="preserve">
+    <value>s fieldRequired</value>
+  </data>
+  <data name="notReturned" xml:space="preserve">
+    <value>s notReturned</value>
+  </data>
+  <data name="makeOrder" xml:space="preserve">
+    <value>s makeOrder</value>
+  </data>
+  <data name="orderAccepted" xml:space="preserve">
+    <value>s orderAccepted</value>
+  </data>
+  <data name="orderConfirm" xml:space="preserve">
+    <value>s orderConfirm</value>
+  </data>
+  <data name="phrase" xml:space="preserve">
+    <value>s phrase</value>
+  </data>
+  <data name="physicalDescription" xml:space="preserve">
+    <value>s physicalDescription</value>
+  </data>
+  <data name="providedDate" xml:space="preserve">
+    <value>s providedDate</value>
+  </data>
+  <data name="returnDate" xml:space="preserve">
+    <value>s returnDate</value>
+  </data>
+  <data name="sendOrder" xml:space="preserve">
+    <value>s sendOrder</value>
+  </data>
+  <data name="showReturned" xml:space="preserve">
+    <value>s showReturned</value>
+  </data>
+  <data name="sourceTitle" xml:space="preserve">
+    <value>s sourceTitle</value>
+  </data>
+  <data name="tag" xml:space="preserve">
+    <value>s tag</value>
+  </data>
+  <data name="tags" xml:space="preserve">
+    <value>s tags</value>
+  </data>
+  <data name="volumin" xml:space="preserve">
+    <value>s volumin</value>
+  </data>
+  <data name="whoOrders" xml:space="preserve">
+    <value>s whoOrders</value>
+  </data>
+  <data name="basketIsEmpty" xml:space="preserve">
+    <value>s basketIsEmpty</value>
+  </data>
+  <data name="cannotOrder" xml:space="preserve">
+    <value>s cannotOrder</value>
+  </data>
+  <data name="additionAuthor" xml:space="preserve">
+    <value>s additionAuthor</value>
+  </data>
+  <data name="additionTitle" xml:space="preserve">
+    <value>s additionTitle</value>
+  </data>
+  <data name="addToBasket" xml:space="preserve">
+    <value>s addToBasket</value>
+  </data>
+  <data name="banned" xml:space="preserve">
+    <value>s banned</value>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>s check</value>
+  </data>
+  <data name="checkUncheckAll" xml:space="preserve">
+    <value>s checkUncheckAll</value>
+  </data>
+  <data name="copiesOf" xml:space="preserve">
+    <value>s copiesOf</value>
+  </data>
+  <data name="copyOf" xml:space="preserve">
+    <value>s copyOf</value>
+  </data>
+  <data name="dateEntererd" xml:space="preserve">
+    <value>s dateEntererd</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>s details</value>
+  </data>
+  <data name="excerpt" xml:space="preserve">
+    <value>s excerpt</value>
+  </data>
+  <data name="exportDOC" xml:space="preserve">
+    <value>s exportDOC</value>
+  </data>
+  <data name="glossaryDescriptions" xml:space="preserve">
+    <value>s glossaryDescriptions</value>
+  </data>
+  <data name="halfYearly" xml:space="preserve">
+    <value>s halfYearly</value>
+  </data>
+  <data name="inventory" xml:space="preserve">
+    <value>s inventory</value>
+  </data>
+  <data name="itemDescription" xml:space="preserve">
+    <value>s itemDescription</value>
+  </data>
+  <data name="languageOfText" xml:space="preserve">
+    <value>s languageOfText</value>
+  </data>
+  <data name="myOrders" xml:space="preserve">
+    <value>s myOrders</value>
+  </data>
+  <data name="noOrders" xml:space="preserve">
+    <value>s noOrders</value>
+  </data>
+  <data name="noSearchResults" xml:space="preserve">
+    <value>s noSearchResults</value>
+  </data>
+  <data name="ordersDate" xml:space="preserve">
+    <value>s ordersDate</value>
+  </data>
+  <data name="ordersFollowingItems" xml:space="preserve">
+    <value>s ordersFollowingItems</value>
+  </data>
+  <data name="ordersInfo001" xml:space="preserve">
+    <value>s ordersInfo001</value>
+  </data>
+  <data name="ordersInfo002" xml:space="preserve">
+    <value>s ordersInfo002</value>
+  </data>
+  <data name="ordersInfo003" xml:space="preserve">
+    <value>s ordersInfo003</value>
+  </data>
+  <data name="oridinalShort" xml:space="preserve">
+    <value>s oridinalShort</value>
+  </data>
+  <data name="paralellTitle" xml:space="preserve">
+    <value>s paralellTitle</value>
+  </data>
+  <data name="publicationPlace" xml:space="preserve">
+    <value>s publicationPlace</value>
+  </data>
+  <data name="serie" xml:space="preserve">
+    <value>s serie</value>
+  </data>
+  <data name="titleOfPublicationSource" xml:space="preserve">
+    <value>s titleOfPublicationSource</value>
+  </data>
+  <data name="toOrder" xml:space="preserve">
+    <value>s toOrder</value>
+  </data>
+  <data name="userDeleted" xml:space="preserve">
+    <value>s userDeleted</value>
+  </data>
+  <data name="yearOfPublishing" xml:space="preserve">
+    <value>s yearOfPublishing</value>
+  </data>
+  <data name="advancedSearch" xml:space="preserve">
+    <value>s advancedSearch</value>
+  </data>
+  <data name="myBorrows" xml:space="preserve">
+    <value>s myBorrows</value>
+  </data>
+  <data name="orderState" xml:space="preserve">
+    <value>s orderState</value>
+  </data>
+  <data name="returnedBorrows" xml:space="preserve">
+    <value>s returnedBorrows</value>
+  </data>
+  <data name="simpleSearch" xml:space="preserve">
+    <value>s simpleSearch</value>
+  </data>
+  <data name="toDelete" xml:space="preserve">
+    <value>s toDelete</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>s and</value>
+  </data>
+  <data name="ascending" xml:space="preserve">
+    <value>s ascending</value>
+  </data>
+  <data name="descending" xml:space="preserve">
+    <value>s descending</value>
+  </data>
+  <data name="enterPhrase" xml:space="preserve">
+    <value>s enterPhrase</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>s or</value>
+  </data>
+  <data name="publicationCountry" xml:space="preserve">
+    <value>s publicationCountry</value>
+  </data>
+  <data name="sortBy" xml:space="preserve">
+    <value>s sortBy</value>
+  </data>
+  <data name="clearCriteria" xml:space="preserve">
+    <value>s clearCriteria</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value>s first</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>s last</value>
+  </data>
+  <data name="phraseSearched" xml:space="preserve">
+    <value>s phraseSearched</value>
+  </data>
+  <data name="searchWithSources" xml:space="preserve">
+    <value>s searchWithSources</value>
+  </data>
+  <data name="hasSources" xml:space="preserve">
+    <value>s hasSources</value>
+  </data>
+  <data name="editor" xml:space="preserve">
+    <value>s editor</value>
+  </data>
+  <data name="filesToDL" xml:space="preserve">
+    <value>s filesToDL</value>
+  </data>
+  <data name="numberYear" xml:space="preserve">
+    <value>s numberYear</value>
+  </data>
+  <data name="publicationPlaceDate" xml:space="preserve">
+    <value>s publicationPlaceDate</value>
+  </data>
+  <data name="cpy" xml:space="preserve">
+    <value>s cpy</value>
+  </data>
+  <data name="noCpy" xml:space="preserve">
+    <value>s noCpy</value>
+  </data>
+  <data name="numberOfVolumes" xml:space="preserve">
+    <value>s numberOfVolumes</value>
+  </data>
+  <data name="pleaseWait" xml:space="preserve">
+    <value>s pleaseWait</value>
+  </data>
+  <data name="ukd" xml:space="preserve">
+    <value>s ukd</value>
+  </data>
+  <data name="stat_Oczekuje" xml:space="preserve">
+    <value>s stat Oczekuje</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>s status</value>
+  </data>
+  <data name="stat_Zrealizowane" xml:space="preserve">
+    <value>s stat Zrealizowane</value>
+  </data>
+  <data name="stat_Rezygnacja" xml:space="preserve">
+    <value>s stat Rezygnacja</value>
+  </data>
+  <data name="stat_Przygotowane" xml:space="preserve">
+    <value>s stat Przygotowane</value>
+  </data>
+  <data name="language_" xml:space="preserve">
+    <value>s language</value>
+  </data>
+  <data name="stat_Zamowione" xml:space="preserve">
+    <value>s stat Zamowione</value>
+  </data>
+  <data name="novelties" xml:space="preserve">
+    <value>s novelties</value>
+  </data>
+  <data name="curMonth" xml:space="preserve">
+    <value>s curMonth</value>
+  </data>
+  <data name="curQtr" xml:space="preserve">
+    <value>s curQtr</value>
+  </data>
+  <data name="curYear" xml:space="preserve">
+    <value>s curYear</value>
+  </data>
+  <data name="beginSpan" xml:space="preserve">
+    <value>s beginDate</value>
+  </data>
+  <data name="toManyItemsInBasket" xml:space="preserve">
+    <value>s toManyItemsInBasket</value>
+  </data>
+  <data name="invalidDate1" xml:space="preserve">
+    <value>s invalidDate1</value>
+  </data>
+  <data name="invalidDate2" xml:space="preserve">
+    <value>s invalidDate2</value>
+  </data>
+  <data name="badDateSpan" xml:space="preserve">
+    <value>s badDateSpan</value>
+  </data>
+  <data name="noItemsToAdd" xml:space="preserve">
+    <value>s noItemsToAdd</value>
+  </data>
+  <data name="enterDateDDMMRRRR" xml:space="preserve">
+    <value>s enterDateDDMMRRRR</value>
+  </data>
+  <data name="dateFormat" xml:space="preserve">
+    <value>s dateFormat</value>
+  </data>
+
+</root>

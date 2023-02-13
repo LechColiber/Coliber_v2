@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebColiber.SiteMaster" %>
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />    
+    <link href="~/Styles/MasterPage.css" rel="stylesheet" type="text/css" />    
+    <link rel="shortcut icon" type="image/x-icon" href="~/coliber.ico?v=2" />
+    
+    <link href="~/Styles/simplePagination.css" rel="stylesheet" type="text/css" media="screen"/>
+    
+    <script type='text/javascript' src="<%=ResolveClientUrl("~/Scripts/jquery-1.10.2.js")%>"></script>    
+    <script type='text/javascript' src="<%=ResolveClientUrl("~/Scripts/json2.js")%>"></script> 
+    <script type='text/javascript' src="<%=ResolveClientUrl("~/Scripts/bootstrap.min.js")%>"></script>       
+    <script type='text/javascript' src="<%=ResolveClientUrl("~/Scripts/bootstrap.js")%>"></script>       
+
+    <link rel="stylesheet" href="~/Styles/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Styles/jquery-ui.css">
+  
+    <link rel="stylesheet" href="~/Styles/bootstrap-theme.min.css">    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">  
+        <div id="HeadDiv">            
+            <div id="LogoDiv">                
+                <img alt="" class="logo" src="WebColiber.png" onmousedown="javascript:window.location.reload(true);" />                   
+                <!--<font color="red" size="20">DEVELOPING MODE IS ON!!! :)</font><br />
+                <pre>//można testować:                        
+                </pre>-->
+            </div>   
+            <div id="LangDiv" >
+                            <a>
+                            <asp:DropDownList ID="ddLang" runat="server" AutoPostBack="True">
+                                <asp:ListItem Value="de-De">Deutsch</asp:ListItem>
+                                <asp:ListItem Value="en-US">English</asp:ListItem>
+                                <asp:ListItem Value="es-ES">Espanol</asp:ListItem>
+                                <asp:ListItem Value="fr-FR">Francaise</asp:ListItem>
+                                <asp:ListItem Value="pl-PL">Polski</asp:ListItem>
+                            </asp:DropDownList>
+                            </a>                
+            </div>
+            <div id="UsernameContentPlaceHolder">
+                <asp:ContentPlaceHolder ID="HeaderContent" runat="server"></asp:ContentPlaceHolder> <%= " - " + Name %>
+            </div>                    
+        </div>  
+
+        <div id="MainDiv1">
+            <div id="LeftBarDiv1" class="col-md-0"></div>          
+            <div id="CenterBarDiv1" class="col-md-12">                
+                <div id="MenuDiv1">   
+                    <ul class="nav nav-tabs nav-justified">
+                      <li><a href="Search.aspx"><asp:Literal runat="server" Text="<%$ Resources: Language, search %>"/></a></li>
+                          <% if (((string)HttpContext.Current.Session["CanOrder"]).ToLower() == "true")
+                            { %> 
+                              <li><a href="Basket.aspx"><asp:Literal runat="server" Text="<%$ Resources: Language, basket %>" /></a></li>
+                                  <%  } %>
+                        <% if (Int32.Parse((HttpContext.Current.Session["UserID"] as string)) != -1)
+                            { %> 
+                              <li><a href="Borrows.aspx"><asp:Literal runat="server" Text="<%$ Resources: Language, borrows %>" /></a></li>
+                              <li><a href="Orders.aspx"><asp:Literal runat="server" Text="<%$ Resources: Language, orders%>" /></a></li>
+                                  <%  } %>
+                                                      
+                            </ul>                               
+                </div>      
+                                  
+                <div id="MainContentDiv">
+                    <br />
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>                
+            </div>       
+            <div id="RightBarDiv1" class="col-md-0"></div> 
+        </div>       
+    </form>
+</body>
+</html>

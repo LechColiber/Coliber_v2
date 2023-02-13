@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteFromBasket.aspx.cs" Inherits="WebColiber.DeleteFromBasket" %>

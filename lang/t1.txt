@@ -1,0 +1,5 @@
+if (dataGridView1.Columns.Contains("Nazwa")) dataGridView1.Columns["Nazwa"].HeaderText = _T("name");
+if (dataGridView1.Columns.Contains("Instytucja sprawcza")) dataGridView1.Columns["Instytucja sprawcza"].HeaderText = _T("institution");
+if (dataGridView1.Columns.Contains("Tytu³ podserii")) dataGridView1.Columns["Tytu³ podserii"].HeaderText = _T("subseries_title");
+if (dataGridView1.Columns.Contains("Nazwa czêœci")) dataGridView1.Columns["Nazwa czêœci"].HeaderText = _T("part_name");
+if (dataGridView1.Columns.Contains("Numer czêœci")) dataGridView1.Columns["Numer czêœci"].HeaderText = _T("part_number");

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanelAdmina", "PanelAdmina.csproj", "{3C99A040-28FD-4476-A836-3CEC8DD442F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Default.Build.0 = Debug|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|x86.ActiveCfg = Debug|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Debug|x86.Build.0 = Debug|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Default.ActiveCfg = Release|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Default.Build.0 = Release|Any CPU
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|x86.ActiveCfg = Release|x86
+		{3C99A040-28FD-4476-A836-3CEC8DD442F1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A95B804-2C95-4DE9-B532-339F564B3948}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+EndGlobal

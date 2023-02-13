@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA078EF1-322B-4C56-AF5E-942F170DFE5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Normy</RootNamespace>
+    <AssemblyName>Normy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coliber">
+      <HintPath>..\..\ColiberDLLs\Coliber.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlXml, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\SQLXML 4.0\bin\Microsoft.Data.SqlXml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Wait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wait.designer.cs">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Norma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Norma.Designer.cs">
+      <DependentUpon>Norma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Normy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Normy.Designer.cs">
+      <DependentUpon>Normy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slownik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Slownik.designer.cs">
+      <DependentUpon>Slownik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Szukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Szukaj.Designer.cs">
+      <DependentUpon>Szukaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klucz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klucz.Designer.cs">
+      <DependentUpon>Klucz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sygnatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sygnatura.designer.cs">
+      <DependentUpon>Sygnatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dokument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dokument.designer.cs">
+      <DependentUpon>Dokument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zwiazane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zwiazane.designer.cs">
+      <DependentUpon>Zwiazane.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Wait.resx">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Norma.resx">
+      <DependentUpon>Norma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Normy.resx">
+      <DependentUpon>Normy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Slownik.resx">
+      <DependentUpon>Slownik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Szukaj.resx">
+      <DependentUpon>Szukaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klucz.resx">
+      <DependentUpon>Klucz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sygnatura.resx">
+      <DependentUpon>Sygnatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dokument.resx">
+      <DependentUpon>Dokument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zwiazane.resx">
+      <DependentUpon>Zwiazane.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edit_add.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

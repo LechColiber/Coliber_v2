@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0537397-6856-463D-9EDF-7585876080ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Akcesja</RootNamespace>
+    <AssemblyName>Akcesja</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\Coliber\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E349B6D5B130E50595330080E08A9F914BB6CDD6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Akcesja_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coliber, Version=10.0.2.24, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Coliber.exe</HintPath>
+    </Reference>
+    <Reference Include="CommonFunctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Coliberdlls\CommonFunctions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ConfigReader">
+      <HintPath>..\Coliberdlls\ConfigReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>..\ColiberDLLs\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProcessCloser">
+      <HintPath>..\ColiberDLLs\ProcessCloser.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Wypozyczalnia, Version=10.0.7234.34942, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Wypozyczalnia.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AkcesjaDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcesjaDetailsForm.Designer.cs">
+      <DependentUpon>AkcesjaDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AkcesjaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkcesjaForm.Designer.cs">
+      <DependentUpon>AkcesjaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateForm.designer.cs">
+      <DependentUpon>DateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infoAboutSeparateNumbersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infoAboutSeparateNumbersForm.Designer.cs">
+      <DependentUpon>infoAboutSeparateNumbersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeparateNumbersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeparateNumbersForm.Designer.cs">
+      <DependentUpon>SeparateNumbersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleNumberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleNumberForm.Designer.cs">
+      <DependentUpon>SingleNumberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RewriteNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RewriteNumbers.Designer.cs">
+      <DependentUpon>RewriteNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnumerableComparer.cs" />
+    <Compile Include="UserControls\BaseFreqUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BaseFreqUserControl.Designer.cs">
+      <DependentUpon>BaseFreqUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BiMonthlyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BiMonthlyUserControl.Designer.cs">
+      <DependentUpon>BiMonthlyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BiWeeklyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BiWeeklyUserControl.Designer.cs">
+      <DependentUpon>BiWeeklyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommentsForm.Designer.cs">
+      <DependentUpon>CommentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CommonUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CommonUserControl.Designer.cs">
+      <DependentUpon>CommonUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DailyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DailyUserControl.Designer.cs">
+      <DependentUpon>DailyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HalfYearlyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HalfYearlyUserControl.Designer.cs">
+      <DependentUpon>HalfYearlyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\IndexUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\IndexUserControl.Designer.cs">
+      <DependentUpon>IndexUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\IrregularUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\IrregularUserControl.Designer.cs">
+      <DependentUpon>IrregularUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MonthlyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MonthlyUserControl.Designer.cs">
+      <DependentUpon>MonthlyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\QuartelyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuartelyUserControl.Designer.cs">
+      <DependentUpon>QuartelyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowForm.designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SeparateNumbersGridUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SeparateNumbersGridUC.Designer.cs">
+      <DependentUpon>SeparateNumbersGridUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WeeklyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\WeeklyUserControl.Designer.cs">
+      <DependentUpon>WeeklyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\YearlyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\YearlyUserControl.Designer.cs">
+      <DependentUpon>YearlyUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AkcesjaDetailsForm.resx">
+      <DependentUpon>AkcesjaDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkcesjaForm.resx">
+      <DependentUpon>AkcesjaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateForm.resx">
+      <DependentUpon>DateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infoAboutSeparateNumbersForm.resx">
+      <DependentUpon>infoAboutSeparateNumbersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparateNumbersForm.resx">
+      <DependentUpon>SeparateNumbersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleNumberForm.resx">
+      <DependentUpon>SingleNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RewriteNumbers.resx">
+      <DependentUpon>RewriteNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BiMonthlyUserControl.resx">
+      <DependentUpon>BiMonthlyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BiWeeklyUserControl.resx">
+      <DependentUpon>BiWeeklyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommentsForm.resx">
+      <DependentUpon>CommentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CommonUserControl.resx">
+      <DependentUpon>CommonUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DailyUserControl.resx">
+      <DependentUpon>DailyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HalfYearlyUserControl.resx">
+      <DependentUpon>HalfYearlyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\IndexUserControl.resx">
+      <DependentUpon>IndexUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\IrregularUserControl.resx">
+      <DependentUpon>IrregularUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MonthlyUserControl.resx">
+      <DependentUpon>MonthlyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\QuartelyUserControl.resx">
+      <DependentUpon>QuartelyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SeparateNumbersGridUC.resx">
+      <DependentUpon>SeparateNumbersGridUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WeeklyUserControl.resx">
+      <DependentUpon>WeeklyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\YearlyUserControl.resx">
+      <DependentUpon>YearlyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Akcesja_TemporaryKey.pfx" />
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\lupka.png" />
+    <None Include="Resources\kalendarz1.png" />
+    <None Include="Resources\lista2.png" />
+    <None Include="Resources\fileclose.png" />
+    <None Include="Resources\Check2.png" />
+    <None Include="Resources\fileclose1.png" />
+    <None Include="Resources\door_out.png" />
+    <None Include="Resources\contact_busy_overlay.png" />
+    <Content Include="Resources\kalendarz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

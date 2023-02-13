@@ -1,0 +1,1830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sign_in" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="please_sign_in" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="remember_username" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invalid_username_or_password" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invalid_sign_in" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invertory" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_invertory_and_press_key" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="change_invertory" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="all_invertories" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="no_selected_invertory" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_invertory" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="app_name" xml:space="preserve">
+    <value>Co-Liber</value>
+  </data>
+  <data name="choose_invertory_to_add_new" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invertory_choice" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="please_wait" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="article" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="articles" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazines" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="books" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="modify" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="reports" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="about_application" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_guide" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resources" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="users" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="change_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="orders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invertory_stats" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrow" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="quick_borrow" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowed_resources" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_book" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_article" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="losses_book" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrows_stats" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrow_office" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="serial_publications" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_exit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="url_address" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="sources_list" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_modyfing" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="url_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="url_modyfing" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="please_select_file" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_correct_data" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_name_cannot_be_empty" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="url_cannot_be_empty" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="added" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="modified" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="view_entry" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="attach" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="files_to_download" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="oridinal_short" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_add" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="url_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_delete" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="removed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="all_files" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="data_save" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_open" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="file_opening" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="stats" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="printout_invertories" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="kind" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="start_with" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_all_invertories" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="or_in_intertory" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="sort_by" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="include_dates" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="since_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="for_all" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signatures_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="inventory_numbers_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="inventory_number_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="entry_date_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="start_date_cannot_be_later_than_end_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invalid_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="end_date_cannot_be_earlier_than_start_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="not_found" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="no_results" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="number_of_items_found" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_print" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="printout" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="inventory_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="losses_document_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="losses_book_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume_year" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_clean" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="deletion_reason" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="entry_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="destroyed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="other_unreasonable" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="withdrawn" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="lost" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="unreturned" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_remove" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_exit_without_save" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="entry_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="losses" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="losses_report" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="index" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="number_short" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="special_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="show_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="show_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="show_next_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="january" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="february" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="march" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="april" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="may" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="june" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="july" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="august" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="september" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="october" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="november" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="december" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazines_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="numbers_separation" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="biweekly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="bimonthly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="quarterly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="half_yearly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="irregular" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="daily_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="weekly_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="biweekly_accesion" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="monthly_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="bimonthly_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="quartely_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="hal_yearly_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="yearly_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="irregular_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_departments" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_department" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_has_been_deleted" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="name_of_the_department_is_required" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="deparment_for_the_magazine_and_year_already_exists" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_not_found_add_it" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_not_found" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_added" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_of_copies" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="department" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="accession_comments" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="institution" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="seat" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title_of_accession_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="rewriting_accession_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="adding_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="accession_modify" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="update_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="deleting_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_magazines" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="absolute_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="not_to_prescribe" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="notebook_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_are_borrowed_copies_in_quantities" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_return_it" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_accession" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="accession_has_been_deleted" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine_does_not_have_signature_enter_new_one" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_the_title_of_the_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signatures" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="info_about_separate" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="check_all" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="numbers_updating" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="select_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="any_volume_selected" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="instruction" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="available_volumes" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_magazine_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="select_magazine_numbers_and_move_to_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="rewriting_accession_numbers_success" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title_genitive" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="single_magazine_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="notebook_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="method_of_acquisition" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_to_borrow" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_receipt" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_complaint" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="single_number_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_available_volumes" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="purchase" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="gift" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="replacement" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="deposit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume_does_not_exists_add_it" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add_wihout_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="adding_without_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_the_data" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="number_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_to_borrow_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_to_borrow_cannot_be_greater_than_amount_of_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_single_magazine_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="indexes_and_special_magazine_numbers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="for_who" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="first_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="article_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="authors" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="full_article" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="printing" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="sources" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="factual_classification" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add_attachments" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_article_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="article_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_article" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="if_you_want_to_add_sources_save_article" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_language" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="data_of_entry" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="book_data" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="copy_signature_and_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title_of_publication_source" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="publish_year" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="book_authors" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="place_of_publication" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="publisher" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="author_redactor" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="summaries" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_polish" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_english" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_german" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_russian" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="in_french" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="book_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="from_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="from_book" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="article_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_magazine_and_magazine_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="catalog_card" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="catalog_description" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="tables_accusative" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="maps_accusative" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="charts_accusative" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="episode_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_available_items" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_selected_items" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="select_by_enter_or_double_click" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="change_title_of_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title_of_modyfing_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="previous_magazine_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="next_magazine_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="this_magazine_cannot_join" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_this_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="data_modification" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_serial_publication" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choice_existing_serial_publication_by" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="by_list_of_entered_signatures" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="by_list_of_entered_titles" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="was_published_as" xml:space="preserve">
+    <value>¿por qué?: {title}</value>
+  </data>
+  <data name="details_of_change_title_of_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_year_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="since_year_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="entitled" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="until_year_was_published_as" xml:space="preserve">
+    <value>¿por qué? {year} ¿por qué?: {title}</value>
+  </data>
+  <data name="until_number_issue_was_published_as" xml:space="preserve">
+    <value>¿por qué? {number} ¿por qué?: {title}</value>
+  </data>
+  <data name="until_number_issue_year_was_published_as" xml:space="preserve">
+    <value>¿por qué? {number} ¿por qué? {year} ¿por qué? {title}</value>
+  </data>
+  <data name="has_been_published_as" xml:space="preserve">
+    <value>¿por qué?: {title}</value>
+  </data>
+  <data name="since_year_has_been_published_as" xml:space="preserve">
+    <value>¿por qué? {year} ¿por qué?: {title}</value>
+  </data>
+  <data name="since_number_issue_has_been_published_as" xml:space="preserve">
+    <value>¿por qué? {number} ¿por qué?: {title}</value>
+  </data>
+  <data name="since_number_issue_year_has_been_published_as" xml:space="preserve">
+    <value>¿por qué? {number} ¿por qué? {year} ¿por qué?: {title}</value>
+  </data>
+  <data name="supplements" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="supplements_list" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="list_of_institution" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="name_of_institution" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="institutions" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signatures_to_remove_with_registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="existing_signatures" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signatures_to_remove_without_registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine_signatures_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature_was_removed_without_registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_volume_to_delete" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_country" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="short_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="contact_details" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_name_of_supplier" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_name_of_publisher" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="issn" xml:space="preserve">
+    <value>ISSN</value>
+  </data>
+  <data name="main_card" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="registration_data" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="factual_description" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="form_of_document_content" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="languages_of_text" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="title_changes" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="main_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="parallel_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="additional_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="suppliers_publishers" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="institutions_change_history" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="redactor" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="publish_country" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="unit_of_length" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="chosen_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="f2_last_signatures" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="new_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="price_of_annual_subscription" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume_value" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="serial_registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine_registration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volumes" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="copy_description" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="publisher_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="supplier_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature_exists" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_magazine_title" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="year_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="volume_removed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="key_not_found_add_it" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="adding_key" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_volume_with_entry_to_lossess" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_volume" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="first_delete_all_volumes" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="signature_removed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="laws" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="analysis_and_elaboration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="statistics" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="biographies" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="chronologies" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="bibliography" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to_use_this_feature_you_must_save_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="info_about_magazine_freq_changing" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="magazine_deleted" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_magazine" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_accession_first" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="barcode" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrow_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="expected_date_of_return" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="all_borrowed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowed_books" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowed_magazines" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_are_no_reminders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_are_no_reminders_for_this_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="edit_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="default_time_limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="default_resource_permissions" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="active_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_permission" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="add_permission" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_group_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="maximum_time_limit_must_be_given" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_this_permission" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="all_users_will_be_lock_continue" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="change_in_activity" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="default_amount_limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="default_user_permissions" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="maximun_resources_amount_must_be_given" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_this_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="print_all_reminders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="print_current_borrows" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="print_history_borrows" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_return" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="permission" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_from" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="locked_permission" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_to" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_info" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_info" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_borrow" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_order" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="print_reverse" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrows" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="history" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="return_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="order_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="order_state" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="realize" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="cancel_order" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowing_and_returning_resources" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="search_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="open_user_card" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_ordered" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_is_in_user_orders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="locked_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_is_locked" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_is_no_resource_with_given_barcode" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_is_no_resource_with_given_invertory_number" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_is_no_resource_with_given_signature" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_is_no_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_returned" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="barcode_not_assigned_to_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_cancel_order" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="exceeded_amount_limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invalid_barcode" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resignation_order" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_has_been_borrowed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_has_not_been_borrowed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_checked_out" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_exceed_limit_of_amount" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_has_been_checked_out" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="not_borrowed" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="there_is_no_searching_resource" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="starts_with" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="searching" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="only_expired" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="filtration" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="equals" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="current_orders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_print_reverse" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_barcode" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="time_limit_to_return" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrowed_single" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="permissions" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="general" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="borrow_history" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="order_history" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="valid_from" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="valid_to" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delay" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="employee" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_realization" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="time_limit_to_return_must_be_enter" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_operation" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="resource_state" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="persons" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_type" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="only_active_users" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="kind_of_operation" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="reading_room" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="ordered" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="returns" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="reminders" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="require_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="return_date_new_require_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="confirm_return" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_cannot_be_earlier_than_borrow_date" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="prolongs" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="name_last_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="only_with_borrows" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="choose_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="addresses" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="teleaddresses" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="teleaddress_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="teleaddress_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="teleaddress_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_this_teleaddress" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_has_been_deleted" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="address_adding" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="address_deleting" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="address_cannot_be_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_address" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="do_you_want_to_delete_this_permission_from_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="last_name_and_first_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="domain_name_in_configuration_is_blank" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="enter_user_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="delete_user" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="name_last_name_first_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="sex" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="invalid_user_domain_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="card_no" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="user_domain_name" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="date_of_birth" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="amount_limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="time_limit" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="place" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="house_no" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="street" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="local_no" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="post_office" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="active_address" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>¿por qué?</value>
+  </data>
+</root>

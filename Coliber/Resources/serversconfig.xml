@@ -1,0 +1,54 @@
+<root>
+  <connection>
+    <id>6</id>
+    <name>Mokotow</name>
+    <host>195.205.251.214</host>
+    <port>210</port>
+    <database>mokotow</database>
+    <user>
+    </user>
+    <password>
+    </password>
+    <comments>
+    </comments>
+  </connection>
+  <connection>
+    <id>8</id>
+    <name>Żoliborz</name>
+    <host>bpzoliborz.pl</host>
+    <port>210</port>
+    <database>zoliborz</database>
+    <user>
+    </user>
+    <password>
+    </password>
+    <comments>
+    </comments>
+  </connection>
+  <connection>
+    <id>9</id>
+    <name>Rembertów</name>
+    <host>62.181.1.243</host>
+    <port>4321</port>
+    <database>rembertow</database>
+    <user>
+    </user>
+    <password>
+    </password>
+    <comments>
+    </comments>
+  </connection>
+  <connection>
+    <id>10</id>
+    <name>OPAC BN</name>
+    <host>91.238.85.9</host>
+    <port>210</port>
+    <database>INNOPAC </database>
+    <user>
+    </user>
+    <password>
+    </password>
+    <comments>
+    </comments>
+  </connection>
+</root>

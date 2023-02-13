@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="search" xml:space="preserve">
+    <value>Szukaj</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Sygnatura</value>
+  </data>
+  <data name="numbers" xml:space="preserve">
+    <value>Numery</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Następny</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>Poprzedni</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>DZIENNIK</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>TYGODNIK</value>
+  </data>
+  <data name="biweekly" xml:space="preserve">
+    <value>DWUTYGODNIK</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>MIESIĘCZNIK</value>
+  </data>
+  <data name="bimonthly" xml:space="preserve">
+    <value>DWUMIESIĘCZNIK</value>
+  </data>
+  <data name="quarterly" xml:space="preserve">
+    <value>KWARTALNIK</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>ROCZNIK</value>
+  </data>
+  <data name="irregular" xml:space="preserve">
+    <value>NIEREGULARNE</value>
+  </data>
+  <data name="institution" xml:space="preserve">
+    <value>Instytucja sprawcza</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>Częstotliwość</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>Dostawca</value>
+  </data>
+  <data name="authors" xml:space="preserve">
+    <value>Autorzy</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>Streszczenie</value>
+  </data>
+  <data name="sources" xml:space="preserve">
+    <value>Źródła</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>Klucze</value>
+  </data>
+  <data name="publisher" xml:space="preserve">
+    <value>Wydawnictwo</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Strony</value>
+  </data>
+  <data name="summaries" xml:space="preserve">
+    <value>Streszczenia</value>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>Zawiera</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Klucz</value>
+  </data>
+  <data name="issn" xml:space="preserve">
+    <value>ISSN</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>Podtytuł</value>
+  </data>
+  <data name="borrows" xml:space="preserve">
+    <value>Wypożyczenia</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>Zamówienie</value>
+  </data>
+  <data name="borrowed" xml:space="preserve">
+    <value>Wypożyczone</value>
+  </data>
+  <data name="searching" xml:space="preserve">
+    <value>Wyszukiwanie</value>
+  </data>
+  <data name="ordered" xml:space="preserve">
+    <value>Zamówiony</value>
+  </data>
+  <data name="articles" xml:space="preserve">
+    <value>Artykuły</value>
+  </data>
+  <data name="magazines" xml:space="preserve">
+    <value>Czasopisma</value>
+  </data>
+  <data name="books" xml:space="preserve">
+    <value>Książki</value>
+  </data>
+  <data name="resources" xml:space="preserve">
+    <value>Zasoby</value>
+  </data>
+  <data name="orders" xml:space="preserve">
+    <value>Zamówienia</value>
+  </data>
+  <data name="edition" xml:space="preserve">
+    <value>Wydanie</value>
+  </data>
+  <data name="isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="database" xml:space="preserve">
+    <value>Baza danych:</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="additionalOrderInfo" xml:space="preserve">
+    <value>Dodatkowa informacja dla realizującego zamówienie</value>
+  </data>
+  <data name="additionalTitle" xml:space="preserve">
+    <value>Tytuł dod.</value>
+  </data>
+  <data name="articleTitle" xml:space="preserve">
+    <value>Tytuł artykułu</value>
+  </data>
+  <data name="authorsName" xml:space="preserve">
+    <value>Nazwisko autora</value>
+  </data>
+  <data name="basket" xml:space="preserve">
+    <value>Koszyk</value>
+  </data>
+  <data name="borrowDate" xml:space="preserve">
+    <value>Data wypożyczenia</value>
+  </data>
+  <data name="coAuthor" xml:space="preserve">
+    <value>Współautor</value>
+  </data>
+  <data name="deleteChecked" xml:space="preserve">
+    <value>Usuń zaznaczone</value>
+  </data>
+  <data name="fieldRequired" xml:space="preserve">
+    <value>Pole wymagane</value>
+  </data>
+  <data name="notReturned" xml:space="preserve">
+    <value>Nieoddane wypożyczenia</value>
+  </data>
+  <data name="makeOrder" xml:space="preserve">
+    <value>Zamów</value>
+  </data>
+  <data name="orderAccepted" xml:space="preserve">
+    <value>Zamówienie zostało wysłane</value>
+  </data>
+  <data name="orderConfirm" xml:space="preserve">
+    <value>Potwierdzenia zamówienia</value>
+  </data>
+  <data name="phrase" xml:space="preserve">
+    <value>Fraza</value>
+  </data>
+  <data name="physicalDescription" xml:space="preserve">
+    <value>Opis fiz.</value>
+  </data>
+  <data name="providedDate" xml:space="preserve">
+    <value>Przewidywana data zwrotu</value>
+  </data>
+  <data name="returnDate" xml:space="preserve">
+    <value>Data oddania</value>
+  </data>
+  <data name="sendOrder" xml:space="preserve">
+    <value>Wyślij zamówienie</value>
+  </data>
+  <data name="showReturned" xml:space="preserve">
+    <value>Pokaż oddane</value>
+  </data>
+  <data name="sourceTitle" xml:space="preserve">
+    <value>Tytuł źródła publikacji</value>
+  </data>
+  <data name="tag" xml:space="preserve">
+    <value>Klucz</value>
+  </data>
+  <data name="tags" xml:space="preserve">
+    <value>Klucze</value>
+  </data>
+  <data name="volumin" xml:space="preserve">
+    <value>Wolumin</value>
+  </data>
+  <data name="whoOrders" xml:space="preserve">
+    <value>Zamawiający</value>
+  </data>
+  <data name="basketIsEmpty" xml:space="preserve">
+    <value>Koszyk jest pusty</value>
+  </data>
+  <data name="cannotOrder" xml:space="preserve">
+    <value>Nie możesz złożyć zamówienia, ponieważ zostałeś zablokowany przez pracownika Biblioteki.</value>
+  </data>
+  <data name="additionAuthor" xml:space="preserve">
+    <value>Autor dodatku</value>
+  </data>
+  <data name="additionTitle" xml:space="preserve">
+    <value>Tytuł dodatku</value>
+  </data>
+  <data name="addToBasket" xml:space="preserve">
+    <value>Dodaj do koszyka</value>
+  </data>
+  <data name="banned" xml:space="preserve">
+    <value>zablokowany</value>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>Zaznacz</value>
+  </data>
+  <data name="checkUncheckAll" xml:space="preserve">
+    <value>Zaznacz/Odznacz wszystko</value>
+  </data>
+  <data name="copiesOf" xml:space="preserve">
+    <value>Egzemplarze</value>
+  </data>
+  <data name="copyOf" xml:space="preserve">
+    <value>Egzemplarz</value>
+  </data>
+  <data name="dateEntererd" xml:space="preserve">
+    <value>Data wprowadzenia</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="excerpt" xml:space="preserve">
+    <value>Fragment opisu</value>
+  </data>
+  <data name="exportDOC" xml:space="preserve">
+    <value>Eksportuj do Word</value>
+  </data>
+  <data name="glossaryDescriptions" xml:space="preserve">
+    <value>Opisy bibliograficzne</value>
+  </data>
+  <data name="halfYearly" xml:space="preserve">
+    <value>Półrocznik</value>
+  </data>
+  <data name="inventory" xml:space="preserve">
+    <value>Numer inwentarzowy</value>
+  </data>
+  <data name="itemDescription" xml:space="preserve">
+    <value>Opis pozycji</value>
+  </data>
+  <data name="languageOfText" xml:space="preserve">
+    <value>Język tekstu</value>
+  </data>
+  <data name="myOrders" xml:space="preserve">
+    <value>Moje zamówienia</value>
+  </data>
+  <data name="noOrders" xml:space="preserve">
+    <value>Brak zamówień</value>
+  </data>
+  <data name="noSearchResults" xml:space="preserve">
+    <value>Brak wyników</value>
+  </data>
+  <data name="ordersDate" xml:space="preserve">
+    <value>Data zamówienia</value>
+  </data>
+  <data name="ordersFollowingItems" xml:space="preserve">
+    <value>zamawia następujące pozycje</value>
+  </data>
+  <data name="ordersInfo001" xml:space="preserve">
+    <value>Niektóre pozycje mogły nie zostać zamówione, ponieważ już je posiadasz zamówione lub wypożyczone</value>
+  </data>
+  <data name="ordersInfo002" xml:space="preserve">
+    <value>Nic nie zostało zamówione, ponieważ posiadasz już te pozycje zamówione lub wypożyczone</value>
+  </data>
+  <data name="ordersInfo003" xml:space="preserve">
+    <value>Zamówione zostały</value>
+  </data>
+  <data name="oridinalShort" xml:space="preserve">
+    <value>L.p.</value>
+  </data>
+  <data name="paralellTitle" xml:space="preserve">
+    <value>Tytuł równ.</value>
+  </data>
+  <data name="publicationPlace" xml:space="preserve">
+    <value>Miejsce wydania</value>
+  </data>
+  <data name="serie" xml:space="preserve">
+    <value>Seria</value>
+  </data>
+  <data name="titleOfPublicationSource" xml:space="preserve">
+    <value>Tytuł źródła publikacji</value>
+  </data>
+  <data name="toOrder" xml:space="preserve">
+    <value>do zamówienia</value>
+  </data>
+  <data name="userDeleted" xml:space="preserve">
+    <value>wyrejestrowany</value>
+  </data>
+  <data name="yearOfPublishing" xml:space="preserve">
+    <value>Rok wydania</value>
+  </data>
+  <data name="advancedSearch" xml:space="preserve">
+    <value>Wyszukiwanie zaawansowane</value>
+  </data>
+  <data name="myBorrows" xml:space="preserve">
+    <value>Moje wypożyczenia</value>
+  </data>
+  <data name="orderState" xml:space="preserve">
+    <value>Stan zamówienia</value>
+  </data>
+  <data name="returnedBorrows" xml:space="preserve">
+    <value>Oddane wypożyczenia</value>
+  </data>
+  <data name="simpleSearch" xml:space="preserve">
+    <value>Wyszukiwanie proste</value>
+  </data>
+  <data name="toDelete" xml:space="preserve">
+    <value>Do usunięcia</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="ascending" xml:space="preserve">
+    <value>rosnąco</value>
+  </data>
+  <data name="descending" xml:space="preserve">
+    <value>malejąco</value>
+  </data>
+  <data name="enterPhrase" xml:space="preserve">
+    <value>Wpisz frazę...</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>lub</value>
+  </data>
+  <data name="publicationCountry" xml:space="preserve">
+    <value>Kraj wydania</value>
+  </data>
+  <data name="sortBy" xml:space="preserve">
+    <value>Sortuj według</value>
+  </data>
+  <data name="clearCriteria" xml:space="preserve">
+    <value>Wyczyść kryteria</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value>Pierwsza</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>Ostatnia</value>
+  </data>
+  <data name="phraseSearched" xml:space="preserve">
+    <value>Szukana fraza</value>
+  </data>
+  <data name="searchWithSources" xml:space="preserve">
+    <value>Wyszukiwanie zasobów ze źródłami</value>
+  </data>
+  <data name="hasSources" xml:space="preserve">
+    <value>Posiada źródła</value>
+  </data>
+  <data name="editor" xml:space="preserve">
+    <value>Redaktor</value>
+  </data>
+  <data name="filesToDL" xml:space="preserve">
+    <value>Pliki do pobrania</value>
+  </data>
+  <data name="numberYear" xml:space="preserve">
+    <value>Numer i rok</value>
+  </data>
+  <data name="publicationPlaceDate" xml:space="preserve">
+    <value>Miejsce i data wydania</value>
+  </data>
+  <data name="cpy" xml:space="preserve">
+    <value>egz.</value>
+  </data>
+  <data name="noCpy" xml:space="preserve">
+    <value>bez egz.</value>
+  </data>
+  <data name="numberOfVolumes" xml:space="preserve">
+    <value>Ilość tomów</value>
+  </data>
+  <data name="pleaseWait" xml:space="preserve">
+    <value>Proszę czekać...</value>
+  </data>
+  <data name="ukd" xml:space="preserve">
+    <value>UKD</value>
+  </data>
+  <data name="stat_Oczekuje" xml:space="preserve">
+    <value>Oczekuje</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="stat_Zrealizowane" xml:space="preserve">
+    <value>Zrealizowane</value>
+  </data>
+  <data name="stat_Rezygnacja" xml:space="preserve">
+    <value>Rezygnacja</value>
+  </data>
+  <data name="stat_Przygotowane" xml:space="preserve">
+    <value>Przygotowane</value>
+  </data>
+  <data name="language_" xml:space="preserve">
+    <value>Język</value>
+  </data>
+</root>

@@ -1,0 +1,2343 @@
+<?xml version = "1.0" encoding="Windows-1250" standalone="yes"?>
+<VFPData>
+	<data>
+		<keyname>app_name</keyname>
+		<keyvalue>Co-Liber</keyvalue>
+	</data>
+	<data>
+		<keyname>version</keyname>
+		<keyvalue>Wersja</keyvalue>
+	</data>
+	<data>
+		<keyname>file</keyname>
+		<keyvalue>Plik</keyvalue>
+	</data>
+	<data>
+		<keyname>comments</keyname>
+		<keyvalue>Uwagi</keyvalue>
+	</data>
+	<data>
+		<keyname>save</keyname>
+		<keyvalue>Zapisz</keyvalue>
+	</data>
+	<data>
+		<keyname>url_address</keyname>
+		<keyvalue>Adres URL</keyvalue>
+	</data>
+	<data>
+		<keyname>sources_list</keyname>
+		<keyvalue>Zestawienie źródeł</keyvalue>
+	</data>
+	<data>
+		<keyname>file_adding</keyname>
+		<keyvalue>Dodawanie pliku</keyvalue>
+	</data>
+	<data>
+		<keyname>file_modyfing</keyname>
+		<keyvalue>Modyfikacja pliku</keyvalue>
+	</data>
+	<data>
+		<keyname>url_adding</keyname>
+		<keyvalue>Dodawanie adresu URL</keyvalue>
+	</data>
+	<data>
+		<keyname>url_modyfing</keyname>
+		<keyvalue>Modyfikacja adresu URL</keyvalue>
+	</data>
+	<data>
+		<keyname>please_select_file</keyname>
+		<keyvalue>Proszę wybrać plik</keyvalue>
+	</data>
+	<data>
+		<keyname>to_correct_data</keyname>
+		<keyvalue>Popraw dane</keyvalue>
+	</data>
+	<data>
+		<keyname>file_name_cannot_be_empty</keyname>
+		<keyvalue>Nazwa nie może być pusta!</keyvalue>
+	</data>
+	<data>
+		<keyname>url_cannot_be_empty</keyname>
+		<keyvalue>Adres nie może być pusty!</keyvalue>
+	</data>
+	<data>
+		<keyname>added</keyname>
+		<keyvalue>Dodano!</keyvalue>
+	</data>
+	<data>
+		<keyname>modified</keyname>
+		<keyvalue>Zmodyfikowano!</keyvalue>
+	</data>
+	<data>
+		<keyname>view_entry</keyname>
+		<keyvalue>Podgląd wpisu</keyvalue>
+	</data>
+	<data>
+		<keyname>name</keyname>
+		<keyvalue>Nazwa</keyvalue>
+	</data>
+	<data>
+		<keyname>files_to_download</keyname>
+		<keyvalue>Pliki do pobrania</keyvalue>
+	</data>
+	<data>
+		<keyname>attach</keyname>
+		<keyvalue>Załącz</keyvalue>
+	</data>
+	<data>
+		<keyname>edit</keyname>
+		<keyvalue>Edytuj</keyvalue>
+	</data>
+	<data>
+		<keyname>download</keyname>
+		<keyvalue>Pobierz</keyvalue>
+	</data>
+	<data>
+		<keyname>oridinal_short</keyname>
+		<keyvalue>L.p.</keyvalue>
+	</data>
+	<data>
+		<keyname>file_name</keyname>
+		<keyvalue>Nazwa pliku</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_add</keyname>
+		<keyvalue>Data dodania</keyvalue>
+	</data>
+	<data>
+		<keyname>url_deleting</keyname>
+		<keyvalue>Usuwanie adresu</keyvalue>
+	</data>
+	<data>
+		<keyname>to_delete</keyname>
+		<keyvalue>Usunąć</keyvalue>
+	</data>
+	<data>
+		<keyname>file_deleting</keyname>
+		<keyvalue>Usuwanie pliku</keyvalue>
+	</data>
+	<data>
+		<keyname>removed</keyname>
+		<keyvalue>Usunięto!</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_deleting</keyname>
+		<keyvalue>Usuwanie zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>all_files</keyname>
+		<keyvalue>Wszystkie pliki</keyvalue>
+	</data>
+	<data>
+		<keyname>saved</keyname>
+		<keyvalue>Zapisano!</keyvalue>
+	</data>
+	<data>
+		<keyname>data_save</keyname>
+		<keyvalue>Zapis danych</keyvalue>
+	</data>
+	<data>
+		<keyname>to_open</keyname>
+		<keyvalue>Otworzyć?</keyvalue>
+	</data>
+	<data>
+		<keyname>file_opening</keyname>
+		<keyvalue>Otwieranie pliku</keyvalue>
+	</data>
+	<data>
+		<keyname>error</keyname>
+		<keyvalue>Błąd</keyvalue>
+	</data>
+	<data>
+		<keyname>stats</keyname>
+		<keyvalue>Statystyki</keyvalue>
+	</data>
+	<data>
+		<keyname>printout_invertories</keyname>
+		<keyvalue>Wydruk ksiąg inwentarzowych</keyvalue>
+	</data>
+	<data>
+		<keyname>kind</keyname>
+		<keyvalue>Rodzaj</keyvalue>
+	</data>
+	<data>
+		<keyname>start_with</keyname>
+		<keyvalue>rozpoczynających się od:</keyvalue>
+	</data>
+	<data>
+		<keyname>in_all_invertories</keyname>
+		<keyvalue>We wszystkich księgach inwentarzowych</keyvalue>
+	</data>
+	<data>
+		<keyname>or_in_intertory</keyname>
+		<keyvalue>lub w inwentarzu</keyvalue>
+	</data>
+	<data>
+		<keyname>sort_by</keyname>
+		<keyvalue>Wyniki sortuj wg:</keyvalue>
+	</data>
+	<data>
+		<keyname>include_dates</keyname>
+		<keyvalue>Uwzględnij daty</keyvalue>
+	</data>
+	<data>
+		<keyname>since_date</keyname>
+		<keyvalue>Od dnia</keyvalue>
+	</data>
+	<data>
+		<keyname>to_date</keyname>
+		<keyvalue>Do dnia</keyvalue>
+	</data>
+	<data>
+		<keyname>for_all</keyname>
+		<keyvalue>Dla wszystkich</keyvalue>
+	</data>
+	<data>
+		<keyname>search</keyname>
+		<keyvalue>Szukaj</keyvalue>
+	</data>
+	<data>
+		<keyname>signatures_genitive</keyname>
+		<keyvalue>Sygnatur</keyvalue>
+	</data>
+	<data>
+		<keyname>inventory_numbers_genitive</keyname>
+		<keyvalue>Numerów inwentarzowych</keyvalue>
+	</data>
+	<data>
+		<keyname>signature_genitive</keyname>
+		<keyvalue>Sygnatury</keyvalue>
+	</data>
+	<data>
+		<keyname>inventory_number_genitive</keyname>
+		<keyvalue>Numeru inwentarzowego</keyvalue>
+	</data>
+	<data>
+		<keyname>entry_date_genitive</keyname>
+		<keyvalue>Daty wpisania</keyvalue>
+	</data>
+	<data>
+		<keyname>invalid_date</keyname>
+		<keyvalue>Zła data</keyvalue>
+	</data>
+	<data>
+		<keyname>start_date_cannot_be_later_than_end_date</keyname>
+		<keyvalue>Data początkowa nie może być późniejsza niż data końcowa!</keyvalue>
+	</data>
+	<data>
+		<keyname>end_date_cannot_be_earlier_than_start_date</keyname>
+		<keyvalue>Data końcowa nie może być wcześniejsza niż data początkowa!</keyvalue>
+	</data>
+	<data>
+		<keyname>not_found</keyname>
+		<keyvalue>Nic nie znaleziono.</keyvalue>
+	</data>
+	<data>
+		<keyname>no_results</keyname>
+		<keyvalue>Brak rezultatów</keyvalue>
+	</data>
+	<data>
+		<keyname>number_of_items_found</keyname>
+		<keyvalue>Ilość znalezionych pozycji:</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_print</keyname>
+		<keyvalue>Czy chcesz wydrukować?</keyvalue>
+	</data>
+	<data>
+		<keyname>printout</keyname>
+		<keyvalue>Wydruk</keyvalue>
+	</data>
+	<data>
+		<keyname>title</keyname>
+		<keyvalue>Tytuł</keyvalue>
+	</data>
+	<data>
+		<keyname>signature</keyname>
+		<keyvalue>Sygnatura</keyvalue>
+	</data>
+	<data>
+		<keyname>inventory_number</keyname>
+		<keyvalue>Numer inwentarzowy</keyvalue>
+	</data>
+	<data>
+		<keyname>print</keyname>
+		<keyvalue>Drukuj</keyvalue>
+	</data>
+	<data>
+		<keyname>volume_year</keyname>
+		<keyvalue>Wolumin / rok</keyvalue>
+	</data>
+	<data>
+		<keyname>numbers</keyname>
+		<keyvalue>Numery</keyvalue>
+	</data>
+	<data>
+		<keyname>losses_book_number</keyname>
+		<keyvalue>Nr księgi ubytków:</keyvalue>
+	</data>
+	<data>
+		<keyname>losses_document_number</keyname>
+		<keyvalue>Numer dowodu ubytku:</keyvalue>
+	</data>
+	<data>
+		<keyname>price</keyname>
+		<keyvalue>Cena</keyvalue>
+	</data>
+	<data>
+		<keyname>entry_date</keyname>
+		<keyvalue>Data wpisu</keyvalue>
+	</data>
+	<data>
+		<keyname>deletion_reason</keyname>
+		<keyvalue>Przyczyna wykreślenia:</keyvalue>
+	</data>
+	<data>
+		<keyname>next</keyname>
+		<keyvalue>Następny</keyvalue>
+	</data>
+	<data>
+		<keyname>previous</keyname>
+		<keyvalue>Poprzedni</keyvalue>
+	</data>
+	<data>
+		<keyname>to_clean</keyname>
+		<keyvalue>Wyczyść</keyvalue>
+	</data>
+	<data>
+		<keyname>unreturned</keyname>
+		<keyvalue>Niezwrócone</keyvalue>
+	</data>
+	<data>
+		<keyname>destroyed</keyname>
+		<keyvalue>Zniszczone</keyvalue>
+	</data>
+	<data>
+		<keyname>withdrawn</keyname>
+		<keyvalue>Wycofane</keyvalue>
+	</data>
+	<data>
+		<keyname>lost</keyname>
+		<keyvalue>Zagubione</keyvalue>
+	</data>
+	<data>
+		<keyname>other_unreasonable</keyname>
+		<keyvalue>Inne nieuzasadnione</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_exit_without_save</keyname>
+		<keyvalue>Czy opuścić okno bez zapisywania zmian?</keyvalue>
+	</data>
+	<data>
+		<keyname>losses</keyname>
+		<keyvalue>Ubytki</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_remove</keyname>
+		<keyvalue>Czy na pewno usunąć wpis?</keyvalue>
+	</data>
+	<data>
+		<keyname>entry_deleting</keyname>
+		<keyvalue>Usuwanie wpisu</keyvalue>
+	</data>
+	<data>
+		<keyname>losses_report</keyname>
+		<keyvalue>Raport ubytków</keyvalue>
+	</data>
+	<data>
+		<keyname>number_short</keyname>
+		<keyvalue>Nr</keyvalue>
+	</data>
+	<data>
+		<keyname>index</keyname>
+		<keyvalue>Indeks</keyvalue>
+	</data>
+	<data>
+		<keyname>special_numbers</keyname>
+		<keyvalue>Numery specjalne</keyvalue>
+	</data>
+	<data>
+		<keyname>year</keyname>
+		<keyvalue>Rok</keyvalue>
+	</data>
+	<data>
+		<keyname>show_date</keyname>
+		<keyvalue>Pokaż datę</keyvalue>
+	</data>
+	<data>
+		<keyname>show_number</keyname>
+		<keyvalue>Pokaż numer</keyvalue>
+	</data>
+	<data>
+		<keyname>show_next_number</keyname>
+		<keyvalue>Pokaż numer kolejny</keyvalue>
+	</data>
+	<data>
+		<keyname>january</keyname>
+		<keyvalue>Styczeń</keyvalue>
+	</data>
+	<data>
+		<keyname>february</keyname>
+		<keyvalue>Luty</keyvalue>
+	</data>
+	<data>
+		<keyname>march</keyname>
+		<keyvalue>Marzec</keyvalue>
+	</data>
+	<data>
+		<keyname>april</keyname>
+		<keyvalue>Kwiecień</keyvalue>
+	</data>
+	<data>
+		<keyname>may</keyname>
+		<keyvalue>Maj</keyvalue>
+	</data>
+	<data>
+		<keyname>june</keyname>
+		<keyvalue>Czerwiec</keyvalue>
+	</data>
+	<data>
+		<keyname>july</keyname>
+		<keyvalue>Lipiec</keyvalue>
+	</data>
+	<data>
+		<keyname>august</keyname>
+		<keyvalue>Sierpień</keyvalue>
+	</data>
+	<data>
+		<keyname>september</keyname>
+		<keyvalue>Wrzesień</keyvalue>
+	</data>
+	<data>
+		<keyname>october</keyname>
+		<keyvalue>Październik</keyvalue>
+	</data>
+	<data>
+		<keyname>november</keyname>
+		<keyvalue>Listopad</keyvalue>
+	</data>
+	<data>
+		<keyname>december</keyname>
+		<keyvalue>Grudzień</keyvalue>
+	</data>
+	<data>
+		<keyname>magazines_signature</keyname>
+		<keyvalue>SYGNATURA CZASOPISMA</keyvalue>
+	</data>
+	<data>
+		<keyname>numbers_separation</keyname>
+		<keyvalue>Zbiorcze rozdzielenie numerów na woluminy</keyvalue>
+	</data>
+	<data>
+		<keyname>daily</keyname>
+		<keyvalue>DZIENNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>weekly</keyname>
+		<keyvalue>TYGODNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>biweekly</keyname>
+		<keyvalue>DWUTYGODNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>monthly</keyname>
+		<keyvalue>MIESIĘCZNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>bimonthly</keyname>
+		<keyvalue>DWUMIESIĘCZNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>quarterly</keyname>
+		<keyvalue>KWARTALNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>half_yearly</keyname>
+		<keyvalue>PÓŁROCZNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>yearly</keyname>
+		<keyvalue>ROCZNIK</keyvalue>
+	</data>
+	<data>
+		<keyname>irregular</keyname>
+		<keyvalue>NIEREGULARNE</keyvalue>
+	</data>
+	<data>
+		<keyname>daily_accession</keyname>
+		<keyvalue>Akcesja dziennika</keyvalue>
+	</data>
+	<data>
+		<keyname>weekly_accession</keyname>
+		<keyvalue>Akcesja tygodnika</keyvalue>
+	</data>
+	<data>
+		<keyname>biweekly_accesion</keyname>
+		<keyvalue>Akcesja dwutygodnika</keyvalue>
+	</data>
+	<data>
+		<keyname>monthly_accession</keyname>
+		<keyvalue>Akcesja miesięcznika</keyvalue>
+	</data>
+	<data>
+		<keyname>bimonthly_accession</keyname>
+		<keyvalue>Akcesja dwumiesięcznika</keyvalue>
+	</data>
+	<data>
+		<keyname>quartely_accession</keyname>
+		<keyvalue>Akcesja kwartalnika</keyvalue>
+	</data>
+	<data>
+		<keyname>hal_yearly_accession</keyname>
+		<keyvalue>Akcesja półrocznika</keyvalue>
+	</data>
+	<data>
+		<keyname>yearly_accession</keyname>
+		<keyvalue>Akcesja rocznika</keyvalue>
+	</data>
+	<data>
+		<keyname>irregular_accession</keyname>
+		<keyvalue>Akcesja czasopisma nieregularnego</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_departments</keyname>
+		<keyvalue>Lista departamentów</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_department</keyname>
+		<keyvalue>Czy usunąć departament?</keyvalue>
+	</data>
+	<data>
+		<keyname>department_deleting</keyname>
+		<keyvalue>Usuwanie departamentu</keyvalue>
+	</data>
+	<data>
+		<keyname>deleting</keyname>
+		<keyvalue>Usuwanie</keyvalue>
+	</data>
+	<data>
+		<keyname>department_has_been_deleted</keyname>
+		<keyvalue>Departament został usunięty</keyvalue>
+	</data>
+	<data>
+		<keyname>name_of_the_department_is_required</keyname>
+		<keyvalue>Nazwa departamentu jest wymagana!</keyvalue>
+	</data>
+	<data>
+		<keyname>deparment_for_the_magazine_and_year_already_exists</keyname>
+		<keyvalue>Departament dla tego czasopisma i roku już istnieje.</keyvalue>
+	</data>
+	<data>
+		<keyname>department_not_found_add_it</keyname>
+		<keyvalue>Nie znaleziono takiego departamentu na liście. Czy go dopisać?</keyvalue>
+	</data>
+	<data>
+		<keyname>department_not_found</keyname>
+		<keyvalue>Brak departamentu</keyvalue>
+	</data>
+	<data>
+		<keyname>department_added</keyname>
+		<keyvalue>Departament został pomyślnie dodany.</keyvalue>
+	</data>
+	<data>
+		<keyname>updated</keyname>
+		<keyvalue>Dane zostały pomyślnie zaktualizowane</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_of_copies</keyname>
+		<keyvalue>Ilość egzemplarzy</keyvalue>
+	</data>
+	<data>
+		<keyname>department_name</keyname>
+		<keyvalue>Nazwa departamentu</keyvalue>
+	</data>
+	<data>
+		<keyname>new</keyname>
+		<keyvalue>Nowy</keyvalue>
+	</data>
+	<data>
+		<keyname>confirm</keyname>
+		<keyvalue>Zatwierdź</keyvalue>
+	</data>
+	<data>
+		<keyname>department</keyname>
+		<keyvalue>Departament</keyvalue>
+	</data>
+	<data>
+		<keyname>amount</keyname>
+		<keyvalue>Ilość</keyvalue>
+	</data>
+	<data>
+		<keyname>accession_comments</keyname>
+		<keyvalue>Uwagi akcesji</keyvalue>
+	</data>
+	<data>
+		<keyname>institution</keyname>
+		<keyvalue>Instytucja sprawcza</keyvalue>
+	</data>
+	<data>
+		<keyname>seat</keyname>
+		<keyvalue>Siedziba</keyvalue>
+	</data>
+	<data>
+		<keyname>frequency</keyname>
+		<keyvalue>Częstotliwość</keyvalue>
+	</data>
+	<data>
+		<keyname>supplier</keyname>
+		<keyvalue>Dostawca</keyvalue>
+	</data>
+	<data>
+		<keyname>title_of_accession_magazine</keyname>
+		<keyvalue>Tytuł połączonego czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>rewriting_accession_numbers</keyname>
+		<keyvalue>Przepisywanie numerów akcesyjnych</keyvalue>
+	</data>
+	<data>
+		<keyname>accession</keyname>
+		<keyvalue>Akcesja</keyvalue>
+	</data>
+	<data>
+		<keyname>adding_accession</keyname>
+		<keyvalue>Dodawanie karty akcesji</keyvalue>
+	</data>
+	<data>
+		<keyname>accession_modify</keyname>
+		<keyvalue>Akcesja - modyfikacja</keyvalue>
+	</data>
+	<data>
+		<keyname>update_numbers</keyname>
+		<keyvalue>Aktualizuj numery</keyvalue>
+	</data>
+	<data>
+		<keyname>deleting_accession</keyname>
+		<keyvalue>Usuwanie karty akcesji</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_magazines</keyname>
+		<keyvalue>Lista tytułów czasopism</keyvalue>
+	</data>
+	<data>
+		<keyname>absolute_number</keyname>
+		<keyvalue>Numer kolejny</keyvalue>
+	</data>
+	<data>
+		<keyname>not_to_prescribe</keyname>
+		<keyvalue>NIE PRZEPISYWAĆ</keyvalue>
+	</data>
+	<data>
+		<keyname>notebook_number</keyname>
+		<keyvalue>Numer zeszytu</keyvalue>
+	</data>
+	<data>
+		<keyname>there_are_borrowed_copies_in_quantities</keyname>
+		<keyvalue>Istnieją wypożyczone egzemplarze w ilości:</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_return_it</keyname>
+		<keyvalue>Czy chcesz je zwrócić?</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_accession</keyname>
+		<keyvalue>Czy usunąć kartę akcesji tego czasopisma? Jeśli istnieją numery w tej karcie akcesji, to zostaną usunięte!</keyvalue>
+	</data>
+	<data>
+		<keyname>accession_has_been_deleted</keyname>
+		<keyvalue>Karta akcesji została pomyślnie usunięta.</keyvalue>
+	</data>
+	<data>
+		<keyname>information</keyname>
+		<keyvalue>Informacja</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine_does_not_have_signature_enter_new_one</keyname>
+		<keyvalue>Czasopismo nie posiada sygnatury. Proszę najpierw wprowadzić sygnaturę na karcie głównej czasopisma, żeby prowadzić jego akcesję.</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_the_title_of_the_magazine</keyname>
+		<keyvalue>Wprowadź tytuł czasopisma.</keyvalue>
+	</data>
+	<data>
+		<keyname>signatures</keyname>
+		<keyvalue>Sygnatury</keyvalue>
+	</data>
+	<data>
+		<keyname>info_about_separate</keyname>
+		<keyvalue>Aby zaznaczyć kilka numerów naraz, należy przytrzymać klawisz CTRL i klikać w wybrane numery.
+
+Aby zaznaczyć naraz kilka kolejnych numerów, można kliknąć w pierwszy numer, przytrzymać klawisz SHIFT i kliknąć w ostatni numer.
+
+Aby przenieść kilka zaznaczonych numerów, należy przytrzymać klawisz CTRL, kliknąć w jeden 
+z zaznaczonych numerów i (nie puszczając klawisza CTRL) przeciągnąć zaznaczenie na wybrany wolumin.
+
+Numery można dowolnie przenosić między woluminami a listą numerów.</keyvalue>
+	</data>
+	<data>
+		<keyname>update</keyname>
+		<keyvalue>Aktualizuj</keyvalue>
+	</data>
+	<data>
+		<keyname>check_all</keyname>
+		<keyvalue>Zaznacz wszystko</keyvalue>
+	</data>
+	<data>
+		<keyname>numbers_updating</keyname>
+		<keyvalue>Aktualizacja numerów</keyvalue>
+	</data>
+	<data>
+		<keyname>volume</keyname>
+		<keyvalue>Wolumin</keyvalue>
+	</data>
+	<data>
+		<keyname>select_volume</keyname>
+		<keyvalue>Wybierz wolumin</keyvalue>
+	</data>
+	<data>
+		<keyname>any_volume_selected</keyname>
+		<keyvalue>Nie wybrano żadnych woluminów!</keyvalue>
+	</data>
+	<data>
+		<keyname>instruction</keyname>
+		<keyvalue>Instrukcja</keyvalue>
+	</data>
+	<data>
+		<keyname>available_volumes</keyname>
+		<keyvalue>Dostępne woluminy</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_magazine_numbers</keyname>
+		<keyvalue>Lista numerów:</keyvalue>
+	</data>
+	<data>
+		<keyname>select_magazine_numbers_and_move_to_volume</keyname>
+		<keyvalue>Zaznacz numery i przeciągnij go woluminu.</keyvalue>
+	</data>
+	<data>
+		<keyname>rewriting_accession_numbers_success</keyname>
+		<keyvalue>Numery pomyślnie przepisano!</keyvalue>
+	</data>
+	<data>
+		<keyname>title_genitive</keyname>
+		<keyvalue>Tytułu</keyvalue>
+	</data>
+	<data>
+		<keyname>single_magazine_number</keyname>
+		<keyvalue>Pojedynczy numer</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine_title</keyname>
+		<keyvalue>Tytuł czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>notebook_title</keyname>
+		<keyvalue>Tytuł zeszytu</keyvalue>
+	</data>
+	<data>
+		<keyname>method_of_acquisition</keyname>
+		<keyvalue>Sposób nabycia</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_to_borrow</keyname>
+		<keyvalue>Ilość do wypożyczenia</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_receipt</keyname>
+		<keyvalue>Data wpływu</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_complaint</keyname>
+		<keyvalue>Data reklamacji</keyvalue>
+	</data>
+	<data>
+		<keyname>single_number_deleting</keyname>
+		<keyvalue>Usuwanie pojedynczego numeru</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_available_volumes</keyname>
+		<keyvalue>Lista dostępnych voluminów</keyvalue>
+	</data>
+	<data>
+		<keyname>purchase</keyname>
+		<keyvalue>Kupno</keyvalue>
+	</data>
+	<data>
+		<keyname>gift</keyname>
+		<keyvalue>Dar</keyvalue>
+	</data>
+	<data>
+		<keyname>replacement</keyname>
+		<keyvalue>Wymiana</keyvalue>
+	</data>
+	<data>
+		<keyname>deposit</keyname>
+		<keyvalue>Depozyt</keyvalue>
+	</data>
+	<data>
+		<keyname>volume_does_not_exists_add_it</keyname>
+		<keyvalue>Podany wolumin nie istnieje. Czy dopisać go do listy?</keyvalue>
+	</data>
+	<data>
+		<keyname>volume_adding</keyname>
+		<keyvalue>Dodawanie woluminu</keyvalue>
+	</data>
+	<data>
+		<keyname>add_wihout_volume</keyname>
+		<keyvalue>Czy dodać numer bez woluminu?</keyvalue>
+	</data>
+	<data>
+		<keyname>adding_without_volume</keyname>
+		<keyvalue>Dodawanie bez woluminu</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_the_data</keyname>
+		<keyvalue>Wprowadź dane</keyvalue>
+	</data>
+	<data>
+		<keyname>number_cannot_be_blank</keyname>
+		<keyvalue>Numer nie może być pusty!</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_cannot_be_blank</keyname>
+		<keyvalue>Ilość nie może być pusta!</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_to_borrow_cannot_be_blank</keyname>
+		<keyvalue>Ilość do wypożyczenia nie może być pusta!</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_to_borrow_cannot_be_greater_than_amount_of_numbers</keyname>
+		<keyvalue>Ilość do wypożyczenia nie może być większa niż ilość numerów!</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_single_magazine_number</keyname>
+		<keyvalue>Czy na pewno chcesz usunąć pojedynczy numer?</keyvalue>
+	</data>
+	<data>
+		<keyname>indexes_and_special_magazine_numbers</keyname>
+		<keyvalue>Indeksy i numery specjalne</keyvalue>
+	</data>
+	<data>
+		<keyname>for_who</keyname>
+		<keyvalue>Dla kogo</keyvalue>
+	</data>
+	<data>
+		<keyname>last_name</keyname>
+		<keyvalue>Nazwisko</keyvalue>
+	</data>
+	<data>
+		<keyname>first_name</keyname>
+		<keyvalue>Imię</keyvalue>
+	</data>
+	<data>
+		<keyname>article_title</keyname>
+		<keyvalue>Tytuł artykułu</keyvalue>
+	</data>
+	<data>
+		<keyname>authors</keyname>
+		<keyvalue>Autorzy</keyvalue>
+	</data>
+	<data>
+		<keyname>summary</keyname>
+		<keyvalue>Streszczenie</keyvalue>
+	</data>
+	<data>
+		<keyname>full_article</keyname>
+		<keyvalue>Pełny artykuł</keyvalue>
+	</data>
+	<data>
+		<keyname>printing</keyname>
+		<keyvalue>Drukowanie</keyvalue>
+	</data>
+	<data>
+		<keyname>sources</keyname>
+		<keyvalue>Źródła</keyvalue>
+	</data>
+	<data>
+		<keyname>factual_classification</keyname>
+		<keyvalue>Klasyfikacja rzeczowa</keyvalue>
+	</data>
+	<data>
+		<keyname>add_attachments</keyname>
+		<keyvalue>Dodaj załączniki</keyvalue>
+	</data>
+	<data>
+		<keyname>keys</keyname>
+		<keyvalue>Klucze</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_article_title</keyname>
+		<keyvalue>Wprowadź tytuł artykułu</keyvalue>
+	</data>
+	<data>
+		<keyname>article_deleting</keyname>
+		<keyvalue>Usuwanie artykułu</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_article</keyname>
+		<keyvalue>Czy chcesz usunąć artykuł?</keyvalue>
+	</data>
+	<data>
+		<keyname>if_you_want_to_add_sources_save_article</keyname>
+		<keyvalue>Aby dodać źródła, należy zapisać artykuł. Chcesz zapisać?</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_language</keyname>
+		<keyvalue>Wybór języka z listy</keyvalue>
+	</data>
+	<data>
+		<keyname>data_of_entry</keyname>
+		<keyvalue>Data wprowadzenia</keyvalue>
+	</data>
+	<data>
+		<keyname>book_data</keyname>
+		<keyvalue>Dane książki</keyvalue>
+	</data>
+	<data>
+		<keyname>copy_signature_and_title</keyname>
+		<keyvalue>Kopiuj sygnaturę i tytuł</keyvalue>
+	</data>
+	<data>
+		<keyname>title_of_publication_source</keyname>
+		<keyvalue>Tytuł źródła publikacji</keyvalue>
+	</data>
+	<data>
+		<keyname>book_authors</keyname>
+		<keyvalue>Autorzy książki</keyvalue>
+	</data>
+	<data>
+		<keyname>publish_year</keyname>
+		<keyvalue>Rok wydania</keyvalue>
+	</data>
+	<data>
+		<keyname>place_of_publication</keyname>
+		<keyvalue>Miejsce wydania</keyvalue>
+	</data>
+	<data>
+		<keyname>publisher</keyname>
+		<keyvalue>Wydawnictwo</keyvalue>
+	</data>
+	<data>
+		<keyname>author_redactor</keyname>
+		<keyvalue>Autor / redaktor</keyvalue>
+	</data>
+	<data>
+		<keyname>pages</keyname>
+		<keyvalue>Strony</keyvalue>
+	</data>
+	<data>
+		<keyname>language</keyname>
+		<keyvalue>Język</keyvalue>
+	</data>
+	<data>
+		<keyname>summaries</keyname>
+		<keyvalue>Streszczenia</keyvalue>
+	</data>
+	<data>
+		<keyname>in_polish</keyname>
+		<keyvalue>w j. polskim</keyvalue>
+	</data>
+	<data>
+		<keyname>in_english</keyname>
+		<keyvalue>w j. angielskim</keyvalue>
+	</data>
+	<data>
+		<keyname>in_german</keyname>
+		<keyvalue>w j. niemieckim</keyvalue>
+	</data>
+	<data>
+		<keyname>in_russian</keyname>
+		<keyvalue>w j. rosyjskim</keyvalue>
+	</data>
+	<data>
+		<keyname>in_french</keyname>
+		<keyvalue>w j. francuskim</keyvalue>
+	</data>
+	<data>
+		<keyname>code</keyname>
+		<keyvalue>Kod</keyvalue>
+	</data>
+	<data>
+		<keyname>book_title</keyname>
+		<keyvalue>Tytuł książki</keyvalue>
+	</data>
+	<data>
+		<keyname>from_magazine</keyname>
+		<keyvalue>z czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>from_book</keyname>
+		<keyvalue>z książki</keyvalue>
+	</data>
+	<data>
+		<keyname>article_adding</keyname>
+		<keyvalue>Dodawanie artykułu</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_magazine_and_magazine_number</keyname>
+		<keyvalue>Wybór czasopisma i numeru</keyvalue>
+	</data>
+	<data>
+		<keyname>number</keyname>
+		<keyvalue>Numer</keyvalue>
+	</data>
+	<data>
+		<keyname>catalog_card</keyname>
+		<keyvalue>Karta katalogowa</keyvalue>
+	</data>
+	<data>
+		<keyname>catalog_description</keyname>
+		<keyvalue>Opis katalogowy</keyvalue>
+	</data>
+	<data>
+		<keyname>contains</keyname>
+		<keyvalue>Zawiera</keyvalue>
+	</data>
+	<data>
+		<keyname>tables_accusative</keyname>
+		<keyvalue>Tabele</keyvalue>
+	</data>
+	<data>
+		<keyname>maps_accusative</keyname>
+		<keyvalue>Mapy</keyvalue>
+	</data>
+	<data>
+		<keyname>charts_accusative</keyname>
+		<keyvalue>Wykresy</keyvalue>
+	</data>
+	<data>
+		<keyname>episode_number</keyname>
+		<keyvalue>Nr odc.:</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_available_items</keyname>
+		<keyvalue>Lista dostępnych pozycji</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_selected_items</keyname>
+		<keyvalue>Lista wybranych pozycji</keyvalue>
+	</data>
+	<data>
+		<keyname>select_by_enter_or_double_click</keyname>
+		<keyvalue>Wybór - [Enter] lub podwójne kliknięcie myszki</keyvalue>
+	</data>
+	<data>
+		<keyname>change_title_of_magazine</keyname>
+		<keyvalue>Zmiana tytułu czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>title_of_modyfing_magazine</keyname>
+		<keyvalue>Tytuł modyfikowanego czasopisma:</keyvalue>
+	</data>
+	<data>
+		<keyname>previous_magazine_title</keyname>
+		<keyvalue>Poprzedni tytuł czasopisma:</keyvalue>
+	</data>
+	<data>
+		<keyname>next_magazine_title</keyname>
+		<keyvalue>Następny tytuł czasopisma:</keyvalue>
+	</data>
+	<data>
+		<keyname>this_magazine_cannot_join</keyname>
+		<keyvalue>Tego czasopisma nie można dołączyć!</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_this_title</keyname>
+		<keyvalue>Czy usunąć tytuł?</keyvalue>
+	</data>
+	<data>
+		<keyname>data_modification</keyname>
+		<keyvalue>Modyfikacja danych</keyvalue>
+	</data>
+	<data>
+		<keyname>new_serial_publication</keyname>
+		<keyvalue>Nowe wydawnictwo seryjne</keyvalue>
+	</data>
+	<data>
+		<keyname>choice_existing_serial_publication_by</keyname>
+		<keyvalue>Wybór istniejącego opisu poprzez:</keyvalue>
+	</data>
+	<data>
+		<keyname>by_list_of_entered_signatures</keyname>
+		<keyvalue>listę wprowadzonych sygnatur</keyvalue>
+	</data>
+	<data>
+		<keyname>by_list_of_entered_titles</keyname>
+		<keyvalue>listę wprowadzonych tytułów</keyvalue>
+	</data>
+	<data>
+		<keyname>details_of_change_title_of_magazine</keyname>
+		<keyvalue>Szczegóły zmiany tytułu</keyvalue>
+	</data>
+	<data>
+		<keyname>to_year_number</keyname>
+		<keyvalue>Do roku/numeru</keyvalue>
+	</data>
+	<data>
+		<keyname>since_year_number</keyname>
+		<keyvalue>Od roku/numeru</keyvalue>
+	</data>
+	<data>
+		<keyname>entitled</keyname>
+		<keyvalue>pt.:</keyvalue>
+	</data>
+	<data>
+		<keyname>was_published_as</keyname>
+		<keyvalue>Wychodził pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>until_year_was_published_as</keyname>
+		<keyvalue>Do {year} r. wychodził pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>until_number_issue_was_published_as</keyname>
+		<keyvalue>Do {number} numeru wychodził pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>until_number_issue_year_was_published_as</keyname>
+		<keyvalue>Do {number} numeru {year} r. wychodził pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>has_been_published_as</keyname>
+		<keyvalue>Wychodzi pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>since_year_has_been_published_as</keyname>
+		<keyvalue>Od {year} r. wychodzi pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>since_number_issue_has_been_published_as</keyname>
+		<keyvalue>Od {number} numeru wychodzi pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>since_number_issue_year_has_been_published_as</keyname>
+		<keyvalue>Od {number} numeru {year} r. wychodzi pt.: {title}</keyvalue>
+	</data>
+	<data>
+		<keyname>supplements</keyname>
+		<keyvalue>Dodatki</keyvalue>
+	</data>
+	<data>
+		<keyname>supplements_list</keyname>
+		<keyvalue>Lista dodatków</keyvalue>
+	</data>
+	<data>
+		<keyname>list_of_institution</keyname>
+		<keyvalue>Lista instytucji sprawczych</keyvalue>
+	</data>
+	<data>
+		<keyname>name_of_institution</keyname>
+		<keyvalue>Nazwa instytucji</keyvalue>
+	</data>
+	<data>
+		<keyname>institutions</keyname>
+		<keyvalue>Instytucje sprawcze</keyvalue>
+	</data>
+	<data>
+		<keyname>key</keyname>
+		<keyvalue>Klucz</keyvalue>
+	</data>
+	<data>
+		<keyname>signatures_to_remove_with_registration</keyname>
+		<keyvalue>Sygnatury do usunięcia z wpisem do księgi:</keyvalue>
+	</data>
+	<data>
+		<keyname>existing_signatures</keyname>
+		<keyvalue>Istniejące sygnatury:</keyvalue>
+	</data>
+	<data>
+		<keyname>signatures_to_remove_without_registration</keyname>
+		<keyvalue>Sygnatury do usunięcia bez wpisu do księgi:</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine_signatures_deleting</keyname>
+		<keyvalue>Usuwanie sygnatur czasopism</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_signature</keyname>
+		<keyvalue>Czy chcesz usunąć sygnaturę?</keyvalue>
+	</data>
+	<data>
+		<keyname>signature_was_removed_without_registration</keyname>
+		<keyvalue>Sygnatura została usunięta bez wpisu do księgi ubytków.</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_volume_to_delete</keyname>
+		<keyvalue>Proszę wybrać wolumin do usunięcia.</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_country</keyname>
+		<keyvalue>Wybór państwa z listy</keyvalue>
+	</data>
+	<data>
+		<keyname>short_name</keyname>
+		<keyvalue>Skrót nazwy</keyvalue>
+	</data>
+	<data>
+		<keyname>address</keyname>
+		<keyvalue>Adres</keyvalue>
+	</data>
+	<data>
+		<keyname>city</keyname>
+		<keyvalue>Miasto</keyvalue>
+	</data>
+	<data>
+		<keyname>phone</keyname>
+		<keyvalue>Telefon</keyvalue>
+	</data>
+	<data>
+		<keyname>fax</keyname>
+		<keyvalue>Fax</keyvalue>
+	</data>
+	<data>
+		<keyname>zip</keyname>
+		<keyvalue>Kod</keyvalue>
+	</data>
+	<data>
+		<keyname>contact_details</keyname>
+		<keyvalue>Dane teleadresowe</keyvalue>
+	</data>
+	<data>
+		<keyname>country</keyname>
+		<keyvalue>Państwo</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_name_of_supplier</keyname>
+		<keyvalue>Proszę podać nazwę dostawcy</keyvalue>
+	</data>
+	<data>
+		<keyname>contact</keyname>
+		<keyvalue>Kontakt</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_name_of_publisher</keyname>
+		<keyvalue>Proszę podać nazwę wydawcy</keyvalue>
+	</data>
+	<data>
+		<keyname>main_card</keyname>
+		<keyvalue>Karta główna</keyvalue>
+	</data>
+	<data>
+		<keyname>registration_data</keyname>
+		<keyvalue>Dane ewidencyjne</keyvalue>
+	</data>
+	<data>
+		<keyname>factual_description</keyname>
+		<keyvalue>Opis rzeczowy</keyvalue>
+	</data>
+	<data>
+		<keyname>form_of_document_content</keyname>
+		<keyvalue>Forma zawartości dokumentu</keyvalue>
+	</data>
+	<data>
+		<keyname>languages_of_text</keyname>
+		<keyvalue>Języki tekstu:</keyvalue>
+	</data>
+	<data>
+		<keyname>issn</keyname>
+		<keyvalue>ISSN</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_magazine</keyname>
+		<keyvalue>Usuń kartę czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>title_changes</keyname>
+		<keyvalue>Zmiany tytułu...</keyvalue>
+	</data>
+	<data>
+		<keyname>main_title</keyname>
+		<keyvalue>Główny</keyvalue>
+	</data>
+	<data>
+		<keyname>subtitle</keyname>
+		<keyvalue>Podtytuł</keyvalue>
+	</data>
+	<data>
+		<keyname>parallel_title</keyname>
+		<keyvalue>Równoległy</keyvalue>
+	</data>
+	<data>
+		<keyname>additional_title</keyname>
+		<keyvalue>Dodatkowy</keyvalue>
+	</data>
+	<data>
+		<keyname>suppliers_publishers</keyname>
+		<keyvalue>Dostawcy / Wydawcy</keyvalue>
+	</data>
+	<data>
+		<keyname>institutions_change_history</keyname>
+		<keyvalue>Historia zmian instytucji...</keyvalue>
+	</data>
+	<data>
+		<keyname>redactor</keyname>
+		<keyvalue>Redaktor</keyvalue>
+	</data>
+	<data>
+		<keyname>publish_country</keyname>
+		<keyvalue>Kraj wydania</keyvalue>
+	</data>
+	<data>
+		<keyname>format</keyname>
+		<keyvalue>Format</keyvalue>
+	</data>
+	<data>
+		<keyname>unit_of_length</keyname>
+		<keyvalue>cm</keyvalue>
+	</data>
+	<data>
+		<keyname>chosen_signature</keyname>
+		<keyvalue>Wybrana sygnatura:</keyvalue>
+	</data>
+	<data>
+		<keyname>new_signature</keyname>
+		<keyvalue>Nowa</keyvalue>
+	</data>
+	<data>
+		<keyname>f2_last_signatures</keyname>
+		<keyvalue>F2 - ostatnie zapisane sygnatury</keyvalue>
+	</data>
+	<data>
+		<keyname>new_volume</keyname>
+		<keyvalue>Nowy</keyvalue>
+	</data>
+	<data>
+		<keyname>price_of_annual_subscription</keyname>
+		<keyvalue>Cena rocznej prenumeraty</keyvalue>
+	</data>
+	<data>
+		<keyname>volume_value</keyname>
+		<keyvalue>Wartość woluminu</keyvalue>
+	</data>
+	<data>
+		<keyname>registration</keyname>
+		<keyvalue>Ewidencja</keyvalue>
+	</data>
+	<data>
+		<keyname>serial_registration</keyname>
+		<keyvalue>Ewidencja seryjna</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine_registration</keyname>
+		<keyvalue>Ewidencja czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>volumes</keyname>
+		<keyvalue>Woluminy</keyvalue>
+	</data>
+	<data>
+		<keyname>copy_description</keyname>
+		<keyvalue>Kopiuj opis</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_signature</keyname>
+		<keyvalue>Usuń sygnaturę</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_volume</keyname>
+		<keyvalue>Usuń wolumin</keyvalue>
+	</data>
+	<data>
+		<keyname>publisher_name</keyname>
+		<keyvalue>Nazwa wydawcy</keyvalue>
+	</data>
+	<data>
+		<keyname>supplier_name</keyname>
+		<keyvalue>Nazwa dostawcy</keyvalue>
+	</data>
+	<data>
+		<keyname>signature_cannot_be_blank</keyname>
+		<keyvalue>Sygnatura nie może być pusta!</keyvalue>
+	</data>
+	<data>
+		<keyname>signature_exists</keyname>
+		<keyvalue>Podana sygnatura już istnieje!</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_magazine_title</keyname>
+		<keyvalue>Proszę podać tytuł czasopisma.</keyvalue>
+	</data>
+	<data>
+		<keyname>year_cannot_be_blank</keyname>
+		<keyvalue>Rok nie może być pusty!</keyvalue>
+	</data>
+	<data>
+		<keyname>volume_removed</keyname>
+		<keyvalue>Wolumin pomyślnie usunięto!</keyvalue>
+	</data>
+	<data>
+		<keyname>key_not_found_add_it</keyname>
+		<keyvalue>Brak słowa kluczowego w bazie. Dodać nowe słowo kluczowe?</keyvalue>
+	</data>
+	<data>
+		<keyname>adding_key</keyname>
+		<keyvalue>Dodawanie słowa kluczowego</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_volume</keyname>
+		<keyvalue>Czy chcesz usunąć ten wolumin?</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_volume_with_entry_to_lossess</keyname>
+		<keyvalue>Czy usunąć wolumin z wpisem do księgi ubytków?</keyvalue>
+	</data>
+	<data>
+		<keyname>first_delete_all_volumes</keyname>
+		<keyvalue>Proszę najpierw usunąć wszystkie woluminy!</keyvalue>
+	</data>
+	<data>
+		<keyname>signature_removed</keyname>
+		<keyvalue>Sygnatura została usunięta!</keyvalue>
+	</data>
+	<data>
+		<keyname>laws</keyname>
+		<keyvalue>Przepisy prawne</keyvalue>
+	</data>
+	<data>
+		<keyname>analysis_and_elaboration</keyname>
+		<keyvalue>Analizy i opracowania</keyvalue>
+	</data>
+	<data>
+		<keyname>statistics</keyname>
+		<keyvalue>Statystyka</keyvalue>
+	</data>
+	<data>
+		<keyname>documents</keyname>
+		<keyvalue>Dokumenty</keyvalue>
+	</data>
+	<data>
+		<keyname>chronologies</keyname>
+		<keyvalue>Chronologie</keyvalue>
+	</data>
+	<data>
+		<keyname>biographies</keyname>
+		<keyvalue>Biografie</keyvalue>
+	</data>
+	<data>
+		<keyname>bibliography</keyname>
+		<keyvalue>Bibliografia</keyvalue>
+	</data>
+	<data>
+		<keyname>to_use_this_feature_you_must_save_magazine</keyname>
+		<keyvalue>Aby użyć tej funkcji, należy zapisać czasopismo. Chcesz zapisać?</keyvalue>
+	</data>
+	<data>
+		<keyname>info_about_magazine_freq_changing</keyname>
+		<keyvalue>Zmiana częstotliwości czasopisma spowoduje utratę informacji o dotychczas wprowadzonych numerach w akcesji. Jeśli czasopismo zmieniło częstotliwość załóż drugą kartę główną czasopisma ze zmienioną częstotliwością oraz nową kartę akcesji. Czy mimo to zmienić częstotliwość w akcesji tego czasopisma?</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine_deleted</keyname>
+		<keyvalue>Karta główna czasopisma została pomyślnie usunięta!</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_magazine</keyname>
+		<keyvalue>Czy usunąć kartę główną tego czasopisma?</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_accession_first</keyname>
+		<keyvalue>Proszę najpierw usunąć kartę akcesji tego czasopisma.</keyvalue>
+	</data>
+	<data>
+		<keyname>barcode</keyname>
+		<keyvalue>Kod kreskowy</keyvalue>
+	</data>
+	<data>
+		<keyname>borrow_date</keyname>
+		<keyvalue>Data wypożyczenia</keyvalue>
+	</data>
+	<data>
+		<keyname>limit</keyname>
+		<keyvalue>Limit</keyvalue>
+	</data>
+	<data>
+		<keyname>expected_date_of_return</keyname>
+		<keyvalue>Przewidywana data zwrotu</keyvalue>
+	</data>
+	<data>
+		<keyname>all_borrowed</keyname>
+		<keyvalue>Wszystkie wypożyczone</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowed_books</keyname>
+		<keyvalue>Wypożyczone książki</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowed_magazines</keyname>
+		<keyvalue>Wypożyczone czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>there_are_no_reminders</keyname>
+		<keyvalue>Brak upomnień</keyvalue>
+	</data>
+	<data>
+		<keyname>there_are_no_reminders_for_this_resource</keyname>
+		<keyvalue>Brak upomnień dla danego zasobu. Termin zwrotu nie został przekroczony.</keyvalue>
+	</data>
+	<data>
+		<keyname>add_group</keyname>
+		<keyvalue>Dodaj grupę</keyvalue>
+	</data>
+	<data>
+		<keyname>edit_group</keyname>
+		<keyvalue>Edytuj grupę</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_group</keyname>
+		<keyvalue>Usuń grupę</keyvalue>
+	</data>
+	<data>
+		<keyname>default_time_limit</keyname>
+		<keyvalue>Domyślny maksymalny czas (w dniach) przetrzymywania zasobu:</keyvalue>
+	</data>
+	<data>
+		<keyname>default_resource_permissions</keyname>
+		<keyvalue>Domyślne uprawnienia zasobu:</keyvalue>
+	</data>
+	<data>
+		<keyname>active_group</keyname>
+		<keyvalue>Aktywna</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_permission</keyname>
+		<keyvalue>Usuń uprawnienie</keyvalue>
+	</data>
+	<data>
+		<keyname>add_permission</keyname>
+		<keyvalue>Dodaj uprawnienie</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_group</keyname>
+		<keyvalue>Czy chcesz usunąć grupę?</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_group_name</keyname>
+		<keyvalue>Proszę wprowadzić nazwę grupy.</keyvalue>
+	</data>
+	<data>
+		<keyname>maximum_time_limit_must_be_given</keyname>
+		<keyvalue>Maksymalny czas przetrzymywania zasobu musi być uzupełniony!</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_this_permission</keyname>
+		<keyvalue>Czy chcesz usunąć to uprawnienie z listy uprawnień grupy?</keyvalue>
+	</data>
+	<data>
+		<keyname>all_users_will_be_lock_continue</keyname>
+		<keyvalue>Wszyscy użytkownicy tej grupy zostaną zablokowani. Czy kontynuować?</keyvalue>
+	</data>
+	<data>
+		<keyname>change_in_activity</keyname>
+		<keyvalue>Zmiana stanu aktywności</keyvalue>
+	</data>
+	<data>
+		<keyname>default_amount_limit</keyname>
+		<keyvalue>Domyślna maksymalna liczba możliwych do wypożyczenia zasobów:</keyvalue>
+	</data>
+	<data>
+		<keyname>default_user_permissions</keyname>
+		<keyvalue>Domyślne uprawnienia użytkownika:</keyvalue>
+	</data>
+	<data>
+		<keyname>maximun_resources_amount_must_be_given</keyname>
+		<keyvalue>Maksymalna ilość zasobów musi być uzupełniona!</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_this_group</keyname>
+		<keyvalue>Czy chcesz usunąć grupę? Użytkownicy przypisani do tej grupy nie będą przypisani do żadnej grupy.</keyvalue>
+	</data>
+	<data>
+		<keyname>print_all_reminders</keyname>
+		<keyvalue>Drukuj upomnienia zbiorcze</keyvalue>
+	</data>
+	<data>
+		<keyname>print_current_borrows</keyname>
+		<keyvalue>Drukuj aktualne wypożyczenia</keyvalue>
+	</data>
+	<data>
+		<keyname>print_history_borrows</keyname>
+		<keyvalue>Drukuj historię wypożyczeń</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_return</keyname>
+		<keyvalue>Data zwrotu</keyvalue>
+	</data>
+	<data>
+		<keyname>permission</keyname>
+		<keyvalue>Uprawnienie</keyvalue>
+	</data>
+	<data>
+		<keyname>date_from</keyname>
+		<keyvalue>Data od</keyvalue>
+	</data>
+	<data>
+		<keyname>date_to</keyname>
+		<keyvalue>Data do</keyvalue>
+	</data>
+	<data>
+		<keyname>locked_permission</keyname>
+		<keyvalue>Zablokowane</keyvalue>
+	</data>
+	<data>
+		<keyname>user_info</keyname>
+		<keyvalue>Dane użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_info</keyname>
+		<keyvalue>Dane zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>resource</keyname>
+		<keyvalue>Zasób</keyvalue>
+	</data>
+	<data>
+		<keyname>do_borrow</keyname>
+		<keyvalue>Wypożycz</keyvalue>
+	</data>
+	<data>
+		<keyname>do_order</keyname>
+		<keyvalue>Zamów</keyvalue>
+	</data>
+	<data>
+		<keyname>print_reverse</keyname>
+		<keyvalue>Drukuj rewers</keyvalue>
+	</data>
+	<data>
+		<keyname>borrows</keyname>
+		<keyvalue>Wypożyczenia</keyvalue>
+	</data>
+	<data>
+		<keyname>history</keyname>
+		<keyvalue>Historia</keyvalue>
+	</data>
+	<data>
+		<keyname>return_resource</keyname>
+		<keyvalue>Zwrot zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>order_date</keyname>
+		<keyvalue>Data zamówienia</keyvalue>
+	</data>
+	<data>
+		<keyname>order_state</keyname>
+		<keyvalue>Stan zamówienia</keyvalue>
+	</data>
+	<data>
+		<keyname>realize</keyname>
+		<keyvalue>Realizuj</keyvalue>
+	</data>
+	<data>
+		<keyname>cancel_order</keyname>
+		<keyvalue>Zrezygnuj</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowing_and_returning_resources</keyname>
+		<keyvalue>Wypożyczanie i zwracanie zasobów</keyvalue>
+	</data>
+	<data>
+		<keyname>search_resource</keyname>
+		<keyvalue>Wyszukaj zasób</keyvalue>
+	</data>
+	<data>
+		<keyname>open_user_card</keyname>
+		<keyvalue>Otwórz kartę użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_ordered</keyname>
+		<keyvalue>Zasób został zamówiony!</keyvalue>
+	</data>
+	<data>
+		<keyname>order</keyname>
+		<keyvalue>Zamówienie</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_is_in_user_orders</keyname>
+		<keyvalue>Zasób został wcześniej zamówiony przez tego użytkownika.</keyvalue>
+	</data>
+	<data>
+		<keyname>locked_user</keyname>
+		<keyvalue>Zablokowany użytkownik</keyvalue>
+	</data>
+	<data>
+		<keyname>user_is_locked</keyname>
+		<keyvalue>Użytkownik jest zablokowany. Odblokuj go na karcie użytkownika, żeby mógł wypożyczać zasoby.</keyvalue>
+	</data>
+	<data>
+		<keyname>there_is_no_resource_with_given_barcode</keyname>
+		<keyvalue>Brak zasobu o podanym kodzie kreskowym!</keyvalue>
+	</data>
+	<data>
+		<keyname>there_is_no_resource_with_given_invertory_number</keyname>
+		<keyvalue>Brak zasobu o podanym numerze inwentarzowym!</keyvalue>
+	</data>
+	<data>
+		<keyname>there_is_no_resource_with_given_signature</keyname>
+		<keyvalue>Brak zasobu o podanej sygnaturze!</keyvalue>
+	</data>
+	<data>
+		<keyname>there_is_no_resource</keyname>
+		<keyvalue>Brak zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_returned</keyname>
+		<keyvalue>Zasób został zwrócony!</keyvalue>
+	</data>
+	<data>
+		<keyname>barcode_not_assigned_to_user</keyname>
+		<keyvalue>Podany kod kreskowy nie został przypisany do żadnego użytkownika!</keyvalue>
+	</data>
+	<data>
+		<keyname>user_has_been_checked_out</keyname>
+		<keyvalue>Użytkownik został wyrejestrowany z biblioteki.</keyvalue>
+	</data>
+	<data>
+		<keyname>invalid_barcode</keyname>
+		<keyvalue>Błędny kod kreskowy</keyvalue>
+	</data>
+	<data>
+		<keyname>user_checked_out</keyname>
+		<keyvalue>Użytkownik wyrejestrowany</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_cancel_order</keyname>
+		<keyvalue>Czy na pewno zrezygnować z zamówienia?</keyvalue>
+	</data>
+	<data>
+		<keyname>resignation_order</keyname>
+		<keyvalue>Rezygnacja z zamówienia</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_has_not_been_borrowed</keyname>
+		<keyvalue>Zasób NIE został wypożyczony!</keyvalue>
+	</data>
+	<data>
+		<keyname>user_exceed_limit_of_amount</keyname>
+		<keyvalue>Użytkownik przekroczył limit ilości wypożyczonych zasobów. Czy wypożyczyć mimo to?</keyvalue>
+	</data>
+	<data>
+		<keyname>exceeded_amount_limit</keyname>
+		<keyvalue>Przekroczony limit ilości</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_has_been_borrowed</keyname>
+		<keyvalue>Zasób został wypożyczony!</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_resource</keyname>
+		<keyvalue>Wybór zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowed</keyname>
+		<keyvalue>Wypożyczone</keyvalue>
+	</data>
+	<data>
+		<keyname>not_borrowed</keyname>
+		<keyvalue>Niewypożyczone</keyvalue>
+	</data>
+	<data>
+		<keyname>equals</keyname>
+		<keyvalue>równa się</keyvalue>
+	</data>
+	<data>
+		<keyname>starts_with</keyname>
+		<keyvalue>zaczyna się</keyvalue>
+	</data>
+	<data>
+		<keyname>searching</keyname>
+		<keyvalue>Wyszukiwanie</keyvalue>
+	</data>
+	<data>
+		<keyname>there_is_no_searching_resource</keyname>
+		<keyvalue>Brak szukanego zasobu.</keyvalue>
+	</data>
+	<data>
+		<keyname>only_expired</keyname>
+		<keyvalue>Tylko przeterminowane</keyvalue>
+	</data>
+	<data>
+		<keyname>user</keyname>
+		<keyvalue>Użytkownik</keyvalue>
+	</data>
+	<data>
+		<keyname>filter</keyname>
+		<keyvalue>Filtruj</keyvalue>
+	</data>
+	<data>
+		<keyname>from</keyname>
+		<keyvalue>Od</keyvalue>
+	</data>
+	<data>
+		<keyname>to</keyname>
+		<keyvalue>Do</keyvalue>
+	</data>
+	<data>
+		<keyname>filtration</keyname>
+		<keyvalue>Filtrowanie</keyvalue>
+	</data>
+	<data>
+		<keyname>ready</keyname>
+		<keyvalue>Przygotowane</keyvalue>
+	</data>
+	<data>
+		<keyname>current_orders</keyname>
+		<keyvalue>Aktualne zamówienia</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_print_reverse</keyname>
+		<keyvalue>Czy wydrukować rewers?</keyvalue>
+	</data>
+	<data>
+		<keyname>user_barcode</keyname>
+		<keyvalue>Kod kreskowy użytkownika:</keyvalue>
+	</data>
+	<data>
+		<keyname>time_limit_to_return</keyname>
+		<keyvalue>Limit czasu na oddanie:</keyvalue>
+	</data>
+	<data>
+		<keyname>days</keyname>
+		<keyvalue>dni</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowed_single</keyname>
+		<keyvalue>Wypożyczony</keyvalue>
+	</data>
+	<data>
+		<keyname>permissions</keyname>
+		<keyvalue>Uprawnienia</keyvalue>
+	</data>
+	<data>
+		<keyname>general</keyname>
+		<keyvalue>Ogólne</keyvalue>
+	</data>
+	<data>
+		<keyname>borrow_history</keyname>
+		<keyvalue>Historia wypożyczeń</keyvalue>
+	</data>
+	<data>
+		<keyname>order_history</keyname>
+		<keyvalue>Historia zamówień</keyvalue>
+	</data>
+	<data>
+		<keyname>valid_from</keyname>
+		<keyvalue>Obowiązuje od:</keyvalue>
+	</data>
+	<data>
+		<keyname>valid_to</keyname>
+		<keyvalue>Obowiązuje do:</keyvalue>
+	</data>
+	<data>
+		<keyname>delay</keyname>
+		<keyvalue>Opóźnienie</keyvalue>
+	</data>
+	<data>
+		<keyname>employee</keyname>
+		<keyvalue>Pracownik</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_realization</keyname>
+		<keyvalue>Data realizacji</keyvalue>
+	</data>
+	<data>
+		<keyname>time_limit_to_return_must_be_enter</keyname>
+		<keyvalue>Limit czasu na oddanie zasobu musi być uzupełniony!</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_operation</keyname>
+		<keyvalue>Data operacji</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_group</keyname>
+		<keyvalue>Grupa zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>resource_state</keyname>
+		<keyvalue>Stan zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>persons</keyname>
+		<keyvalue>Osoby</keyvalue>
+	</data>
+	<data>
+		<keyname>user_type</keyname>
+		<keyvalue>Typ użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>group</keyname>
+		<keyvalue>Grupa</keyvalue>
+	</data>
+	<data>
+		<keyname>only_active_users</keyname>
+		<keyvalue>Tylko aktywni użytkownicy</keyvalue>
+	</data>
+	<data>
+		<keyname>kind_of_operation</keyname>
+		<keyvalue>Rodzaj operacji</keyvalue>
+	</data>
+	<data>
+		<keyname>reading_room</keyname>
+		<keyvalue>Czytelnia</keyvalue>
+	</data>
+	<data>
+		<keyname>all</keyname>
+		<keyvalue>Wszystkie</keyvalue>
+	</data>
+	<data>
+		<keyname>ordered</keyname>
+		<keyvalue>Zamówiony</keyvalue>
+	</data>
+	<data>
+		<keyname>returns</keyname>
+		<keyvalue>Zwroty</keyvalue>
+	</data>
+	<data>
+		<keyname>reminders</keyname>
+		<keyvalue>Upomnienia</keyvalue>
+	</data>
+	<data>
+		<keyname>require_date</keyname>
+		<keyvalue>Data wymagana</keyvalue>
+	</data>
+	<data>
+		<keyname>return_date_new_require_date</keyname>
+		<keyvalue>Data zwrotu / nowa data wymagana:</keyvalue>
+	</data>
+	<data>
+		<keyname>prolongs</keyname>
+		<keyvalue>Prolonguj</keyvalue>
+	</data>
+	<data>
+		<keyname>confirm_return</keyname>
+		<keyvalue>Zatwierdź zwrot</keyvalue>
+	</data>
+	<data>
+		<keyname>date_cannot_be_earlier_than_borrow_date</keyname>
+		<keyvalue>Data nie może być wcześniejsza niż data wypożyczenia!</keyvalue>
+	</data>
+	<data>
+		<keyname>groups</keyname>
+		<keyvalue>Grupy</keyvalue>
+	</data>
+	<data>
+		<keyname>name_last_name</keyname>
+		<keyvalue>Nazwa / nazwisko</keyvalue>
+	</data>
+	<data>
+		<keyname>only_with_borrows</keyname>
+		<keyvalue>Tylko posiadający niezwrócone zasoby</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_user</keyname>
+		<keyvalue>Wybór użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>addresses</keyname>
+		<keyvalue>Adresy</keyvalue>
+	</data>
+	<data>
+		<keyname>teleaddresses</keyname>
+		<keyvalue>Teleadresy</keyvalue>
+	</data>
+	<data>
+		<keyname>teleaddress_adding</keyname>
+		<keyvalue>Dodawanie teleadresu</keyvalue>
+	</data>
+	<data>
+		<keyname>teleaddress_cannot_be_blank</keyname>
+		<keyvalue>Teleadres nie może być pusty.</keyvalue>
+	</data>
+	<data>
+		<keyname>teleaddress_deleting</keyname>
+		<keyvalue>Usuwanie teleadresu</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_this_teleaddress</keyname>
+		<keyvalue>Czy chcesz usunąć ten teleadres?</keyvalue>
+	</data>
+	<data>
+		<keyname>user_has_been_deleted</keyname>
+		<keyvalue>Użytkownik został usunięty.</keyvalue>
+	</data>
+	<data>
+		<keyname>user_deleting</keyname>
+		<keyvalue>Usuwanie użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_user</keyname>
+		<keyvalue>Czy na pewno usunąć użytkownika?</keyvalue>
+	</data>
+	<data>
+		<keyname>address_adding</keyname>
+		<keyvalue>Dodawanie adresu</keyvalue>
+	</data>
+	<data>
+		<keyname>address_deleting</keyname>
+		<keyvalue>Usuwanie adresu</keyvalue>
+	</data>
+	<data>
+		<keyname>address_cannot_be_blank</keyname>
+		<keyvalue>Adres nie może być pusty.</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_address</keyname>
+		<keyvalue>Czy chcesz usunąć ten adres?</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_delete_this_permission_from_user</keyname>
+		<keyvalue>Czy chcesz usunąć to uprawnienie z listy uprawnień użytkownika?</keyvalue>
+	</data>
+	<data>
+		<keyname>no_data</keyname>
+		<keyvalue>Brak danych</keyvalue>
+	</data>
+	<data>
+		<keyname>last_name_and_first_name</keyname>
+		<keyvalue>Nazwisko i imię</keyvalue>
+	</data>
+	<data>
+		<keyname>domain_name_in_configuration_is_blank</keyname>
+		<keyvalue>Brak wpisanej nazwy domeny w konfiguracji.</keyvalue>
+	</data>
+	<data>
+		<keyname>enter_user_name</keyname>
+		<keyvalue>Proszę wprowadzić nazwę użytkownika!</keyvalue>
+	</data>
+	<data>
+		<keyname>invalid_user_domain_name</keyname>
+		<keyvalue>Wprowadzona nazwa domenowa została już wprowadzona użytkownikowi {user}. Nazwa domenowa nie może się powtarzać.</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_user</keyname>
+		<keyvalue>Usuń użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>name_last_name_first_name</keyname>
+		<keyvalue>Nazwa / nazwisko i imię</keyvalue>
+	</data>
+	<data>
+		<keyname>sex</keyname>
+		<keyvalue>Płeć</keyvalue>
+	</data>
+	<data>
+		<keyname>male</keyname>
+		<keyvalue>Mężczyzna</keyvalue>
+	</data>
+	<data>
+		<keyname>female</keyname>
+		<keyvalue>Kobieta</keyvalue>
+	</data>
+	<data>
+		<keyname>card_no</keyname>
+		<keyvalue>Nr legitymacji</keyvalue>
+	</data>
+	<data>
+		<keyname>user_domain_name</keyname>
+		<keyvalue>Nazwa domenowa</keyvalue>
+	</data>
+	<data>
+		<keyname>date_of_birth</keyname>
+		<keyvalue>Data urodzenia</keyvalue>
+	</data>
+	<data>
+		<keyname>amount_limit</keyname>
+		<keyvalue>Maksymalna liczba możliwych do wypożyczenia zasobów</keyvalue>
+	</data>
+	<data>
+		<keyname>time_limit</keyname>
+		<keyvalue>Maksymalny czas (w dniach) przetrzymywania zasobu</keyvalue>
+	</data>
+	<data>
+		<keyname>type</keyname>
+		<keyvalue>Typ</keyvalue>
+	</data>
+	<data>
+		<keyname>place</keyname>
+		<keyvalue>Miejscowość</keyvalue>
+	</data>
+	<data>
+		<keyname>street</keyname>
+		<keyvalue>Ulica</keyvalue>
+	</data>
+	<data>
+		<keyname>house_no</keyname>
+		<keyvalue>Nr domu</keyvalue>
+	</data>
+	<data>
+		<keyname>local_no</keyname>
+		<keyvalue>Nr lokalu</keyvalue>
+	</data>
+	<data>
+		<keyname>post_office</keyname>
+		<keyvalue>Poczta</keyvalue>
+	</data>
+	<data>
+		<keyname>active_address</keyname>
+		<keyvalue>Aktywny</keyvalue>
+	</data>
+	<data>
+		<keyname>value</keyname>
+		<keyvalue>Wartość</keyvalue>
+	</data>
+	<data>
+		<keyname>invertory_choice</keyname>
+		<keyvalue>Wybór inwentarza</keyvalue>
+	</data>
+	<data>
+		<keyname>choose_invertory_to_add_new</keyname>
+		<keyvalue>Wybierz inwentarz, w którym chcesz dodać pozycję.</keyvalue>
+	</data>
+	<data>
+		<keyname>please_wait</keyname>
+		<keyvalue>Proszę czekać...</keyvalue>
+	</data>
+	<data>
+		<keyname>article</keyname>
+		<keyvalue>Artykuł</keyvalue>
+	</data>
+	<data>
+		<keyname>articles</keyname>
+		<keyvalue>Artykuły</keyvalue>
+	</data>
+	<data>
+		<keyname>magazine</keyname>
+		<keyvalue>Czasopismo</keyvalue>
+	</data>
+	<data>
+		<keyname>magazines</keyname>
+		<keyvalue>Czasopisma</keyvalue>
+	</data>
+	<data>
+		<keyname>add</keyname>
+		<keyvalue>Dodaj</keyvalue>
+	</data>
+	<data>
+		<keyname>book</keyname>
+		<keyvalue>Książka</keyvalue>
+	</data>
+	<data>
+		<keyname>books</keyname>
+		<keyvalue>Książki</keyvalue>
+	</data>
+	<data>
+		<keyname>modify</keyname>
+		<keyvalue>Modyfikuj</keyvalue>
+	</data>
+	<data>
+		<keyname>exit</keyname>
+		<keyvalue>Wyjście</keyvalue>
+	</data>
+	<data>
+		<keyname>delete</keyname>
+		<keyvalue>Usuń</keyvalue>
+	</data>
+	<data>
+		<keyname>reports</keyname>
+		<keyvalue>Raporty</keyvalue>
+	</data>
+	<data>
+		<keyname>about_application</keyname>
+		<keyvalue>O programie</keyvalue>
+	</data>
+	<data>
+		<keyname>user_guide</keyname>
+		<keyvalue>Podręcznik użytkownika</keyvalue>
+	</data>
+	<data>
+		<keyname>resources</keyname>
+		<keyvalue>Zasoby</keyvalue>
+	</data>
+	<data>
+		<keyname>users</keyname>
+		<keyvalue>Użytkownicy</keyvalue>
+	</data>
+	<data>
+		<keyname>change_title</keyname>
+		<keyvalue>Zmiana tytułu</keyvalue>
+	</data>
+	<data>
+		<keyname>orders</keyname>
+		<keyvalue>Zamówienia</keyvalue>
+	</data>
+	<data>
+		<keyname>invertory_stats</keyname>
+		<keyvalue>Statystyki inwentarza</keyvalue>
+	</data>
+	<data>
+		<keyname>borrow</keyname>
+		<keyvalue>Wypożyczenie</keyvalue>
+	</data>
+	<data>
+		<keyname>quick_borrow</keyname>
+		<keyvalue>Szybkie wypożyczenie</keyvalue>
+	</data>
+	<data>
+		<keyname>borrowed_resources</keyname>
+		<keyvalue>Pozycje wypożyczone</keyvalue>
+	</data>
+	<data>
+		<keyname>add_accession</keyname>
+		<keyvalue>Dopisz akcesję</keyvalue>
+	</data>
+	<data>
+		<keyname>new_book</keyname>
+		<keyvalue>Nowa</keyvalue>
+	</data>
+	<data>
+		<keyname>new_magazine</keyname>
+		<keyvalue>Nowe</keyvalue>
+	</data>
+	<data>
+		<keyname>new_article</keyname>
+		<keyvalue>Nowy</keyvalue>
+	</data>
+	<data>
+		<keyname>delete_accession</keyname>
+		<keyvalue>Usuń akcesję</keyvalue>
+	</data>
+	<data>
+		<keyname>new_accession</keyname>
+		<keyvalue>Nowa karta akcesji</keyvalue>
+	</data>
+	<data>
+		<keyname>losses_book</keyname>
+		<keyvalue>Księga ubytków</keyvalue>
+	</data>
+	<data>
+		<keyname>borrows_stats</keyname>
+		<keyvalue>Statystyki wypożyczalni</keyvalue>
+	</data>
+	<data>
+		<keyname>borrow_office</keyname>
+		<keyvalue>Wypożyczalnia</keyvalue>
+	</data>
+	<data>
+		<keyname>serial_publications</keyname>
+		<keyvalue>Wydawnictwa seryjne</keyvalue>
+	</data>
+	<data>
+		<keyname>do_you_want_to_exit</keyname>
+		<keyvalue>Czy chcesz zakończyć pracę z programem?</keyvalue>
+	</data>
+	<data>
+		<keyname>coauthors</keyname>
+		<keyvalue>PL: coauthors</keyvalue>
+	</data>
+	<data>
+		<keyname>responsibility</keyname>
+		<keyvalue>PL: responsibility</keyvalue>
+	</data>
+	<data>
+		<keyname>edition</keyname>
+		<keyvalue>Wydanie                                 </keyvalue>
+	</data>
+	<data>
+		<keyname>udc</keyname>
+		<keyvalue>UKD                                     </keyvalue>
+	</data>
+	<data>
+		<keyname>isbn</keyname>
+		<keyvalue>ISBN                                    </keyvalue>
+	</data>
+	<data>
+		<keyname>ph_description</keyname>
+		<keyvalue>Opis fizyczny                           </keyvalue>
+	</data>
+	<data>
+		<keyname>volume_count</keyname>
+		<keyvalue>Ilość tomów                             </keyvalue>
+	</data>
+	<data>
+		<keyname>conference_date</keyname>
+		<keyvalue>Data konferencji                        </keyvalue>
+	</data>
+	<data>
+		<keyname>event_promoter</keyname>
+		<keyvalue>Organizator imprezy                     </keyvalue>
+	</data>
+	<data>
+		<keyname>event_number</keyname>
+		<keyvalue>Numer imprezy                           </keyvalue>
+	</data>
+	<data>
+		<keyname>conference_title</keyname>
+		<keyvalue>Tytuł konferencji                       </keyvalue>
+	</data>
+	<data>
+		<keyname>russian</keyname>
+		<keyvalue>rosyjskie                               </keyvalue>
+	</data>
+	<data>
+		<keyname>french</keyname>
+		<keyvalue>francuskie                              </keyvalue>
+	</data>
+	<data>
+		<keyname>german</keyname>
+		<keyvalue>niemieckie                              </keyvalue>
+	</data>
+	<data>
+		<keyname>english</keyname>
+		<keyvalue>angielskie                              </keyvalue>
+	</data>
+	<data>
+		<keyname>polish</keyname>
+		<keyvalue>polskie                                 </keyvalue>
+	</data>
+	<data>
+		<keyname>series_promoter</keyname>
+		<keyvalue>Instytucja sprawcza serii               </keyvalue>
+	</data>
+	<data>
+		<keyname>part_number</keyname>
+		<keyvalue>Numer części                            </keyvalue>
+	</data>
+	<data>
+		<keyname>part_name</keyname>
+		<keyvalue>Nazwa części                            </keyvalue>
+	</data>
+	<data>
+		<keyname>series_issn</keyname>
+		<keyvalue>ISSN serii                              </keyvalue>
+	</data>
+	<data>
+		<keyname>series_title</keyname>
+		<keyvalue>Tytuł serii                             </keyvalue>
+	</data>
+	<data>
+		<keyname>subseries_title</keyname>
+		<keyvalue>Tytuł podserii                          </keyvalue>
+	</data>
+	<data>
+		<keyname>subseries_issn</keyname>
+		<keyvalue>ISSN podserii                           </keyvalue>
+	</data>
+	<data>
+		<keyname>positions_in_inventory</keyname>
+		<keyvalue>Ilość pozycji 
+wpisanych do inwentarza: </keyvalue>
+	</data>
+	<data>
+		<keyname>cancel</keyname>
+		<keyvalue>Anuluj                                  </keyvalue>
+	</data>
+	<data>
+		<keyname>date</keyname>
+		<keyvalue>Data:                                   </keyvalue>
+	</data>
+	<data>
+		<keyname>currency</keyname>
+		<keyvalue>Waluta:                                 </keyvalue>
+	</data>
+	<data>
+		<keyname>receipt_number</keyname>
+		<keyvalue>Numer dowodu wpływu:                    </keyvalue>
+	</data>
+	<data>
+		<keyname>import</keyname>
+		<keyvalue>Import                                  </keyvalue>
+	</data>
+	<data>
+		<keyname>volumes_1</keyname>
+		<keyvalue>Tomy                                    </keyvalue>
+	</data>
+</VFPData>

@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F93140E-12C2-4842-910F-6BA9084D61D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ksiazki</RootNamespace>
+    <AssemblyName>Ksiazki</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Exell\Z39.50\Release\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>http://www.exell.pl</SupportUrl>
+    <ProductName>Co-Liber Z39.50</ProductName>
+    <PublisherName>Exell</PublisherName>
+    <SuiteName>Coliber Z39.50</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\ColiberDLLs\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>67DF26AB5EB307EDA0334E1F5FC6B0957C76D26E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Coliber-Z950_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Bin\Coliber\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Bin\Coliber\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>coliber.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\..\Bin\Coliber\Debug\Ksiazki.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\..\Bin\Coliber\Release\Ksiazki.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coliber, Version=10.0.2.24, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Coliber.exe</HintPath>
+    </Reference>
+    <Reference Include="CommonFunctions">
+      <HintPath>..\..\ColiberDLLs\CommonFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigReader">
+      <HintPath>..\..\ColiberDLLs\ConfigReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Czasopisma, Version=10.0.1.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Czasopisma.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.DataVisualization\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.ProcessingObjectModel\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Coliberdlls\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProcessCloser">
+      <HintPath>..\..\ColiberDLLs\ProcessCloser.dll</HintPath>
+    </Reference>
+    <Reference Include="RdlViewer, Version=10.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\RdlViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Translate_Manager">
+      <HintPath>..\..\ColiberDLLs\Translate_Manager.dll</HintPath>
+    </Reference>
+    <Reference Include="WinformsDirtyTracking, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\WinformsDirtyTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Wypozyczalnia">
+      <HintPath>..\..\ColiberDLLs\Wypozyczalnia.dll</HintPath>
+    </Reference>
+    <Reference Include="Zoom.Net">
+      <HintPath>..\..\ColiberDLLs\Zoom.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Zoom.Net.YazSharp">
+      <HintPath>..\..\ColiberDLLs\Zoom.Net.YazSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Zrodla">
+      <HintPath>..\..\ColiberDLLs\Zrodla.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorsForm.Designer.cs">
+      <DependentUpon>AuthorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookListForm.Designer.cs">
+      <DependentUpon>BookListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseServerForm.Designer.cs">
+      <DependentUpon>ChooseServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSygDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSygDialogForm.Designer.cs">
+      <DependentUpon>DeleteSygDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Details.Designer.cs">
+      <DependentUpon>Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditServerForm.Designer.cs">
+      <DependentUpon>EditServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMARCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMARCForm.Designer.cs">
+      <DependentUpon>EditMARCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KartaKatologowaPrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KartaKatologowaPrintForm.Designer.cs">
+      <DependentUpon>KartaKatologowaPrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PublisherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublisherForm.Designer.cs">
+      <DependentUpon>PublisherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerClass.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowForm.Designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowKeyListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowKeyListForm.Designer.cs">
+      <DependentUpon>ShowKeyListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowListForm.designer.cs">
+      <DependentUpon>ShowListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleUbytkiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleUbytkiForm.Designer.cs">
+      <DependentUpon>SingleUbytkiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubfieldClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EditMARCUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditMARCUC.Designer.cs">
+      <DependentUpon>EditMARCUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SygsToChooseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SygsToChooseForm.Designer.cs">
+      <DependentUpon>SygsToChooseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TomsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TomsForm.Designer.cs">
+      <DependentUpon>TomsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbytkiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbytkiForm.Designer.cs">
+      <DependentUpon>UbytkiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm.designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Z3950Connection.cs" />
+    <Compile Include="_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AuthorsForm.resx">
+      <DependentUpon>AuthorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookListForm.resx">
+      <DependentUpon>BookListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseServerForm.resx">
+      <DependentUpon>ChooseServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSygDialogForm.resx">
+      <DependentUpon>DeleteSygDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Details.resx">
+      <DependentUpon>Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditServerForm.resx">
+      <DependentUpon>EditServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMARCForm.resx">
+      <DependentUpon>EditMARCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KartaKatologowaPrintForm.resx">
+      <DependentUpon>KartaKatologowaPrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PublisherForm.resx">
+      <DependentUpon>PublisherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMARCUC.resx">
+      <DependentUpon>EditMARCUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowKeyListForm.resx">
+      <DependentUpon>ShowKeyListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowListForm.resx">
+      <DependentUpon>ShowListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingleUbytkiForm.resx">
+      <DependentUpon>SingleUbytkiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SygsToChooseForm.resx">
+      <DependentUpon>SygsToChooseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TomsForm.resx">
+      <DependentUpon>TomsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbytkiForm.resx">
+      <DependentUpon>UbytkiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Raporty\Ksiazki_KartaKatalogowa.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Ksiazki_KartaKatalogowaTomy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Ksiazki_KartaKatalogowaWybraneTomy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Ksiazki_OpisKatalogowy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\1downarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\1rightarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\2downarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\2leftarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\2rightarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\add_group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\akregator_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\attach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\bt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\compfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\configure_toolbars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\contact_busy_overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\db_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\db_comit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\delete_group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\delete_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edit_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\emoticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\encrypted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\fileclose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\filesaveas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_outbox2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\font_truetype.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\fsview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\go_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\gwenview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\html.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\identity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\jabber_group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\jabber_offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\kalendarz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\kbackgammon_engine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\kdefax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\konqsidebar_news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\ksiazka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\leftarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\lupka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\mail_replayall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\messagebox_critical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\messagebox_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\metacontact_offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\multisynk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\new window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\podpowiedz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\print_printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\printer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\show_offliners.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\skaner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\skaner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\tab_breakoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\tab_new_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\trashcan_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\trashcan_full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\userconfig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\uwagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\view_fit_height.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check2a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\uwagi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edycjam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\door_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\Clear-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edit_add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\edit_user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\filesaveas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_document1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_locked1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\folder_outbox21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\font_truetype1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\fsview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\go_home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\gwenview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wdol1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wgore1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="coliber.ico" />
+    <None Include="Resources\1downarrow.png" />
+    <None Include="Resources\attachsmall.png" />
+    <None Include="Resources\print_printer.png" />
+    <None Include="Resources\COPY.png" />
+    <None Include="Resources\uprrow.png" />
+    <None Include="Resources\downarrow.png" />
+    <None Include="Resources\tomy.png" />
+    <None Include="Resources\importuj.png" />
+    <Content Include="zet_ikona.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

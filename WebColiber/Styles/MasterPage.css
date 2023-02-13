@@ -1,0 +1,17 @@
+﻿#UsernameContentPlaceHolder
+{
+	background-color: #FFC800;
+	color: #313131;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 700;
+	width: 100%
+}
+
+img.logo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

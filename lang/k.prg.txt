@@ -1,0 +1,17 @@
+LPAR  cKey
+LOCAL cRun,lOK.iCnt
+IF  USED('KMaster')
+	SELE  KMaster
+ELSE
+	SELE 0
+	USE KMaster
+ENDI
+IF  PCOU() = 0 OR EMPT(cKey)
+	SET FILT TO
+ELSE
+	cKey =  LOWE(cKey)
+	cRun = 'SET FILT TO "'+cKey+'"$LOWE(keyname)'
+	&cRun.
+ENDI
+LOCA
+BROW LAST NOWA

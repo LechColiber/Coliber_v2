@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ECAE76A-8244-4EC9-A312-D85A460FC047}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wypozyczalnia</RootNamespace>
+    <AssemblyName>Wypozyczalnia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\Coliber\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coliber, Version=10.0.2.24, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Coliber.exe</HintPath>
+    </Reference>
+    <Reference Include="CommonFunctions">
+      <HintPath>..\Coliberdlls\CommonFunctions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ConfigReader">
+      <HintPath>..\Coliberdlls\ConfigReader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="RdlViewer, Version=10.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\RdlViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorrowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowForm.Designer.cs">
+      <DependentUpon>BorrowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseResourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseResourceForm.Designer.cs">
+      <DependentUpon>ChooseResourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classess\AboutUser.cs" />
+    <Compile Include="Classess\Address.cs" />
+    <Compile Include="Classess\AddressCollection.cs" />
+    <Compile Include="Classess\BaseCollection.cs" />
+    <Compile Include="Classess\Configuration.cs" />
+    <Compile Include="Classess\Resource.cs" />
+    <Compile Include="Classess\ResourceCollection.cs" />
+    <Compile Include="Classess\ResourceGroup.cs" />
+    <Compile Include="Classess\ResourcePermission.cs" />
+    <Compile Include="ConfigurationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigurationForm.Designer.cs">
+      <DependentUpon>ConfigurationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentBorrowsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentBorrowsForm.Designer.cs">
+      <DependentUpon>CurrentBorrowsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentOrdersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentOrdersForm.Designer.cs">
+      <DependentUpon>CurrentOrdersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classess\GeneralBase.cs" />
+    <Compile Include="Classess\GroupCollection.cs" />
+    <Compile Include="Classess\Manager.cs" />
+    <Compile Include="Classess\Permission.cs" />
+    <Compile Include="Classess\PermissionCollection.cs" />
+    <Compile Include="Classess\Right.cs" />
+    <Compile Include="Classess\RightCollection.cs" />
+    <Compile Include="Classess\UserCollection.cs" />
+    <Compile Include="QuickBorrowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickBorrowForm.Designer.cs">
+      <DependentUpon>QuickBorrowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceForm.Designer.cs">
+      <DependentUpon>ResourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatistictForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatistictForm.Designer.cs">
+      <DependentUpon>StatistictForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\returnedResourcesDGVUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\returnedResourcesDGVUC.Designer.cs">
+      <DependentUpon>returnedResourcesDGVUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\notReturnedResourcesDGVUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\notReturnedResourcesDGVUC.Designer.cs">
+      <DependentUpon>notReturnedResourcesDGVUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\ResourceGroupUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\ResourceGroupUC.Designer.cs">
+      <DependentUpon>ResourceGroupUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\UserGroupUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\UserGroupUC.Designer.cs">
+      <DependentUpon>UserGroupUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classess\Settings.cs" />
+    <Compile Include="ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowForm.designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classess\Teleaddress.cs" />
+    <Compile Include="Classess\TeleaddressCollection.cs" />
+    <Compile Include="Classess\User.cs" />
+    <Compile Include="Classess\UserAddress.cs" />
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classess\Group.cs" />
+    <Compile Include="Classess\UserGroup.cs" />
+    <Compile Include="Classess\UserPermission.cs" />
+    <Compile Include="UserControlls\UserPrintButtonsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\UserPrintButtonsUC.Designer.cs">
+      <DependentUpon>UserPrintButtonsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersListForm.Designer.cs">
+      <DependentUpon>UsersListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classess\UserTeleaddress.cs" />
+    <Compile Include="ZwrotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZwrotForm.Designer.cs">
+      <DependentUpon>ZwrotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="BorrowForm.resx">
+      <DependentUpon>BorrowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseResourceForm.resx">
+      <DependentUpon>ChooseResourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigurationForm.resx">
+      <DependentUpon>ConfigurationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentBorrowsForm.resx">
+      <DependentUpon>CurrentBorrowsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentOrdersForm.resx">
+      <DependentUpon>CurrentOrdersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickBorrowForm.resx">
+      <DependentUpon>QuickBorrowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceForm.resx">
+      <DependentUpon>ResourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatistictForm.resx">
+      <DependentUpon>StatistictForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\returnedResourcesDGVUC.resx">
+      <DependentUpon>returnedResourcesDGVUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\notReturnedResourcesDGVUC.resx">
+      <DependentUpon>notReturnedResourcesDGVUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\ResourceGroupUC.resx">
+      <DependentUpon>ResourceGroupUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\UserGroupUC.resx">
+      <DependentUpon>UserGroupUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\UserPrintButtonsUC.resx">
+      <DependentUpon>UserPrintButtonsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersListForm.resx">
+      <DependentUpon>UsersListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZwrotForm.resx">
+      <DependentUpon>ZwrotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Raporty\Rewers.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Upomnienia.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Upomnienia_wszyscy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_historia.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_uzytkownicy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_wypozyczone.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_wypozyczone_wszyscy.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_zamowienia.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_zasoby.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Raporty\Wypozyczalnia_zwroty.rdl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\wykrzyknik.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

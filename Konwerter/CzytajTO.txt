@@ -1,0 +1,7 @@
+DBFReader
+
+1. Nale¿y wskazaæ katalog BAZY (z bazami dbf)
+2. Jeœli tabela wypozycz zawiera pole id_zasob, to nale¿y zahaczyæ checkbox
+3. <Wczytaj z DBF> rozpocznie analizê tabel z katalogu BAZY
+4. Po zakoñczeniu analizy <Eksport do SQL> wygeneruje SQLowe inserty w Nowym Folderze w katalogu z DBFReader.exe
+5. Inserty s¹ przystosowane do nowej struktury baz SQL (na dzieñ 2014-12-12).

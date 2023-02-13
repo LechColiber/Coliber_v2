@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <dtNapisyN>
+    <Object>ShowList</Object>
+    <Pol>Zasoby dla MICHAŁ ABRAMOWSKI (ESC żeby zamknąć)</Pol>
+    <FName>$</FName>
+    <Type>WindowsFormsApplication1.ShowList</Type>
+  </dtNapisyN>
+  <dtNapisyN>
+    <Object>ExitButton</Object>
+    <Pol>Wyjście</Pol>
+    <FName>ShowList</FName>
+    <Type>System.Windows.Forms.Button</Type>
+  </dtNapisyN>
+  <dtNapisyN>
+    <Object>listBox1</Object>
+    <Pol>Postępowanie powypadkowe</Pol>
+    <FName>ShowList</FName>
+    <Type>System.Windows.Forms.ListBox</Type>
+  </dtNapisyN>
+</DocumentElement>

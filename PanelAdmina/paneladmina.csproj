@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C99A040-28FD-4476-A836-3CEC8DD442F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>panelAdmina</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\WebSite\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Bin\Coliber\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\Coliber\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FD8B05708BA2F856D1449197C61589FAD177C230</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PanelAdmina_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>panel_a.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\ColiberDLLs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonFunctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Coliberdlls\CommonFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigReader, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Coliberdlls\ConfigReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ColiberDLLs\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlClrProvider, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.SqlClrProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.SqlServer.SqlEnum.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlWmiManagement, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ColiberDLLs\Microsoft.SqlServer.SqlWmiManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="ProcessCloser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Coliberdlls\ProcessCloser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Wypozyczalnia">
+      <HintPath>..\Coliberdlls\Wypozyczalnia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InvertoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvertoryForm.designer.cs">
+      <DependentUpon>InvertoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Departments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departments.designer.cs">
+      <DependentUpon>Departments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutOwner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutOwner.Designer.cs">
+      <DependentUpon>AboutOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authors.designer.cs">
+      <DependentUpon>Authors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseSecond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseSecond.Designer.cs">
+      <DependentUpon>ChooseSecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configurator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurator.Designer.cs">
+      <DependentUpon>Configurator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="ArticlesKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArticlesKeys.Designer.cs">
+      <DependentUpon>ArticlesKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BooksKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BooksKeys.Designer.cs">
+      <DependentUpon>BooksKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MagazinesKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MagazinesKeys.Designer.cs">
+      <DependentUpon>MagazinesKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MagazinesPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MagazinesPublishers.Designer.cs">
+      <DependentUpon>MagazinesPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Countries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Countries.Designer.cs">
+      <DependentUpon>Countries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BooksPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BooksPublishers.Designer.cs">
+      <DependentUpon>BooksPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Languages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Languages.Designer.cs">
+      <DependentUpon>Languages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyAuthorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyAuthorForm.Designer.cs">
+      <DependentUpon>ModifyAuthorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Series.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Series.designer.cs">
+      <DependentUpon>Series.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSeriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSeriesForm.Designer.cs">
+      <DependentUpon>EditSeriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditKeysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditKeysForm.Designer.cs">
+      <DependentUpon>EditKeysForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPublisherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPublisherForm.Designer.cs">
+      <DependentUpon>EditPublisherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyInvertoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyInvertoryForm.designer.cs">
+      <DependentUpon>ModifyInvertoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyDistributorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyDistributorForm.designer.cs">
+      <DependentUpon>ModifyDistributorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistributorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistributorForm.Designer.cs">
+      <DependentUpon>DistributorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rights.Designer.cs">
+      <DependentUpon>Rights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rodzaje.Designer.cs">
+      <DependentUpon>Rodzaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectPublishers.Designer.cs">
+      <DependentUpon>SelectPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectTableForKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectTableForKeys.Designer.cs">
+      <DependentUpon>SelectTableForKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowList.Designer.cs">
+      <DependentUpon>ShowList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowReport.Designer.cs">
+      <DependentUpon>ShowReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyDepartmentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyDepartmentsForm.Designer.cs">
+      <DependentUpon>ModifyDepartmentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifySortOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifySortOrderForm.Designer.cs">
+      <DependentUpon>ModifySortOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyOdpowiedzialnosciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyOdpowiedzialnosciForm.Designer.cs">
+      <DependentUpon>ModifyOdpowiedzialnosciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdpowiedzialnosciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdpowiedzialnosciForm.Designer.cs">
+      <DependentUpon>OdpowiedzialnosciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wypozyczalnia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wypozyczalnia.Designer.cs">
+      <DependentUpon>Wypozyczalnia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubSeries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubSeries.designer.cs">
+      <DependentUpon>SubSeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdbcShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdbcShowForm.designer.cs">
+      <DependentUpon>OdbcShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SortOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortOrderForm.Designer.cs">
+      <DependentUpon>SortOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowForm.designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="InvertoryForm.resx">
+      <DependentUpon>InvertoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departments.resx">
+      <DependentUpon>Departments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutOwner.resx">
+      <DependentUpon>AboutOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authors.resx">
+      <DependentUpon>Authors.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Lang\lang.de-DE.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lang\lang.en-US.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lang\lang.es-ES.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lang\lang.fr-FR.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lang\lang.pl-PL.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ShowReport.pl-PL.resx">
+      <DependentUpon>ShowReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyAuthorForm.resx">
+      <DependentUpon>ModifyAuthorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSeriesForm.resx">
+      <DependentUpon>EditSeriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditKeysForm.resx">
+      <DependentUpon>EditKeysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPublisherForm.resx">
+      <DependentUpon>EditPublisherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookPublisherReport.rdlc" />
+    <EmbeddedResource Include="Departamenty.rdlc" />
+    <EmbeddedResource Include="ModifyInvertoryForm.resx">
+      <DependentUpon>ModifyInvertoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyDistributorForm.resx">
+      <DependentUpon>ModifyDistributorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributorForm.resx">
+      <DependentUpon>DistributorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MagazinesPublisherReport.rdlc" />
+    <EmbeddedResource Include="ModifyDepartmentsForm.resx">
+      <DependentUpon>ModifyDepartmentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdbcShowForm.resx">
+      <DependentUpon>OdbcShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifySortOrderForm.resx">
+      <DependentUpon>ModifySortOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyOdpowiedzialnosciForm.resx">
+      <DependentUpon>ModifyOdpowiedzialnosciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdpowiedzialnosciForm.resx">
+      <DependentUpon>OdpowiedzialnosciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortOrderForm.resx">
+      <DependentUpon>SortOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubSeriesReport.rdlc" />
+    <EmbeddedResource Include="SubSeries.resx">
+      <DependentUpon>SubSeries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeriesReport.rdlc" />
+    <EmbeddedResource Include="Series.resx">
+      <DependentUpon>Series.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BooksKeysReport.rdlc" />
+    <EmbeddedResource Include="ChooseSecond.resx">
+      <DependentUpon>ChooseSecond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurator.resx">
+      <DependentUpon>Configurator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArticlesKeys.resx">
+      <DependentUpon>ArticlesKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BooksKeys.resx">
+      <DependentUpon>BooksKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArticlesKeysReport.rdlc" />
+    <EmbeddedResource Include="MagazinesKeysReport.rdlc" />
+    <EmbeddedResource Include="MagazinesKeys.resx">
+      <DependentUpon>MagazinesKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ksiazki.rdlc" />
+    <EmbeddedResource Include="MagazinesPublishers.resx">
+      <DependentUpon>MagazinesPublishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Countries.resx">
+      <DependentUpon>Countries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BooksPublishers.resx">
+      <DependentUpon>BooksPublishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages.resx">
+      <DependentUpon>Languages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rights.resx">
+      <DependentUpon>Rights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rodzaje.resx">
+      <DependentUpon>Rodzaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectPublishers.resx">
+      <DependentUpon>SelectPublishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectTableForKeys.resx">
+      <DependentUpon>SelectTableForKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowList.resx">
+      <DependentUpon>ShowList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowReport.resx">
+      <DependentUpon>ShowReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Wypozyczalnia.resx">
+      <DependentUpon>Wypozyczalnia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <Content Include="Dokumentacja\Panel Administratora - Podręcznik użytkownika.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileclose1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="panel_a.ico" />
+    <None Include="Resources\lista2.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\edycjam.png" />
+    <None Include="Resources\print_printer.png" />
+    <None Include="Resources\contact_busy_overlay.png" />
+    <None Include="Resources\edit_add.png" />
+    <None Include="Resources\preview.png" />
+    <None Include="Resources\zastap.png" />
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

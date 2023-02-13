@@ -1,0 +1,3154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="app_name" xml:space="preserve">
+    <value>Co-Liber</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>e file</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>e comments</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>e save</value>
+  </data>
+  <data name="url_address" xml:space="preserve">
+    <value>e url address</value>
+  </data>
+  <data name="sources_list" xml:space="preserve">
+    <value>e sources list</value>
+  </data>
+  <data name="file_adding" xml:space="preserve">
+    <value>e file adding</value>
+  </data>
+  <data name="file_modyfing" xml:space="preserve">
+    <value>e file modyfing</value>
+  </data>
+  <data name="url_adding" xml:space="preserve">
+    <value>e url adding</value>
+  </data>
+  <data name="url_modyfing" xml:space="preserve">
+    <value>e url modyfing</value>
+  </data>
+  <data name="please_select_file" xml:space="preserve">
+    <value>e please select file</value>
+  </data>
+  <data name="to_correct_data" xml:space="preserve">
+    <value>e to correct data</value>
+  </data>
+  <data name="file_name_cannot_be_empty" xml:space="preserve">
+    <value>e file name cannot be empty</value>
+  </data>
+  <data name="url_cannot_be_empty" xml:space="preserve">
+    <value>e url cannot be empty</value>
+  </data>
+  <data name="added" xml:space="preserve">
+    <value>e added</value>
+  </data>
+  <data name="modified" xml:space="preserve">
+    <value>e modified</value>
+  </data>
+  <data name="view_entry" xml:space="preserve">
+    <value>e view entry</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>e name</value>
+  </data>
+  <data name="files_to_download" xml:space="preserve">
+    <value>e files to download</value>
+  </data>
+  <data name="attach" xml:space="preserve">
+    <value>e attach</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>e edit</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>e download</value>
+  </data>
+  <data name="oridinal_short" xml:space="preserve">
+    <value>e oridinal short</value>
+  </data>
+  <data name="file_name" xml:space="preserve">
+    <value>e file name</value>
+  </data>
+  <data name="date_of_add" xml:space="preserve">
+    <value>e date of add</value>
+  </data>
+  <data name="url_deleting" xml:space="preserve">
+    <value>e url deleting</value>
+  </data>
+  <data name="to_delete" xml:space="preserve">
+    <value>e to delete</value>
+  </data>
+  <data name="file_deleting" xml:space="preserve">
+    <value>e file deleting</value>
+  </data>
+  <data name="removed" xml:space="preserve">
+    <value>e removed</value>
+  </data>
+  <data name="resource_deleting" xml:space="preserve">
+    <value>e resource deleting</value>
+  </data>
+  <data name="all_files" xml:space="preserve">
+    <value>e all files</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>e saved</value>
+  </data>
+  <data name="data_save" xml:space="preserve">
+    <value>e data save</value>
+  </data>
+  <data name="to_open" xml:space="preserve">
+    <value>e to open</value>
+  </data>
+  <data name="file_opening" xml:space="preserve">
+    <value>e file opening</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>e error</value>
+  </data>
+  <data name="stats" xml:space="preserve">
+    <value>e stats</value>
+  </data>
+  <data name="printout_invertories" xml:space="preserve">
+    <value>e printout invertories</value>
+  </data>
+  <data name="kind" xml:space="preserve">
+    <value>e kind</value>
+  </data>
+  <data name="start_with" xml:space="preserve">
+    <value>e start with</value>
+  </data>
+  <data name="in_all_invertories" xml:space="preserve">
+    <value>e in all invertories</value>
+  </data>
+  <data name="or_in_intertory" xml:space="preserve">
+    <value>e or in intertory</value>
+  </data>
+  <data name="sort_by" xml:space="preserve">
+    <value>e sort by</value>
+  </data>
+  <data name="include_dates" xml:space="preserve">
+    <value>e include dates</value>
+  </data>
+  <data name="since_date" xml:space="preserve">
+    <value>e since date</value>
+  </data>
+  <data name="to_date" xml:space="preserve">
+    <value>e to date</value>
+  </data>
+  <data name="for_all" xml:space="preserve">
+    <value>e for all</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>e search</value>
+  </data>
+  <data name="signatures_genitive" xml:space="preserve">
+    <value>e signatures genitive</value>
+  </data>
+  <data name="inventory_numbers_genitive" xml:space="preserve">
+    <value>e inventory numbers genitive</value>
+  </data>
+  <data name="signature_genitive" xml:space="preserve">
+    <value>e signature genitive</value>
+  </data>
+  <data name="inventory_number_genitive" xml:space="preserve">
+    <value>e inventory number genitive</value>
+  </data>
+  <data name="entry_date_genitive" xml:space="preserve">
+    <value>e entry date genitive</value>
+  </data>
+  <data name="invalid_date" xml:space="preserve">
+    <value>e invalid date</value>
+  </data>
+  <data name="start_date_cannot_be_later_than_end_date" xml:space="preserve">
+    <value>e start date cannot be later than end date</value>
+  </data>
+  <data name="end_date_cannot_be_earlier_than_start_date" xml:space="preserve">
+    <value>e end date cannot be earlier than start date</value>
+  </data>
+  <data name="not_found" xml:space="preserve">
+    <value>e not found</value>
+  </data>
+  <data name="no_results" xml:space="preserve">
+    <value>e no results</value>
+  </data>
+  <data name="number_of_items_found" xml:space="preserve">
+    <value>e number of items found</value>
+  </data>
+  <data name="do_you_want_to_print" xml:space="preserve">
+    <value>e do you want to print</value>
+  </data>
+  <data name="printout" xml:space="preserve">
+    <value>e printout</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>e title</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>e signature</value>
+  </data>
+  <data name="inventory_number" xml:space="preserve">
+    <value>e inventory number</value>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>e print</value>
+  </data>
+  <data name="volume_year" xml:space="preserve">
+    <value>e volume year</value>
+  </data>
+  <data name="numbers" xml:space="preserve">
+    <value>e numbers</value>
+  </data>
+  <data name="losses_book_number" xml:space="preserve">
+    <value>e losses book number</value>
+  </data>
+  <data name="losses_document_number" xml:space="preserve">
+    <value>e losses document number</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>e price</value>
+  </data>
+  <data name="entry_date" xml:space="preserve">
+    <value>e entry date</value>
+  </data>
+  <data name="deletion_reason" xml:space="preserve">
+    <value>e deletion reason</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>e next</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>e previous</value>
+  </data>
+  <data name="to_clean" xml:space="preserve">
+    <value>e to clean</value>
+  </data>
+  <data name="unreturned" xml:space="preserve">
+    <value>e unreturned</value>
+  </data>
+  <data name="destroyed" xml:space="preserve">
+    <value>e destroyed</value>
+  </data>
+  <data name="withdrawn" xml:space="preserve">
+    <value>e withdrawn</value>
+  </data>
+  <data name="lost" xml:space="preserve">
+    <value>e lost</value>
+  </data>
+  <data name="other_unreasonable" xml:space="preserve">
+    <value>e other unreasonable</value>
+  </data>
+  <data name="do_you_want_to_exit_without_save" xml:space="preserve">
+    <value>e do you want to exit without save</value>
+  </data>
+  <data name="losses" xml:space="preserve">
+    <value>e losses</value>
+  </data>
+  <data name="do_you_want_to_remove" xml:space="preserve">
+    <value>e do you want to remove</value>
+  </data>
+  <data name="entry_deleting" xml:space="preserve">
+    <value>e entry deleting</value>
+  </data>
+  <data name="losses_report" xml:space="preserve">
+    <value>e losses report</value>
+  </data>
+  <data name="number_short" xml:space="preserve">
+    <value>e number short</value>
+  </data>
+  <data name="index" xml:space="preserve">
+    <value>e index</value>
+  </data>
+  <data name="special_numbers" xml:space="preserve">
+    <value>e special numbers</value>
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>e year</value>
+  </data>
+  <data name="show_date" xml:space="preserve">
+    <value>e show date</value>
+  </data>
+  <data name="show_number" xml:space="preserve">
+    <value>e show number</value>
+  </data>
+  <data name="show_next_number" xml:space="preserve">
+    <value>e show next number</value>
+  </data>
+  <data name="january" xml:space="preserve">
+    <value>e january</value>
+  </data>
+  <data name="february" xml:space="preserve">
+    <value>e february</value>
+  </data>
+  <data name="march" xml:space="preserve">
+    <value>e march</value>
+  </data>
+  <data name="april" xml:space="preserve">
+    <value>e april</value>
+  </data>
+  <data name="may" xml:space="preserve">
+    <value>e may</value>
+  </data>
+  <data name="june" xml:space="preserve">
+    <value>e june</value>
+  </data>
+  <data name="july" xml:space="preserve">
+    <value>e july</value>
+  </data>
+  <data name="august" xml:space="preserve">
+    <value>e august</value>
+  </data>
+  <data name="september" xml:space="preserve">
+    <value>e september</value>
+  </data>
+  <data name="october" xml:space="preserve">
+    <value>e october</value>
+  </data>
+  <data name="november" xml:space="preserve">
+    <value>e november</value>
+  </data>
+  <data name="december" xml:space="preserve">
+    <value>e december</value>
+  </data>
+  <data name="magazines_signature" xml:space="preserve">
+    <value>e magazines signature</value>
+  </data>
+  <data name="numbers_separation" xml:space="preserve">
+    <value>e numbers separation</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>e daily</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>e weekly</value>
+  </data>
+  <data name="biweekly" xml:space="preserve">
+    <value>e biweekly</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>e monthly</value>
+  </data>
+  <data name="bimonthly" xml:space="preserve">
+    <value>e bimonthly</value>
+  </data>
+  <data name="quarterly" xml:space="preserve">
+    <value>e quarterly</value>
+  </data>
+  <data name="half_yearly" xml:space="preserve">
+    <value>e half yearly</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>e yearly</value>
+  </data>
+  <data name="irregular" xml:space="preserve">
+    <value>e irregular</value>
+  </data>
+  <data name="daily_accession" xml:space="preserve">
+    <value>e daily accession</value>
+  </data>
+  <data name="weekly_accession" xml:space="preserve">
+    <value>e weekly accession</value>
+  </data>
+  <data name="biweekly_accesion" xml:space="preserve">
+    <value>e biweekly accesion</value>
+  </data>
+  <data name="monthly_accession" xml:space="preserve">
+    <value>e monthly accession</value>
+  </data>
+  <data name="bimonthly_accession" xml:space="preserve">
+    <value>e bimonthly accession</value>
+  </data>
+  <data name="quartely_accession" xml:space="preserve">
+    <value>e quartely accession</value>
+  </data>
+  <data name="hal_yearly_accession" xml:space="preserve">
+    <value>e hal yearly accession</value>
+  </data>
+  <data name="yearly_accession" xml:space="preserve">
+    <value>e yearly accession</value>
+  </data>
+  <data name="irregular_accession" xml:space="preserve">
+    <value>e irregular accession</value>
+  </data>
+  <data name="list_of_departments" xml:space="preserve">
+    <value>e list of departments</value>
+  </data>
+  <data name="do_you_want_to_delete_department" xml:space="preserve">
+    <value>e do you want to delete department</value>
+  </data>
+  <data name="department_deleting" xml:space="preserve">
+    <value>e department deleting</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>e deleting</value>
+  </data>
+  <data name="department_has_been_deleted" xml:space="preserve">
+    <value>e department has been deleted</value>
+  </data>
+  <data name="name_of_the_department_is_required" xml:space="preserve">
+    <value>e name of the department is required</value>
+  </data>
+  <data name="deparment_for_the_magazine_and_year_already_exists" xml:space="preserve">
+    <value>e deparment for the magazine and year already exists</value>
+  </data>
+  <data name="department_not_found_add_it" xml:space="preserve">
+    <value>e department not found add it</value>
+  </data>
+  <data name="department_not_found" xml:space="preserve">
+    <value>e department not found</value>
+  </data>
+  <data name="department_added" xml:space="preserve">
+    <value>e department added</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>e updated</value>
+  </data>
+  <data name="amount_of_copies" xml:space="preserve">
+    <value>e amount of copies</value>
+  </data>
+  <data name="department_name" xml:space="preserve">
+    <value>e department name</value>
+  </data>
+  <data name="new" xml:space="preserve">
+    <value>e new</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>e confirm</value>
+  </data>
+  <data name="department" xml:space="preserve">
+    <value>e department</value>
+  </data>
+  <data name="amount" xml:space="preserve">
+    <value>e amount</value>
+  </data>
+  <data name="accession_comments" xml:space="preserve">
+    <value>e accession comments</value>
+  </data>
+  <data name="institution" xml:space="preserve">
+    <value>e institution</value>
+  </data>
+  <data name="seat" xml:space="preserve">
+    <value>e seat</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>e frequency</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>e supplier</value>
+  </data>
+  <data name="title_of_accession_magazine" xml:space="preserve">
+    <value>e title of accession magazine</value>
+  </data>
+  <data name="rewriting_accession_numbers" xml:space="preserve">
+    <value>e rewriting accession numbers</value>
+  </data>
+  <data name="accession" xml:space="preserve">
+    <value>e accession</value>
+  </data>
+  <data name="adding_accession" xml:space="preserve">
+    <value>e adding accession</value>
+  </data>
+  <data name="accession_modify" xml:space="preserve">
+    <value>e accession modify</value>
+  </data>
+  <data name="update_numbers" xml:space="preserve">
+    <value>e update numbers</value>
+  </data>
+  <data name="deleting_accession" xml:space="preserve">
+    <value>e deleting accession</value>
+  </data>
+  <data name="list_of_magazines" xml:space="preserve">
+    <value>e list of magazines</value>
+  </data>
+  <data name="absolute_number" xml:space="preserve">
+    <value>e absolute number</value>
+  </data>
+  <data name="not_to_prescribe" xml:space="preserve">
+    <value>e not to prescribe</value>
+  </data>
+  <data name="notebook_number" xml:space="preserve">
+    <value>e notebook number</value>
+  </data>
+  <data name="there_are_borrowed_copies_in_quantities" xml:space="preserve">
+    <value>e there are borrowed copies in quantities</value>
+  </data>
+  <data name="do_you_want_to_return_it" xml:space="preserve">
+    <value>e do you want to return it</value>
+  </data>
+  <data name="do_you_want_to_delete_accession" xml:space="preserve">
+    <value>e do you want to delete accession</value>
+  </data>
+  <data name="accession_has_been_deleted" xml:space="preserve">
+    <value>e accession has been deleted</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>e information</value>
+  </data>
+  <data name="magazine_does_not_have_signature_enter_new_one" xml:space="preserve">
+    <value>e magazine does not have signature enter new one</value>
+  </data>
+  <data name="enter_the_title_of_the_magazine" xml:space="preserve">
+    <value>e enter the title of the magazine</value>
+  </data>
+  <data name="signatures" xml:space="preserve">
+    <value>e signatures</value>
+  </data>
+  <data name="info_about_separate" xml:space="preserve">
+    <value>e info about separate</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>e update</value>
+  </data>
+  <data name="check_all" xml:space="preserve">
+    <value>e check all</value>
+  </data>
+  <data name="numbers_updating" xml:space="preserve">
+    <value>e numbers updating</value>
+  </data>
+  <data name="volume" xml:space="preserve">
+    <value>e volume</value>
+  </data>
+  <data name="select_volume" xml:space="preserve">
+    <value>e select volume</value>
+  </data>
+  <data name="any_volume_selected" xml:space="preserve">
+    <value>e any volume selected</value>
+  </data>
+  <data name="instruction" xml:space="preserve">
+    <value>e instruction</value>
+  </data>
+  <data name="available_volumes" xml:space="preserve">
+    <value>e available volumes</value>
+  </data>
+  <data name="list_of_magazine_numbers" xml:space="preserve">
+    <value>e list of magazine numbers</value>
+  </data>
+  <data name="select_magazine_numbers_and_move_to_volume" xml:space="preserve">
+    <value>e select magazine numbers and move to volume</value>
+  </data>
+  <data name="rewriting_accession_numbers_success" xml:space="preserve">
+    <value>e rewriting accession numbers success</value>
+  </data>
+  <data name="title_genitive" xml:space="preserve">
+    <value>e title genitive</value>
+  </data>
+  <data name="single_magazine_number" xml:space="preserve">
+    <value>e single magazine number</value>
+  </data>
+  <data name="magazine_title" xml:space="preserve">
+    <value>e magazine title</value>
+  </data>
+  <data name="notebook_title" xml:space="preserve">
+    <value>e notebook title</value>
+  </data>
+  <data name="method_of_acquisition" xml:space="preserve">
+    <value>e method of acquisition</value>
+  </data>
+  <data name="amount_to_borrow" xml:space="preserve">
+    <value>e amount to borrow</value>
+  </data>
+  <data name="date_of_receipt" xml:space="preserve">
+    <value>e date of receipt</value>
+  </data>
+  <data name="date_of_complaint" xml:space="preserve">
+    <value>e date of complaint</value>
+  </data>
+  <data name="single_number_deleting" xml:space="preserve">
+    <value>e single number deleting</value>
+  </data>
+  <data name="list_of_available_volumes" xml:space="preserve">
+    <value>e list of available volumes</value>
+  </data>
+  <data name="purchase" xml:space="preserve">
+    <value>e purchase</value>
+  </data>
+  <data name="gift" xml:space="preserve">
+    <value>e gift</value>
+  </data>
+  <data name="replacement" xml:space="preserve">
+    <value>e replacement</value>
+  </data>
+  <data name="deposit" xml:space="preserve">
+    <value>e deposit</value>
+  </data>
+  <data name="volume_does_not_exists_add_it" xml:space="preserve">
+    <value>e volume does not exists add it</value>
+  </data>
+  <data name="volume_adding" xml:space="preserve">
+    <value>e volume adding</value>
+  </data>
+  <data name="add_wihout_volume" xml:space="preserve">
+    <value>e add wihout volume</value>
+  </data>
+  <data name="adding_without_volume" xml:space="preserve">
+    <value>e adding without volume</value>
+  </data>
+  <data name="enter_the_data" xml:space="preserve">
+    <value>e enter the data</value>
+  </data>
+  <data name="number_cannot_be_blank" xml:space="preserve">
+    <value>e number cannot be blank</value>
+  </data>
+  <data name="amount_cannot_be_blank" xml:space="preserve">
+    <value>e amount cannot be blank</value>
+  </data>
+  <data name="amount_to_borrow_cannot_be_blank" xml:space="preserve">
+    <value>e amount to borrow cannot be blank</value>
+  </data>
+  <data name="amount_to_borrow_cannot_be_greater_than_amount_of_numbers" xml:space="preserve">
+    <value>e amount to borrow cannot be greater than amount of numbers</value>
+  </data>
+  <data name="do_you_want_to_delete_single_magazine_number" xml:space="preserve">
+    <value>e do you want to delete single magazine number</value>
+  </data>
+  <data name="indexes_and_special_magazine_numbers" xml:space="preserve">
+    <value>e indexes and special magazine numbers</value>
+  </data>
+  <data name="for_who" xml:space="preserve">
+    <value>e for who</value>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>e last name</value>
+  </data>
+  <data name="first_name" xml:space="preserve">
+    <value>e first name</value>
+  </data>
+  <data name="article_title" xml:space="preserve">
+    <value>e article title</value>
+  </data>
+  <data name="authors" xml:space="preserve">
+    <value>e authors</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>e summary</value>
+  </data>
+  <data name="full_article" xml:space="preserve">
+    <value>e full article</value>
+  </data>
+  <data name="printing" xml:space="preserve">
+    <value>e printing</value>
+  </data>
+  <data name="sources" xml:space="preserve">
+    <value>e sources</value>
+  </data>
+  <data name="factual_classification" xml:space="preserve">
+    <value>e factual classification</value>
+  </data>
+  <data name="add_attachments" xml:space="preserve">
+    <value>e add attachments</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>e keys</value>
+  </data>
+  <data name="enter_article_title" xml:space="preserve">
+    <value>e enter article title</value>
+  </data>
+  <data name="article_deleting" xml:space="preserve">
+    <value>e article deleting</value>
+  </data>
+  <data name="do_you_want_to_delete_article" xml:space="preserve">
+    <value>e do you want to delete article</value>
+  </data>
+  <data name="if_you_want_to_add_sources_save_article" xml:space="preserve">
+    <value>e if you want to add sources save article</value>
+  </data>
+  <data name="choose_language" xml:space="preserve">
+    <value>e choose language</value>
+  </data>
+  <data name="data_of_entry" xml:space="preserve">
+    <value>e data of entry</value>
+  </data>
+  <data name="book_data" xml:space="preserve">
+    <value>e book data</value>
+  </data>
+  <data name="copy_signature_and_title" xml:space="preserve">
+    <value>e copy signature and title</value>
+  </data>
+  <data name="title_of_publication_source" xml:space="preserve">
+    <value>e title of publication source</value>
+  </data>
+  <data name="book_authors" xml:space="preserve">
+    <value>e book authors</value>
+  </data>
+  <data name="publish_year" xml:space="preserve">
+    <value>e publish year</value>
+  </data>
+  <data name="place_of_publication" xml:space="preserve">
+    <value>e place of publication</value>
+  </data>
+  <data name="publisher" xml:space="preserve">
+    <value>e publisher</value>
+  </data>
+  <data name="author_redactor" xml:space="preserve">
+    <value>e author redactor</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>e pages</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>e language</value>
+  </data>
+  <data name="summaries" xml:space="preserve">
+    <value>e summaries</value>
+  </data>
+  <data name="in_polish" xml:space="preserve">
+    <value>e in polish</value>
+  </data>
+  <data name="in_english" xml:space="preserve">
+    <value>e in english</value>
+  </data>
+  <data name="in_german" xml:space="preserve">
+    <value>e in german</value>
+  </data>
+  <data name="in_russian" xml:space="preserve">
+    <value>e in russian</value>
+  </data>
+  <data name="in_french" xml:space="preserve">
+    <value>e in french</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>e code</value>
+  </data>
+  <data name="book_title" xml:space="preserve">
+    <value>e book title</value>
+  </data>
+  <data name="from_magazine" xml:space="preserve">
+    <value>e from magazine</value>
+  </data>
+  <data name="from_book" xml:space="preserve">
+    <value>e from book</value>
+  </data>
+  <data name="article_adding" xml:space="preserve">
+    <value>e article adding</value>
+  </data>
+  <data name="choose_magazine_and_magazine_number" xml:space="preserve">
+    <value>e choose magazine and magazine number</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>e number</value>
+  </data>
+  <data name="catalog_card" xml:space="preserve">
+    <value>e catalog card</value>
+  </data>
+  <data name="catalog_description" xml:space="preserve">
+    <value>e catalog description</value>
+  </data>
+  <data name="contains" xml:space="preserve">
+    <value>e contains</value>
+  </data>
+  <data name="tables_accusative" xml:space="preserve">
+    <value>e tables accusative</value>
+  </data>
+  <data name="maps_accusative" xml:space="preserve">
+    <value>e maps accusative</value>
+  </data>
+  <data name="charts_accusative" xml:space="preserve">
+    <value>e charts accusative</value>
+  </data>
+  <data name="episode_number" xml:space="preserve">
+    <value>e episode number</value>
+  </data>
+  <data name="list_of_available_items" xml:space="preserve">
+    <value>e list of available items</value>
+  </data>
+  <data name="list_of_selected_items" xml:space="preserve">
+    <value>e list of selected items</value>
+  </data>
+  <data name="select_by_enter_or_double_click" xml:space="preserve">
+    <value>e select by enter or double click</value>
+  </data>
+  <data name="change_title_of_magazine" xml:space="preserve">
+    <value>e change title of magazine</value>
+  </data>
+  <data name="title_of_modyfing_magazine" xml:space="preserve">
+    <value>e title of modyfing magazine</value>
+  </data>
+  <data name="previous_magazine_title" xml:space="preserve">
+    <value>e previous magazine title</value>
+  </data>
+  <data name="next_magazine_title" xml:space="preserve">
+    <value>e next magazine title</value>
+  </data>
+  <data name="this_magazine_cannot_join" xml:space="preserve">
+    <value>e this magazine cannot join</value>
+  </data>
+  <data name="do_you_want_to_delete_this_title" xml:space="preserve">
+    <value>e do you want to delete this title</value>
+  </data>
+  <data name="data_modification" xml:space="preserve">
+    <value>e data modification</value>
+  </data>
+  <data name="new_serial_publication" xml:space="preserve">
+    <value>e new serial publication</value>
+  </data>
+  <data name="choice_existing_serial_publication_by" xml:space="preserve">
+    <value>e choice existing serial publication by</value>
+  </data>
+  <data name="by_list_of_entered_signatures" xml:space="preserve">
+    <value>e by list of entered signatures</value>
+  </data>
+  <data name="by_list_of_entered_titles" xml:space="preserve">
+    <value>e by list of entered titles</value>
+  </data>
+  <data name="details_of_change_title_of_magazine" xml:space="preserve">
+    <value>e details of change title of magazine</value>
+  </data>
+  <data name="to_year_number" xml:space="preserve">
+    <value>e to year number</value>
+  </data>
+  <data name="since_year_number" xml:space="preserve">
+    <value>e since year number</value>
+  </data>
+  <data name="entitled" xml:space="preserve">
+    <value>e entitled</value>
+  </data>
+  <data name="was_published_as" xml:space="preserve">
+    <value>e was published as</value>
+  </data>
+  <data name="until_year_was_published_as" xml:space="preserve">
+    <value>e until year was published as</value>
+  </data>
+  <data name="until_number_issue_was_published_as" xml:space="preserve">
+    <value>e until number issue was published as</value>
+  </data>
+  <data name="until_number_issue_year_was_published_as" xml:space="preserve">
+    <value>e until number issue year was published as</value>
+  </data>
+  <data name="has_been_published_as" xml:space="preserve">
+    <value>e has been published as</value>
+  </data>
+  <data name="since_year_has_been_published_as" xml:space="preserve">
+    <value>e since year has been published as</value>
+  </data>
+  <data name="since_number_issue_has_been_published_as" xml:space="preserve">
+    <value>e since number issue has been published as</value>
+  </data>
+  <data name="since_number_issue_year_has_been_published_as" xml:space="preserve">
+    <value>e since number issue year has been published as</value>
+  </data>
+  <data name="supplements" xml:space="preserve">
+    <value>e supplements</value>
+  </data>
+  <data name="supplements_list" xml:space="preserve">
+    <value>e supplements list</value>
+  </data>
+  <data name="list_of_institution" xml:space="preserve">
+    <value>e list of institution</value>
+  </data>
+  <data name="name_of_institution" xml:space="preserve">
+    <value>e name of institution</value>
+  </data>
+  <data name="institutions" xml:space="preserve">
+    <value>e institutions</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>e key</value>
+  </data>
+  <data name="signatures_to_remove_with_registration" xml:space="preserve">
+    <value>e signatures to remove with registration</value>
+  </data>
+  <data name="existing_signatures" xml:space="preserve">
+    <value>e existing signatures</value>
+  </data>
+  <data name="signatures_to_remove_without_registration" xml:space="preserve">
+    <value>e signatures to remove without registration</value>
+  </data>
+  <data name="magazine_signatures_deleting" xml:space="preserve">
+    <value>e magazine signatures deleting</value>
+  </data>
+  <data name="do_you_want_to_delete_signature" xml:space="preserve">
+    <value>e do you want to delete signature</value>
+  </data>
+  <data name="signature_was_removed_without_registration" xml:space="preserve">
+    <value>e signature was removed without registration</value>
+  </data>
+  <data name="choose_volume_to_delete" xml:space="preserve">
+    <value>e choose volume to delete</value>
+  </data>
+  <data name="choose_country" xml:space="preserve">
+    <value>e choose country</value>
+  </data>
+  <data name="short_name" xml:space="preserve">
+    <value>e short name</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>e address</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>e city</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>e phone</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>e fax</value>
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>e zip</value>
+  </data>
+  <data name="contact_details" xml:space="preserve">
+    <value>e contact details</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>e country</value>
+  </data>
+  <data name="enter_name_of_supplier" xml:space="preserve">
+    <value>e enter name of supplier</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>e contact</value>
+  </data>
+  <data name="enter_name_of_publisher" xml:space="preserve">
+    <value>e enter name of publisher</value>
+  </data>
+  <data name="main_card" xml:space="preserve">
+    <value>e main card</value>
+  </data>
+  <data name="registration_data" xml:space="preserve">
+    <value>e registration data</value>
+  </data>
+  <data name="factual_description" xml:space="preserve">
+    <value>e factual description</value>
+  </data>
+  <data name="form_of_document_content" xml:space="preserve">
+    <value>e form of document content</value>
+  </data>
+  <data name="languages_of_text" xml:space="preserve">
+    <value>e languages of text</value>
+  </data>
+  <data name="issn" xml:space="preserve">
+    <value>e issn</value>
+  </data>
+  <data name="delete_magazine" xml:space="preserve">
+    <value>e delete magazine</value>
+  </data>
+  <data name="title_changes" xml:space="preserve">
+    <value>e title changes</value>
+  </data>
+  <data name="main_title" xml:space="preserve">
+    <value>e main title</value>
+  </data>
+  <data name="subtitle" xml:space="preserve">
+    <value>e subtitle</value>
+  </data>
+  <data name="parallel_title" xml:space="preserve">
+    <value>e parallel title</value>
+  </data>
+  <data name="additional_title" xml:space="preserve">
+    <value>e additional title</value>
+  </data>
+  <data name="suppliers_publishers" xml:space="preserve">
+    <value>e suppliers publishers</value>
+  </data>
+  <data name="institutions_change_history" xml:space="preserve">
+    <value>e institutions change history</value>
+  </data>
+  <data name="redactor" xml:space="preserve">
+    <value>e redactor</value>
+  </data>
+  <data name="publish_country" xml:space="preserve">
+    <value>e publish country</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>e format</value>
+  </data>
+  <data name="unit_of_length" xml:space="preserve">
+    <value>e unit of length</value>
+  </data>
+  <data name="chosen_signature" xml:space="preserve">
+    <value>e chosen signature</value>
+  </data>
+  <data name="new_signature" xml:space="preserve">
+    <value>e new signature</value>
+  </data>
+  <data name="f2_last_signatures" xml:space="preserve">
+    <value>e f2 last signatures</value>
+  </data>
+  <data name="new_volume" xml:space="preserve">
+    <value>e new volume</value>
+  </data>
+  <data name="price_of_annual_subscription" xml:space="preserve">
+    <value>e price of annual subscription</value>
+  </data>
+  <data name="volume_value" xml:space="preserve">
+    <value>e volume value</value>
+  </data>
+  <data name="registration" xml:space="preserve">
+    <value>e registration</value>
+  </data>
+  <data name="serial_registration" xml:space="preserve">
+    <value>e serial registration</value>
+  </data>
+  <data name="magazine_registration" xml:space="preserve">
+    <value>e magazine registration</value>
+  </data>
+  <data name="volumes" xml:space="preserve">
+    <value>e volumes</value>
+  </data>
+  <data name="copy_description" xml:space="preserve">
+    <value>e copy description</value>
+  </data>
+  <data name="delete_signature" xml:space="preserve">
+    <value>e delete signature</value>
+  </data>
+  <data name="delete_volume" xml:space="preserve">
+    <value>e delete volume</value>
+  </data>
+  <data name="publisher_name" xml:space="preserve">
+    <value>e publisher name</value>
+  </data>
+  <data name="supplier_name" xml:space="preserve">
+    <value>e supplier name</value>
+  </data>
+  <data name="signature_cannot_be_blank" xml:space="preserve">
+    <value>e signature cannot be blank</value>
+  </data>
+  <data name="signature_exists" xml:space="preserve">
+    <value>e signature exists</value>
+  </data>
+  <data name="enter_magazine_title" xml:space="preserve">
+    <value>e enter magazine title</value>
+  </data>
+  <data name="year_cannot_be_blank" xml:space="preserve">
+    <value>e year cannot be blank</value>
+  </data>
+  <data name="volume_removed" xml:space="preserve">
+    <value>e volume removed</value>
+  </data>
+  <data name="key_not_found_add_it" xml:space="preserve">
+    <value>e key not found add it</value>
+  </data>
+  <data name="adding_key" xml:space="preserve">
+    <value>e adding key</value>
+  </data>
+  <data name="do_you_want_to_delete_volume" xml:space="preserve">
+    <value>e do you want to delete volume</value>
+  </data>
+  <data name="do_you_want_to_delete_volume_with_entry_to_lossess" xml:space="preserve">
+    <value>e do you want to delete volume with entry to lossess</value>
+  </data>
+  <data name="first_delete_all_volumes" xml:space="preserve">
+    <value>e first delete all volumes</value>
+  </data>
+  <data name="signature_removed" xml:space="preserve">
+    <value>e signature removed</value>
+  </data>
+  <data name="laws" xml:space="preserve">
+    <value>e laws</value>
+  </data>
+  <data name="analysis_and_elaboration" xml:space="preserve">
+    <value>e analysis and elaboration</value>
+  </data>
+  <data name="statistics" xml:space="preserve">
+    <value>e statistics</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>e documents</value>
+  </data>
+  <data name="chronologies" xml:space="preserve">
+    <value>e chronologies</value>
+  </data>
+  <data name="biographies" xml:space="preserve">
+    <value>e biographies</value>
+  </data>
+  <data name="bibliography" xml:space="preserve">
+    <value>e bibliography</value>
+  </data>
+  <data name="to_use_this_feature_you_must_save_magazine" xml:space="preserve">
+    <value>e to use this feature you must save magazine</value>
+  </data>
+  <data name="info_about_magazine_freq_changing" xml:space="preserve">
+    <value>e info about magazine freq changing</value>
+  </data>
+  <data name="magazine_deleted" xml:space="preserve">
+    <value>e magazine deleted</value>
+  </data>
+  <data name="do_you_want_to_delete_magazine" xml:space="preserve">
+    <value>e do you want to delete magazine</value>
+  </data>
+  <data name="delete_accession_first" xml:space="preserve">
+    <value>e delete accession first</value>
+  </data>
+  <data name="barcode" xml:space="preserve">
+    <value>e barcode</value>
+  </data>
+  <data name="borrow_date" xml:space="preserve">
+    <value>e borrow date</value>
+  </data>
+  <data name="limit" xml:space="preserve">
+    <value>e limit</value>
+  </data>
+  <data name="expected_date_of_return" xml:space="preserve">
+    <value>e expected date of return</value>
+  </data>
+  <data name="all_borrowed" xml:space="preserve">
+    <value>e all borrowed</value>
+  </data>
+  <data name="borrowed_books" xml:space="preserve">
+    <value>e borrowed books</value>
+  </data>
+  <data name="borrowed_magazines" xml:space="preserve">
+    <value>e borrowed magazines</value>
+  </data>
+  <data name="there_are_no_reminders" xml:space="preserve">
+    <value>e there are no reminders</value>
+  </data>
+  <data name="there_are_no_reminders_for_this_resource" xml:space="preserve">
+    <value>e there are no reminders for this resource</value>
+  </data>
+  <data name="add_group" xml:space="preserve">
+    <value>e add group</value>
+  </data>
+  <data name="edit_group" xml:space="preserve">
+    <value>e edit group</value>
+  </data>
+  <data name="delete_group" xml:space="preserve">
+    <value>e delete group</value>
+  </data>
+  <data name="default_time_limit" xml:space="preserve">
+    <value>e default time limit</value>
+  </data>
+  <data name="default_resource_permissions" xml:space="preserve">
+    <value>e default resource permissions</value>
+  </data>
+  <data name="active_group" xml:space="preserve">
+    <value>e active group</value>
+  </data>
+  <data name="delete_permission" xml:space="preserve">
+    <value>e delete permission</value>
+  </data>
+  <data name="add_permission" xml:space="preserve">
+    <value>e add permission</value>
+  </data>
+  <data name="do_you_want_to_delete_group" xml:space="preserve">
+    <value>e do you want to delete group</value>
+  </data>
+  <data name="enter_group_name" xml:space="preserve">
+    <value>e enter group name</value>
+  </data>
+  <data name="maximum_time_limit_must_be_given" xml:space="preserve">
+    <value>e maximum time limit must be given</value>
+  </data>
+  <data name="do_you_want_to_delete_this_permission" xml:space="preserve">
+    <value>e do you want to delete this permission</value>
+  </data>
+  <data name="all_users_will_be_lock_continue" xml:space="preserve">
+    <value>e all users will be lock continue</value>
+  </data>
+  <data name="change_in_activity" xml:space="preserve">
+    <value>e change in activity</value>
+  </data>
+  <data name="default_amount_limit" xml:space="preserve">
+    <value>e default amount limit</value>
+  </data>
+  <data name="default_user_permissions" xml:space="preserve">
+    <value>e default user permissions</value>
+  </data>
+  <data name="maximun_resources_amount_must_be_given" xml:space="preserve">
+    <value>e maximun resources amount must be given</value>
+  </data>
+  <data name="do_you_want_to_delete_this_group" xml:space="preserve">
+    <value>e do you want to delete this group</value>
+  </data>
+  <data name="print_all_reminders" xml:space="preserve">
+    <value>e print all reminders</value>
+  </data>
+  <data name="print_current_borrows" xml:space="preserve">
+    <value>e print current borrows</value>
+  </data>
+  <data name="print_history_borrows" xml:space="preserve">
+    <value>e print history borrows</value>
+  </data>
+  <data name="date_of_return" xml:space="preserve">
+    <value>e date of return</value>
+  </data>
+  <data name="permission" xml:space="preserve">
+    <value>e permission</value>
+  </data>
+  <data name="date_from" xml:space="preserve">
+    <value>e date from</value>
+  </data>
+  <data name="date_to" xml:space="preserve">
+    <value>e date to</value>
+  </data>
+  <data name="locked_permission" xml:space="preserve">
+    <value>e locked permission</value>
+  </data>
+  <data name="user_info" xml:space="preserve">
+    <value>e user info</value>
+  </data>
+  <data name="resource_info" xml:space="preserve">
+    <value>e resource info</value>
+  </data>
+  <data name="resource" xml:space="preserve">
+    <value>e resource</value>
+  </data>
+  <data name="do_borrow" xml:space="preserve">
+    <value>e do borrow</value>
+  </data>
+  <data name="do_order" xml:space="preserve">
+    <value>e do order</value>
+  </data>
+  <data name="print_reverse" xml:space="preserve">
+    <value>e print reverse</value>
+  </data>
+  <data name="borrows" xml:space="preserve">
+    <value>e borrows</value>
+  </data>
+  <data name="history" xml:space="preserve">
+    <value>e history</value>
+  </data>
+  <data name="return_resource" xml:space="preserve">
+    <value>e return resource</value>
+  </data>
+  <data name="order_date" xml:space="preserve">
+    <value>e order date</value>
+  </data>
+  <data name="order_state" xml:space="preserve">
+    <value>e order state</value>
+  </data>
+  <data name="realize" xml:space="preserve">
+    <value>e realize</value>
+  </data>
+  <data name="cancel_order" xml:space="preserve">
+    <value>e cancel order</value>
+  </data>
+  <data name="borrowing_and_returning_resources" xml:space="preserve">
+    <value>e borrowing and returning resources</value>
+  </data>
+  <data name="search_resource" xml:space="preserve">
+    <value>e search resource</value>
+  </data>
+  <data name="open_user_card" xml:space="preserve">
+    <value>e open user card</value>
+  </data>
+  <data name="resource_ordered" xml:space="preserve">
+    <value>e resource ordered</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>e order</value>
+  </data>
+  <data name="resource_is_in_user_orders" xml:space="preserve">
+    <value>e resource is in user orders</value>
+  </data>
+  <data name="locked_user" xml:space="preserve">
+    <value>e locked user</value>
+  </data>
+  <data name="user_is_locked" xml:space="preserve">
+    <value>e user is locked</value>
+  </data>
+  <data name="there_is_no_resource_with_given_barcode" xml:space="preserve">
+    <value>e there is no resource with given barcode</value>
+  </data>
+  <data name="there_is_no_resource_with_given_invertory_number" xml:space="preserve">
+    <value>e there is no resource with given invertory number</value>
+  </data>
+  <data name="there_is_no_resource_with_given_signature" xml:space="preserve">
+    <value>e there is no resource with given signature</value>
+  </data>
+  <data name="there_is_no_resource" xml:space="preserve">
+    <value>e there is no resource</value>
+  </data>
+  <data name="resource_returned" xml:space="preserve">
+    <value>e resource returned</value>
+  </data>
+  <data name="barcode_not_assigned_to_user" xml:space="preserve">
+    <value>e barcode not assigned to user</value>
+  </data>
+  <data name="user_has_been_checked_out" xml:space="preserve">
+    <value>e user has been checked out</value>
+  </data>
+  <data name="invalid_barcode" xml:space="preserve">
+    <value>e invalid barcode</value>
+  </data>
+  <data name="user_checked_out" xml:space="preserve">
+    <value>e user checked out</value>
+  </data>
+  <data name="do_you_want_to_cancel_order" xml:space="preserve">
+    <value>e do you want to cancel order</value>
+  </data>
+  <data name="resignation_order" xml:space="preserve">
+    <value>e resignation order</value>
+  </data>
+  <data name="resource_has_not_been_borrowed" xml:space="preserve">
+    <value>e resource has not been borrowed</value>
+  </data>
+  <data name="user_exceed_limit_of_amount" xml:space="preserve">
+    <value>e user exceed limit of amount</value>
+  </data>
+  <data name="exceeded_amount_limit" xml:space="preserve">
+    <value>e exceeded amount limit</value>
+  </data>
+  <data name="resource_has_been_borrowed" xml:space="preserve">
+    <value>e resource has been borrowed</value>
+  </data>
+  <data name="choose_resource" xml:space="preserve">
+    <value>e choose resource</value>
+  </data>
+  <data name="borrowed" xml:space="preserve">
+    <value>e borrowed</value>
+  </data>
+  <data name="not_borrowed" xml:space="preserve">
+    <value>e not borrowed</value>
+  </data>
+  <data name="equals" xml:space="preserve">
+    <value>e equals</value>
+  </data>
+  <data name="starts_with" xml:space="preserve">
+    <value>e starts with</value>
+  </data>
+  <data name="searching" xml:space="preserve">
+    <value>e searching</value>
+  </data>
+  <data name="there_is_no_searching_resource" xml:space="preserve">
+    <value>e there is no searching resource</value>
+  </data>
+  <data name="only_expired" xml:space="preserve">
+    <value>e only expired</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>e user</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>e filter</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>e from</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>e to</value>
+  </data>
+  <data name="filtration" xml:space="preserve">
+    <value>e filtration</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>e ready</value>
+  </data>
+  <data name="current_orders" xml:space="preserve">
+    <value>e current orders</value>
+  </data>
+  <data name="do_you_want_to_print_reverse" xml:space="preserve">
+    <value>e do you want to print reverse</value>
+  </data>
+  <data name="user_barcode" xml:space="preserve">
+    <value>e user barcode</value>
+  </data>
+  <data name="time_limit_to_return" xml:space="preserve">
+    <value>e time limit to return</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>e days</value>
+  </data>
+  <data name="borrowed_single" xml:space="preserve">
+    <value>e borrowed single</value>
+  </data>
+  <data name="permissions" xml:space="preserve">
+    <value>e permissions</value>
+  </data>
+  <data name="general" xml:space="preserve">
+    <value>e general</value>
+  </data>
+  <data name="borrow_history" xml:space="preserve">
+    <value>e borrow history</value>
+  </data>
+  <data name="order_history" xml:space="preserve">
+    <value>e order history</value>
+  </data>
+  <data name="valid_from" xml:space="preserve">
+    <value>e valid from</value>
+  </data>
+  <data name="valid_to" xml:space="preserve">
+    <value>e valid to</value>
+  </data>
+  <data name="delay" xml:space="preserve">
+    <value>e delay</value>
+  </data>
+  <data name="employee" xml:space="preserve">
+    <value>e employee</value>
+  </data>
+  <data name="date_of_realization" xml:space="preserve">
+    <value>e date of realization</value>
+  </data>
+  <data name="time_limit_to_return_must_be_enter" xml:space="preserve">
+    <value>e time limit to return must be enter</value>
+  </data>
+  <data name="date_of_operation" xml:space="preserve">
+    <value>e date of operation</value>
+  </data>
+  <data name="resource_group" xml:space="preserve">
+    <value>e resource group</value>
+  </data>
+  <data name="resource_state" xml:space="preserve">
+    <value>e resource state</value>
+  </data>
+  <data name="persons" xml:space="preserve">
+    <value>e persons</value>
+  </data>
+  <data name="user_type" xml:space="preserve">
+    <value>e user type</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>e group</value>
+  </data>
+  <data name="only_active_users" xml:space="preserve">
+    <value>e only active users</value>
+  </data>
+  <data name="kind_of_operation" xml:space="preserve">
+    <value>e kind of operation</value>
+  </data>
+  <data name="reading_room" xml:space="preserve">
+    <value>e reading room</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>e all</value>
+  </data>
+  <data name="ordered" xml:space="preserve">
+    <value>e ordered</value>
+  </data>
+  <data name="returns" xml:space="preserve">
+    <value>e returns</value>
+  </data>
+  <data name="reminders" xml:space="preserve">
+    <value>e reminders</value>
+  </data>
+  <data name="require_date" xml:space="preserve">
+    <value>e require date</value>
+  </data>
+  <data name="return_date_new_require_date" xml:space="preserve">
+    <value>e return date new require date</value>
+  </data>
+  <data name="prolongs" xml:space="preserve">
+    <value>e prolongs</value>
+  </data>
+  <data name="confirm_return" xml:space="preserve">
+    <value>e confirm return</value>
+  </data>
+  <data name="date_cannot_be_earlier_than_borrow_date" xml:space="preserve">
+    <value>e date cannot be earlier than borrow date</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>e groups</value>
+  </data>
+  <data name="name_last_name" xml:space="preserve">
+    <value>e name last name</value>
+  </data>
+  <data name="only_with_borrows" xml:space="preserve">
+    <value>e only with borrows</value>
+  </data>
+  <data name="choose_user" xml:space="preserve">
+    <value>e choose user</value>
+  </data>
+  <data name="addresses" xml:space="preserve">
+    <value>e addresses</value>
+  </data>
+  <data name="teleaddresses" xml:space="preserve">
+    <value>e teleaddresses</value>
+  </data>
+  <data name="teleaddress_adding" xml:space="preserve">
+    <value>e teleaddress adding</value>
+  </data>
+  <data name="teleaddress_cannot_be_blank" xml:space="preserve">
+    <value>e teleaddress cannot be blank</value>
+  </data>
+  <data name="teleaddress_deleting" xml:space="preserve">
+    <value>e teleaddress deleting</value>
+  </data>
+  <data name="do_you_want_to_delete_this_teleaddress" xml:space="preserve">
+    <value>e do you want to delete this teleaddress</value>
+  </data>
+  <data name="user_has_been_deleted" xml:space="preserve">
+    <value>e user has been deleted</value>
+  </data>
+  <data name="user_deleting" xml:space="preserve">
+    <value>e user deleting</value>
+  </data>
+  <data name="do_you_want_to_delete_user" xml:space="preserve">
+    <value>e do you want to delete user</value>
+  </data>
+  <data name="address_adding" xml:space="preserve">
+    <value>e address adding</value>
+  </data>
+  <data name="address_deleting" xml:space="preserve">
+    <value>e address deleting</value>
+  </data>
+  <data name="address_cannot_be_blank" xml:space="preserve">
+    <value>e address cannot be blank</value>
+  </data>
+  <data name="do_you_want_to_delete_address" xml:space="preserve">
+    <value>e do you want to delete address</value>
+  </data>
+  <data name="do_you_want_to_delete_this_permission_from_user" xml:space="preserve">
+    <value>e do you want to delete this permission from user</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>e no data</value>
+  </data>
+  <data name="last_name_and_first_name" xml:space="preserve">
+    <value>e last name and first name</value>
+  </data>
+  <data name="domain_name_in_configuration_is_blank" xml:space="preserve">
+    <value>e domain name in configuration is blank</value>
+  </data>
+  <data name="enter_user_name" xml:space="preserve">
+    <value>e enter user name</value>
+  </data>
+  <data name="invalid_user_domain_name" xml:space="preserve">
+    <value>e invalid user domain name</value>
+  </data>
+  <data name="delete_user" xml:space="preserve">
+    <value>e delete user</value>
+  </data>
+  <data name="name_last_name_first_name" xml:space="preserve">
+    <value>e name last name first name</value>
+  </data>
+  <data name="sex" xml:space="preserve">
+    <value>e sex</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>e male</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>e female</value>
+  </data>
+  <data name="card_no" xml:space="preserve">
+    <value>e card no</value>
+  </data>
+  <data name="user_domain_name" xml:space="preserve">
+    <value>e user domain name</value>
+  </data>
+  <data name="date_of_birth" xml:space="preserve">
+    <value>e date of birth</value>
+  </data>
+  <data name="amount_limit" xml:space="preserve">
+    <value>e amount limit</value>
+  </data>
+  <data name="time_limit" xml:space="preserve">
+    <value>e time limit</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>e type</value>
+  </data>
+  <data name="place" xml:space="preserve">
+    <value>e place</value>
+  </data>
+  <data name="street" xml:space="preserve">
+    <value>e street</value>
+  </data>
+  <data name="house_no" xml:space="preserve">
+    <value>e house no</value>
+  </data>
+  <data name="local_no" xml:space="preserve">
+    <value>e local no</value>
+  </data>
+  <data name="post_office" xml:space="preserve">
+    <value>e post office</value>
+  </data>
+  <data name="active_address" xml:space="preserve">
+    <value>e active address</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>e value</value>
+  </data>
+  <data name="invertory_choice" xml:space="preserve">
+    <value>e invertory choice</value>
+  </data>
+  <data name="choose_invertory_to_add_new" xml:space="preserve">
+    <value>e choose invertory to add new</value>
+  </data>
+  <data name="please_wait" xml:space="preserve">
+    <value>e please wait</value>
+  </data>
+  <data name="article" xml:space="preserve">
+    <value>e article</value>
+  </data>
+  <data name="articles" xml:space="preserve">
+    <value>e articles</value>
+  </data>
+  <data name="magazine" xml:space="preserve">
+    <value>e magazine</value>
+  </data>
+  <data name="magazines" xml:space="preserve">
+    <value>e magazines</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>e add</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>e book</value>
+  </data>
+  <data name="books" xml:space="preserve">
+    <value>e books</value>
+  </data>
+  <data name="modify" xml:space="preserve">
+    <value>e modify</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>e exit</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>e delete</value>
+  </data>
+  <data name="reports" xml:space="preserve">
+    <value>e reports</value>
+  </data>
+  <data name="about_application" xml:space="preserve">
+    <value>e about application</value>
+  </data>
+  <data name="user_guide" xml:space="preserve">
+    <value>e user guide</value>
+  </data>
+  <data name="resources" xml:space="preserve">
+    <value>e resources</value>
+  </data>
+  <data name="users" xml:space="preserve">
+    <value>e users</value>
+  </data>
+  <data name="change_title" xml:space="preserve">
+    <value>e change title</value>
+  </data>
+  <data name="orders" xml:space="preserve">
+    <value>e orders</value>
+  </data>
+  <data name="invertory_stats" xml:space="preserve">
+    <value>e invertory stats</value>
+  </data>
+  <data name="borrow" xml:space="preserve">
+    <value>e borrow</value>
+  </data>
+  <data name="quick_borrow" xml:space="preserve">
+    <value>e quick borrow</value>
+  </data>
+  <data name="borrowed_resources" xml:space="preserve">
+    <value>e borrowed resources</value>
+  </data>
+  <data name="add_accession" xml:space="preserve">
+    <value>e add accession</value>
+  </data>
+  <data name="new_book" xml:space="preserve">
+    <value>e new book</value>
+  </data>
+  <data name="new_magazine" xml:space="preserve">
+    <value>e new magazine</value>
+  </data>
+  <data name="new_article" xml:space="preserve">
+    <value>e new article</value>
+  </data>
+  <data name="delete_accession" xml:space="preserve">
+    <value>e delete accession</value>
+  </data>
+  <data name="new_accession" xml:space="preserve">
+    <value>e new accession</value>
+  </data>
+  <data name="losses_book" xml:space="preserve">
+    <value>e losses book</value>
+  </data>
+  <data name="borrows_stats" xml:space="preserve">
+    <value>e borrows stats</value>
+  </data>
+  <data name="borrow_office" xml:space="preserve">
+    <value>e borrow office</value>
+  </data>
+  <data name="serial_publications" xml:space="preserve">
+    <value>e serial publications</value>
+  </data>
+  <data name="do_you_want_to_exit" xml:space="preserve">
+    <value>e do you want to exit</value>
+  </data>
+  <data name="coauthors" xml:space="preserve">
+    <value>e coauthors</value>
+  </data>
+  <data name="responsibility" xml:space="preserve">
+    <value>e responsibility</value>
+  </data>
+  <data name="edition" xml:space="preserve">
+    <value>e edition</value>
+  </data>
+  <data name="udc" xml:space="preserve">
+    <value>e udc</value>
+  </data>
+  <data name="isbn" xml:space="preserve">
+    <value>e isbn</value>
+  </data>
+  <data name="ph_description" xml:space="preserve">
+    <value>e ph description</value>
+  </data>
+  <data name="volume_count" xml:space="preserve">
+    <value>e volume count</value>
+  </data>
+  <data name="conference_date" xml:space="preserve">
+    <value>e conference date</value>
+  </data>
+  <data name="event_promoter" xml:space="preserve">
+    <value>e event promoter</value>
+  </data>
+  <data name="event_number" xml:space="preserve">
+    <value>e event number</value>
+  </data>
+  <data name="conference_title" xml:space="preserve">
+    <value>e conference title</value>
+  </data>
+  <data name="russian" xml:space="preserve">
+    <value>e russian</value>
+  </data>
+  <data name="french" xml:space="preserve">
+    <value>e french</value>
+  </data>
+  <data name="german" xml:space="preserve">
+    <value>e german</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>e english</value>
+  </data>
+  <data name="polish" xml:space="preserve">
+    <value>e polish</value>
+  </data>
+  <data name="series_promoter" xml:space="preserve">
+    <value>e series promoter</value>
+  </data>
+  <data name="part_number" xml:space="preserve">
+    <value>e part number</value>
+  </data>
+  <data name="part_name" xml:space="preserve">
+    <value>e part name</value>
+  </data>
+  <data name="series_issn" xml:space="preserve">
+    <value>e series issn</value>
+  </data>
+  <data name="series_title" xml:space="preserve">
+    <value>e series title</value>
+  </data>
+  <data name="subseries_title" xml:space="preserve">
+    <value>e subseries title</value>
+  </data>
+  <data name="subseries_issn" xml:space="preserve">
+    <value>e subseries issn</value>
+  </data>
+  <data name="positions_in_inventory" xml:space="preserve">
+    <value>e positions in inventory</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>e cancel</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>e date</value>
+  </data>
+  <data name="currency" xml:space="preserve">
+    <value>e currency</value>
+  </data>
+  <data name="receipt_number" xml:space="preserve">
+    <value>e receipt number</value>
+  </data>
+  <data name="import" xml:space="preserve">
+    <value>e import</value>
+  </data>
+  <data name="volumes_1" xml:space="preserve">
+    <value>e volumes 1</value>
+  </data>
+  <data name="books_register" xml:space="preserve">
+    <value>e books register</value>
+  </data>
+  <data name="main_description" xml:space="preserve">
+    <value>e main description</value>
+  </data>
+  <data name="conference_materials" xml:space="preserve">
+    <value>e conference materials</value>
+  </data>
+  <data name="editors" xml:space="preserve">
+    <value>e editors</value>
+  </data>
+  <data name="series" xml:space="preserve">
+    <value>e series</value>
+  </data>
+  <data name="subseries" xml:space="preserve">
+    <value>e subseries</value>
+  </data>
+  <data name="copy_book_description" xml:space="preserve">
+    <value>e copy_book_description</value>
+  </data>
+  <data name="authorship_action" xml:space="preserve">
+    <value>e authorship_action</value>
+  </data>
+  <data name="add_editor" xml:space="preserve">
+    <value>e add_editor</value>
+  </data>
+  <data name="list_of_editors" xml:space="preserve">
+    <value>e list_of_editors</value>
+  </data>
+  <data name="copy_conference_title" xml:space="preserve">
+    <value>e copy_conference_title</value>
+  </data>
+  <data name="choose_date" xml:space="preserve">
+    <value>e choose_date</value>
+  </data>
+  <data name="print_001" xml:space="preserve">
+    <value>e print_001</value>
+  </data>
+  <data name="volume_action" xml:space="preserve">
+    <value>e volume_action</value>
+  </data>
+  <data name="list_of_keywords" xml:space="preserve">
+    <value>e list_of_keywords</value>
+  </data>
+  <data name="add_keyword" xml:space="preserve">
+    <value>e add_keyword</value>
+  </data>
+  <data name="delete_keyword" xml:space="preserve">
+    <value>e delete_keyword</value>
+  </data>
+  <data name="copy_series_title" xml:space="preserve">
+    <value>e copy_series_title</value>
+  </data>
+  <data name="copy_subserias_title" xml:space="preserve">
+    <value>e copy_subserias_title</value>
+  </data>
+  <data name="add_signature" xml:space="preserve">
+    <value>e add_signature</value>
+  </data>
+  <data name="edit_signature" xml:space="preserve">
+    <value>e edit_signature</value>
+  </data>
+  <data name="last_barcodelabel" xml:space="preserve">
+    <value>e last_barcodelabel</value>
+  </data>
+  <data name="atlas" xml:space="preserve">
+    <value>e atlas</value>
+  </data>
+  <data name="biography" xml:space="preserve">
+    <value>e biography</value>
+  </data>
+  <data name="chronology" xml:space="preserve">
+    <value>e chronology</value>
+  </data>
+  <data name="encyclopedia" xml:space="preserve">
+    <value>e encyclopedia</value>
+  </data>
+  <data name="forms" xml:space="preserve">
+    <value>e forms</value>
+  </data>
+  <data name="informer" xml:space="preserve">
+    <value>e informer</value>
+  </data>
+  <data name="codex" xml:space="preserve">
+    <value>e codex</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>e comment</value>
+  </data>
+  <data name="lexicon" xml:space="preserve">
+    <value>e lexicon</value>
+  </data>
+  <data name="map" xml:space="preserve">
+    <value>e map</value>
+  </data>
+  <data name="monography" xml:space="preserve">
+    <value>e monography</value>
+  </data>
+  <data name="guide" xml:space="preserve">
+    <value>e guide</value>
+  </data>
+  <data name="script" xml:space="preserve">
+    <value>e script</value>
+  </data>
+  <data name="add_coauthor_to_list" xml:space="preserve">
+    <value>e add coauthor to list</value>
+  </data>
+  <data name="del_coauthor_from_list" xml:space="preserve">
+    <value>e del coauthor from list</value>
+  </data>
+  <data name="books_modification" xml:space="preserve">
+    <value>e books modification</value>
+  </data>
+  <data name="list_of_titles" xml:space="preserve">
+    <value>e list of titles</value>
+  </data>
+  <data name="list_of_signatures" xml:space="preserve">
+    <value>e list of signatures</value>
+  </data>
+  <data name="list_of_inventory_numbers" xml:space="preserve">
+    <value>e list of inventory numbers</value>
+  </data>
+  <data name="signature_001" xml:space="preserve">
+    <value>e signature 001</value>
+  </data>
+  <data name="find_desc_using" xml:space="preserve">
+    <value>e find desc using</value>
+  </data>
+  <data name="data_fillout" xml:space="preserve">
+    <value>e data fillout</value>
+  </data>
+  <data name="publishers_country" xml:space="preserve">
+    <value>e publishers country</value>
+  </data>
+  <data name="publisher_name_abb" xml:space="preserve">
+    <value>e publisher name abb</value>
+  </data>
+  <data name="keyword_not_found" xml:space="preserve">
+    <value>e keyword not found</value>
+  </data>
+  <data name="heigth_only_digits" xml:space="preserve">
+    <value>e heigth only digits</value>
+  </data>
+  <data name="heigth_only_two_digits" xml:space="preserve">
+    <value>e heigth only two digits</value>
+  </data>
+  <data name="width_only_two_digits" xml:space="preserve">
+    <value>e width only two digits</value>
+  </data>
+  <data name="year_only_digits" xml:space="preserve">
+    <value>e year only digits</value>
+  </data>
+  <data name="width_only_digits" xml:space="preserve">
+    <value>e width only digits</value>
+  </data>
+  <data name="enter_book_title" xml:space="preserve">
+    <value>e enter book title</value>
+  </data>
+  <data name="book_data_was_saved" xml:space="preserve">
+    <value>e book data was saved</value>
+  </data>
+  <data name="close_window_wo_saving" xml:space="preserve">
+    <value>e close window wo saving</value>
+  </data>
+  <data name="barcode_exists" xml:space="preserve">
+    <value>e barcode exists</value>
+  </data>
+  <data name="enter_inventory_number" xml:space="preserve">
+    <value>e enter inventory number</value>
+  </data>
+  <data name="enter_signature" xml:space="preserve">
+    <value>e enter signature</value>
+  </data>
+  <data name="inventory_number_exists" xml:space="preserve">
+    <value>e inventory number exists</value>
+  </data>
+  <data name="save_data_to_add_vol" xml:space="preserve">
+    <value>e save data to add vol</value>
+  </data>
+  <data name="delete_sig_with_notify" xml:space="preserve">
+    <value>e delete sig with notify</value>
+  </data>
+  <data name="delete_volumes_first" xml:space="preserve">
+    <value>e delete volumes first</value>
+  </data>
+  <data name="delete_signatures_first_q" xml:space="preserve">
+    <value>e delete signatures first q</value>
+  </data>
+  <data name="delete_volume_q" xml:space="preserve">
+    <value>e delete volume q</value>
+  </data>
+  <data name="delete_main_data_q" xml:space="preserve">
+    <value>e delete main data q</value>
+  </data>
+  <data name="volume_was_deleted" xml:space="preserve">
+    <value>e volume was deleted</value>
+  </data>
+  <data name="main_data_was_deleted" xml:space="preserve">
+    <value>e main data was deleted</value>
+  </data>
+  <data name="save_data_to_add_source" xml:space="preserve">
+    <value>e save data to add source</value>
+  </data>
+  <data name="wo_loses_entry" xml:space="preserve">
+    <value>e wo loses entry</value>
+  </data>
+  <data name="with_loses_entry" xml:space="preserve">
+    <value>e with loses entry</value>
+  </data>
+  <data name="deleting_book" xml:space="preserve">
+    <value>e deleting book</value>
+  </data>
+  <data name="deleting_signature" xml:space="preserve">
+    <value>e deleting signature</value>
+  </data>
+  <data name="catalogue_card_print" xml:space="preserve">
+    <value>e catalogue card print</value>
+  </data>
+  <data name="volume_card_print" xml:space="preserve">
+    <value>e volume card print</value>
+  </data>
+  <data name="main_catalogue_card_print" xml:space="preserve">
+    <value>e main catalogue card print</value>
+  </data>
+  <data name="chosen_catalogue_card_print" xml:space="preserve">
+    <value>e chosen catalogue card print</value>
+  </data>
+  <data name="all_catalogue_card_print" xml:space="preserve">
+    <value>e all catalogue card print</value>
+  </data>
+  <data name="chosen_main_catalogue_card_print" xml:space="preserve">
+    <value>e chosen main catalogue card print</value>
+  </data>
+  <data name="all_main_catalogue_card_print" xml:space="preserve">
+    <value>e all main catalogue card print</value>
+  </data>
+  <data name="choose_institution_001" xml:space="preserve">
+    <value>e choose institution 001</value>
+  </data>
+  <data name="sort_001" xml:space="preserve">
+    <value>e sort 001</value>
+  </data>
+  <data name="select_001" xml:space="preserve">
+    <value>e select 001</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>e keywords</value>
+  </data>
+  <data name="list_of_chosen_keywords" xml:space="preserve">
+    <value>e list of chosen keywords</value>
+  </data>
+  <data name="list_of_available_keywords" xml:space="preserve">
+    <value>e list of available keywords</value>
+  </data>
+  <data name="single_loses_entry" xml:space="preserve">
+    <value>e single loses entry</value>
+  </data>
+  <data name="loses_receipt" xml:space="preserve">
+    <value>e loses receipt</value>
+  </data>
+  <data name="short_description" xml:space="preserve">
+    <value>e short description</value>
+  </data>
+  <data name="choose_signature_to_print" xml:space="preserve">
+    <value>e choose signature to print</value>
+  </data>
+  <data name="book_was_borrowed_return_q" xml:space="preserve">
+    <value>e book was borrowed return q</value>
+  </data>
+  <data name="book_was_deleted" xml:space="preserve">
+    <value>e book was deleted</value>
+  </data>
+  <data name="data_incorrect" xml:space="preserve">
+    <value>e data incorrect</value>
+  </data>
+  <data name="saving_book_data" xml:space="preserve">
+    <value>e saving book data</value>
+  </data>
+  <data name="saving" xml:space="preserve">
+    <value>e saving</value>
+  </data>
+  <data name="vol_deleting" xml:space="preserve">
+    <value>e vol deleting</value>
+  </data>
+  <data name="main_data_deleting" xml:space="preserve">
+    <value>e main data deleting</value>
+  </data>
+  <data name="add_to_list" xml:space="preserve">
+    <value>e add to list</value>
+  </data>
+  <data name="sig_del_01" xml:space="preserve">
+    <value>e sig del 01</value>
+  </data>
+  <data name="inventory_number_1" xml:space="preserve">
+    <value>e inventory number 1</value>
+  </data>
+  <data name="configuration" xml:space="preserve">
+    <value>e configuration</value>
+  </data>
+  <data name="users_group" xml:space="preserve">
+    <value>e users group</value>
+  </data>
+  <data name="resources_group" xml:space="preserve">
+    <value>e resources group</value>
+  </data>
+  <data name="verso" xml:space="preserve">
+    <value>e verso</value>
+  </data>
+  <data name="manual_print" xml:space="preserve">
+    <value>e manual print</value>
+  </data>
+  <data name="semiauto_print" xml:space="preserve">
+    <value>e semiauto print</value>
+  </data>
+  <data name="auto_print" xml:space="preserve">
+    <value>e auto print</value>
+  </data>
+  <data name="print_verso" xml:space="preserve">
+    <value>e print verso</value>
+  </data>
+  <data name="manual_search" xml:space="preserve">
+    <value>e manual search</value>
+  </data>
+  <data name="default_values_001" xml:space="preserve">
+    <value>e default values 001</value>
+  </data>
+  <data name="automatic_search" xml:space="preserve">
+    <value>e automatic search</value>
+  </data>
+  <data name="dafault_criteria_001" xml:space="preserve">
+    <value>e dafault criteria 001</value>
+  </data>
+  <data name="sort_options_001" xml:space="preserve">
+    <value>e sort options 001</value>
+  </data>
+  <data name="sort_criteria_order" xml:space="preserve">
+    <value>e sort criteria order</value>
+  </data>
+  <data name="user_blocked_info" xml:space="preserve">
+    <value>e user blocked info</value>
+  </data>
+  <data name="user_blocked_info_001" xml:space="preserve">
+    <value>e user blocked info 001</value>
+  </data>
+  <data name="choose_blocked_user" xml:space="preserve">
+    <value>e choose blocked user</value>
+  </data>
+  <data name="coliber_user_info" xml:space="preserve">
+    <value>e coliber user info</value>
+  </data>
+  <data name="zip_001" xml:space="preserve">
+    <value>e zip 001</value>
+  </data>
+  <data name="show_barcode_on_form" xml:space="preserve">
+    <value>e show barcode on form</value>
+  </data>
+  <data name="-void-" xml:space="preserve">
+    <value>e void</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>e description</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>e select</value>
+  </data>
+  <data name="book_return" xml:space="preserve">
+    <value>e book return</value>
+  </data>
+  <data name="sign_in" xml:space="preserve">
+    <value>e sign in</value>
+  </data>
+  <data name="please_sign_in" xml:space="preserve">
+    <value>e please sign in</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>e username</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>e password</value>
+  </data>
+  <data name="remember_username" xml:space="preserve">
+    <value>e remember username</value>
+  </data>
+  <data name="person_returning_resource" xml:space="preserve">
+    <value>e person returning resource</value>
+  </data>
+  <data name="server_not_working" xml:space="preserve">
+    <value>e server not working</value>
+  </data>
+  <data name="user_has_borrowed_resources" xml:space="preserve">
+    <value>e user has borrowed resources</value>
+  </data>
+  <data name="return_resource_q" xml:space="preserve">
+    <value>e return resource q</value>
+  </data>
+  <data name="return_resource_info_001" xml:space="preserve">
+    <value>e return resource info 001</value>
+  </data>
+  <data name="return_resource_info_002" xml:space="preserve">
+    <value>e return resource info 002</value>
+  </data>
+  <data name="return_resource_info_003" xml:space="preserve">
+    <value>e return resource info 003</value>
+  </data>
+  <data name="merge" xml:space="preserve">
+    <value>e merge</value>
+  </data>
+  <data name="merge_q" xml:space="preserve">
+    <value>e merge q</value>
+  </data>
+  <data name="data_merge" xml:space="preserve">
+    <value>e data merge</value>
+  </data>
+  <data name="with" xml:space="preserve">
+    <value>e with</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>e question</value>
+  </data>
+  <data name="keys_for_articles" xml:space="preserve">
+    <value>e keys for articles</value>
+  </data>
+  <data name="books_collection" xml:space="preserve">
+    <value>e books collection</value>
+  </data>
+  <data name="show_arcticles" xml:space="preserve">
+    <value>e show arcticles</value>
+  </data>
+  <data name="in_articles" xml:space="preserve">
+    <value>e in articles</value>
+  </data>
+  <data name="key_appears_in" xml:space="preserve">
+    <value>e key appears in</value>
+  </data>
+  <data name="codes" xml:space="preserve">
+    <value>e codes</value>
+  </data>
+  <data name="show_res_q" xml:space="preserve">
+    <value>e show res q</value>
+  </data>
+  <data name="completed" xml:space="preserve">
+    <value>e completed</value>
+  </data>
+  <data name="author_not_bound_q" xml:space="preserve">
+    <value>e author not bound q</value>
+  </data>
+  <data name="change_database" xml:space="preserve">
+    <value>e change database</value>
+  </data>
+  <data name="coliber_user_data" xml:space="preserve">
+    <value>e coliber user data</value>
+  </data>
+  <data name="sql_server_data" xml:space="preserve">
+    <value>e sql server data</value>
+  </data>
+  <data name="users_password" xml:space="preserve">
+    <value>e users password</value>
+  </data>
+  <data name="database" xml:space="preserve">
+    <value>e database</value>
+  </data>
+  <data name="server_name" xml:space="preserve">
+    <value>e server name</value>
+  </data>
+  <data name="database_user" xml:space="preserve">
+    <value>e database user</value>
+  </data>
+  <data name="testing_connection" xml:space="preserve">
+    <value>e testing connection</value>
+  </data>
+  <data name="do_test" xml:space="preserve">
+    <value>e do test</value>
+  </data>
+  <data name="db_server_not_chosen" xml:space="preserve">
+    <value>e db server not chosen</value>
+  </data>
+  <data name="database_not_chosen" xml:space="preserve">
+    <value>e database not chosen</value>
+  </data>
+  <data name="user_not_entered" xml:space="preserve">
+    <value>e user not entered</value>
+  </data>
+  <data name="password_not_entered" xml:space="preserve">
+    <value>e password not entered</value>
+  </data>
+  <data name="wrong_user_or_password" xml:space="preserve">
+    <value>e wrong user or password</value>
+  </data>
+  <data name="connection_ok" xml:space="preserve">
+    <value>e connection ok</value>
+  </data>
+  <data name="cancel_q" xml:space="preserve">
+    <value>e cancel q</value>
+  </data>
+  <data name="db_server_name_required" xml:space="preserve">
+    <value>e db server name required</value>
+  </data>
+  <data name="name_and_password_required" xml:space="preserve">
+    <value>e name and password required</value>
+  </data>
+  <data name="countries" xml:space="preserve">
+    <value>e countries</value>
+  </data>
+  <data name="digit_code" xml:space="preserve">
+    <value>e digit code</value>
+  </data>
+  <data name="english_name" xml:space="preserve">
+    <value>e english name</value>
+  </data>
+  <data name="polish_name" xml:space="preserve">
+    <value>e polish name</value>
+  </data>
+  <data name="country_digit_code" xml:space="preserve">
+    <value>e country digit code</value>
+  </data>
+  <data name="fill_all_values" xml:space="preserve">
+    <value>e fill all values</value>
+  </data>
+  <data name="country_name_exists" xml:space="preserve">
+    <value>e country name exists</value>
+  </data>
+  <data name="country_code_exists" xml:space="preserve">
+    <value>e country code exists</value>
+  </data>
+  <data name="choose_language_first" xml:space="preserve">
+    <value>e choose language first</value>
+  </data>
+  <data name="choose_country_first" xml:space="preserve">
+    <value>e choose country first</value>
+  </data>
+  <data name="departments" xml:space="preserve">
+    <value>e departments</value>
+  </data>
+  <data name="show_articles" xml:space="preserve">
+    <value>e show articles</value>
+  </data>
+  <data name="articles_001" xml:space="preserve">
+    <value>e articles 001</value>
+  </data>
+  <data name="department_shows_in" xml:space="preserve">
+    <value>e department shows in</value>
+  </data>
+  <data name="do_change" xml:space="preserve">
+    <value>e do change</value>
+  </data>
+  <data name="magazine_distributors" xml:space="preserve">
+    <value>e magazine distributors</value>
+  </data>
+  <data name="books_001" xml:space="preserve">
+    <value>e books 001</value>
+  </data>
+  <data name="distributor_occurs_in" xml:space="preserve">
+    <value>e distributor occurs in</value>
+  </data>
+  <data name="phone_2" xml:space="preserve">
+    <value>e phone 2</value>
+  </data>
+  <data name="show_books" xml:space="preserve">
+    <value>e show books</value>
+  </data>
+  <data name="confirm_distributor_delete" xml:space="preserve">
+    <value>e confirm distributor delete</value>
+  </data>
+  <data name="merged" xml:space="preserve">
+    <value>e merged</value>
+  </data>
+  <data name="add_key_form" xml:space="preserve">
+    <value>e add key form</value>
+  </data>
+  <data name="key_was_added" xml:space="preserve">
+    <value>e key was added</value>
+  </data>
+  <data name="key_info_was_modified" xml:space="preserve">
+    <value>e key info was modified</value>
+  </data>
+  <data name="edit_key_form" xml:space="preserve">
+    <value>e edit key form</value>
+  </data>
+  <data name="full_name" xml:space="preserve">
+    <value>e full name</value>
+  </data>
+  <data name="data_was_modified" xml:space="preserve">
+    <value>e data was modified</value>
+  </data>
+  <data name="series_site" xml:space="preserve">
+    <value>e series site</value>
+  </data>
+  <data name="series_institution" xml:space="preserve">
+    <value>e series institution</value>
+  </data>
+  <data name="invertories_form" xml:space="preserve">
+    <value>e invertories form</value>
+  </data>
+  <data name="invertory_name" xml:space="preserve">
+    <value>e invertory name</value>
+  </data>
+  <data name="item_was_deleted" xml:space="preserve">
+    <value>e item was deleted</value>
+  </data>
+  <data name="inventory_has_resources_deny" xml:space="preserve">
+    <value>e inventory has resources deny</value>
+  </data>
+  <data name="languages" xml:space="preserve">
+    <value>e languages</value>
+  </data>
+  <data name="delete_q" xml:space="preserve">
+    <value>e delete q</value>
+  </data>
+  <data name="language_name_exists" xml:space="preserve">
+    <value>e language name exists</value>
+  </data>
+  <data name="language_dc_exists" xml:space="preserve">
+    <value>e language dc exists</value>
+  </data>
+  <data name="language_english_name_exists" xml:space="preserve">
+    <value>e language english name exists</value>
+  </data>
+  <data name="language_polish_name_exists" xml:space="preserve">
+    <value>e language polish name exists</value>
+  </data>
+  <data name="magazines_keys" xml:space="preserve">
+    <value>e magazines keys</value>
+  </data>
+  <data name="magazine_publishers" xml:space="preserve">
+    <value>e magazine publishers </value>
+  </data>
+  <data name="publisher_occurs" xml:space="preserve">
+    <value>e publisher occurs</value>
+  </data>
+  <data name="connection_failed" xml:space="preserve">
+    <value>e connection failed</value>
+  </data>
+  <data name="connect" xml:space="preserve">
+    <value>e connect</value>
+  </data>
+  <data name="disconnect" xml:space="preserve">
+    <value>e disconnect</value>
+  </data>
+  <data name="connected" xml:space="preserve">
+    <value>e connected</value>
+  </data>
+  <data name="disconnected" xml:space="preserve">
+    <value>e disconnected</value>
+  </data>
+  <data name="admin_main_form" xml:space="preserve">
+    <value>e admin main form</value>
+  </data>
+  <data name="con_status" xml:space="preserve">
+    <value>e con status</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>e admin</value>
+  </data>
+  <data name="sort_order" xml:space="preserve">
+    <value>e sort order</value>
+  </data>
+  <data name="responsibilities" xml:space="preserve">
+    <value>e responsibilities</value>
+  </data>
+  <data name="library_info" xml:space="preserve">
+    <value>e library info</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>e close</value>
+  </data>
+  <data name="archiving" xml:space="preserve">
+    <value>e archiving</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>e help</value>
+  </data>
+  <data name="author_add" xml:space="preserve">
+    <value>e author add</value>
+  </data>
+  <data name="author_name_not_filled" xml:space="preserve">
+    <value>e author name not filled</value>
+  </data>
+  <data name="author_added" xml:space="preserve">
+    <value>e author added</value>
+  </data>
+  <data name="author_modified" xml:space="preserve">
+    <value>e author modified</value>
+  </data>
+  <data name="author_in_other_books" xml:space="preserve">
+    <value>e author in other books</value>
+  </data>
+  <data name="department_add" xml:space="preserve">
+    <value>e department add</value>
+  </data>
+  <data name="adding" xml:space="preserve">
+    <value>e adding</value>
+  </data>
+  <data name="resp_occurs_in" xml:space="preserve">
+    <value>e resp occurs in</value>
+  </data>
+  <data name="authors_from_list" xml:space="preserve">
+    <value>e authors from list</value>
+  </data>
+  <data name="all_authors" xml:space="preserve">
+    <value>e all authors</value>
+  </data>
+  <data name="select_publishers" xml:space="preserve">
+    <value>e select publishers</value>
+  </data>
+  <data name="selected_publishers" xml:space="preserve">
+    <value>e selected publishers</value>
+  </data>
+  <data name="keys_for" xml:space="preserve">
+    <value>e keys for</value>
+  </data>
+  <data name="for_books" xml:space="preserve">
+    <value>e for books</value>
+  </data>
+  <data name="for_magazines" xml:space="preserve">
+    <value>e for magazines</value>
+  </data>
+  <data name="for_articles" xml:space="preserve">
+    <value>e for articles</value>
+  </data>
+  <data name="series_for_books" xml:space="preserve">
+    <value>e series for books</value>
+  </data>
+  <data name="series_occurs" xml:space="preserve">
+    <value>e series occurs</value>
+  </data>
+  <data name="string" xml:space="preserve">
+    <value>e string</value>
+  </data>
+  <data name="old_order" xml:space="preserve">
+    <value>e old order</value>
+  </data>
+  <data name="co_liber_users" xml:space="preserve">
+    <value>e co liber users</value>
+  </data>
+  <data name="main_inventory" xml:space="preserve">
+    <value>e main inventory</value>
+  </data>
+  <data name="starting_books_collection" xml:space="preserve">
+    <value>e starting books collection</value>
+  </data>
+  <data name="rights" xml:space="preserve">
+    <value>e rights</value>
+  </data>
+  <data name="repeat_password" xml:space="preserve">
+    <value>e repeat password</value>
+  </data>
+  <data name="choose_user_first" xml:space="preserve">
+    <value>e choose user first</value>
+  </data>
+  <data name="value_repeated_enter_new" xml:space="preserve">
+    <value>e value repeated enter new</value>
+  </data>
+  <data name="different_passwords" xml:space="preserve">
+    <value>e different passwords</value>
+  </data>
+  <data name="admin_cannot_be_deleted" xml:space="preserve">
+    <value>e admin cannot be deleted</value>
+  </data>
+  <data name="delete_user_q" xml:space="preserve">
+    <value>e delete user q</value>
+  </data>
+  <data name="marc_import" xml:space="preserve">
+    <value>e marc import</value>
+  </data>
+  <data name="set_default" xml:space="preserve">
+    <value>e set default</value>
+  </data>
+  <data name="server" xml:space="preserve">
+    <value>e server</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>e sort</value>
+  </data>
+  <data name="collapse" xml:space="preserve">
+    <value>e collapse</value>
+  </data>
+  <data name="year_of_publishing" xml:space="preserve">
+    <value>e year of publishing</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>e author</value>
+  </data>
+  <data name="search_results" xml:space="preserve">
+    <value>e search results</value>
+  </data>
+  <data name="edit_marc" xml:space="preserve">
+    <value>e edit marc</value>
+  </data>
+  <data name="view_marc" xml:space="preserve">
+    <value>e view marc</value>
+  </data>
+  <data name="0_descriptions" xml:space="preserve">
+    <value>e 0 descriptions</value>
+  </data>
+  <data name="found" xml:space="preserve">
+    <value>e found</value>
+  </data>
+  <data name="servers" xml:space="preserve">
+    <value>e servers</value>
+  </data>
+  <data name="servers_used" xml:space="preserve">
+    <value>e servers used</value>
+  </data>
+  <data name="server_address" xml:space="preserve">
+    <value>e server address</value>
+  </data>
+  <data name="add_new" xml:space="preserve">
+    <value>e add new</value>
+  </data>
+  <data name="default" xml:space="preserve">
+    <value>e default</value>
+  </data>
+  <data name="expand" xml:space="preserve">
+    <value>e expand</value>
+  </data>
+  <data name="edit_server" xml:space="preserve">
+    <value>e edit server</value>
+  </data>
+  <data name="remarks" xml:space="preserve">
+    <value>e remarks</value>
+  </data>
+  <data name="port_cannot_be_blank" xml:space="preserve">
+    <value>e port cannot be blank</value>
+  </data>
+  <data name="database_cannot_be_blank" xml:space="preserve">
+    <value>e database cannot be blank</value>
+  </data>
+  <data name="server_adding" xml:space="preserve">
+    <value>e server adding</value>
+  </data>
+  <data name="ws2" xml:space="preserve">
+    <value>e ws2</value>
+  </data>
+  <data name="field" xml:space="preserve">
+    <value>e field</value>
+  </data>
+  <data name="ws1" xml:space="preserve">
+    <value>e ws1</value>
+  </data>
+  <data name="add_row" xml:space="preserve">
+    <value>e add row</value>
+  </data>
+  <data name="edit_marc_002" xml:space="preserve">
+    <value>e edit marc 002</value>
+  </data>
+  <data name="additionalOrderInfo" xml:space="preserve">
+    <value>e additionalOrderInfo</value>
+  </data>
+  <data name="additionalTitle" xml:space="preserve">
+    <value>e additionalTitle</value>
+  </data>
+  <data name="articleTitle" xml:space="preserve">
+    <value>e articleTitle</value>
+  </data>
+  <data name="authorsName" xml:space="preserve">
+    <value>e authorsName</value>
+  </data>
+  <data name="basket" xml:space="preserve">
+    <value>e basket</value>
+  </data>
+  <data name="borrowDate" xml:space="preserve">
+    <value>e borrowDate</value>
+  </data>
+  <data name="coAuthor" xml:space="preserve">
+    <value>e coAuthor</value>
+  </data>
+  <data name="deleteChecked" xml:space="preserve">
+    <value>e deleteChecked</value>
+  </data>
+  <data name="fieldRequired" xml:space="preserve">
+    <value>e fieldRequired</value>
+  </data>
+  <data name="notReturned" xml:space="preserve">
+    <value>e notReturned</value>
+  </data>
+  <data name="makeOrder" xml:space="preserve">
+    <value>e makeOrder</value>
+  </data>
+  <data name="orderAccepted" xml:space="preserve">
+    <value>e orderAccepted</value>
+  </data>
+  <data name="orderConfirm" xml:space="preserve">
+    <value>e orderConfirm</value>
+  </data>
+  <data name="phrase" xml:space="preserve">
+    <value>e phrase</value>
+  </data>
+  <data name="physicalDescription" xml:space="preserve">
+    <value>e physicalDescription</value>
+  </data>
+  <data name="providedDate" xml:space="preserve">
+    <value>e providedDate</value>
+  </data>
+  <data name="returnDate" xml:space="preserve">
+    <value>e returnDate</value>
+  </data>
+  <data name="sendOrder" xml:space="preserve">
+    <value>e sendOrder</value>
+  </data>
+  <data name="showReturned" xml:space="preserve">
+    <value>e showReturned</value>
+  </data>
+  <data name="sourceTitle" xml:space="preserve">
+    <value>e sourceTitle</value>
+  </data>
+  <data name="tag" xml:space="preserve">
+    <value>e tag</value>
+  </data>
+  <data name="tags" xml:space="preserve">
+    <value>e tags</value>
+  </data>
+  <data name="volumin" xml:space="preserve">
+    <value>e volumin</value>
+  </data>
+  <data name="whoOrders" xml:space="preserve">
+    <value>e whoOrders</value>
+  </data>
+  <data name="basketIsEmpty" xml:space="preserve">
+    <value>e basketIsEmpty</value>
+  </data>
+  <data name="cannotOrder" xml:space="preserve">
+    <value>e cannotOrder</value>
+  </data>
+  <data name="additionAuthor" xml:space="preserve">
+    <value>e additionAuthor</value>
+  </data>
+  <data name="additionTitle" xml:space="preserve">
+    <value>e additionTitle</value>
+  </data>
+  <data name="addToBasket" xml:space="preserve">
+    <value>e addToBasket</value>
+  </data>
+  <data name="banned" xml:space="preserve">
+    <value>e banned</value>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>e check</value>
+  </data>
+  <data name="checkUncheckAll" xml:space="preserve">
+    <value>e checkUncheckAll</value>
+  </data>
+  <data name="copiesOf" xml:space="preserve">
+    <value>e copiesOf</value>
+  </data>
+  <data name="copyOf" xml:space="preserve">
+    <value>e copyOf</value>
+  </data>
+  <data name="dateEntererd" xml:space="preserve">
+    <value>e dateEntererd</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>e details</value>
+  </data>
+  <data name="excerpt" xml:space="preserve">
+    <value>e excerpt</value>
+  </data>
+  <data name="exportDOC" xml:space="preserve">
+    <value>e exportDOC</value>
+  </data>
+  <data name="glossaryDescriptions" xml:space="preserve">
+    <value>e glossaryDescriptions</value>
+  </data>
+  <data name="halfYearly" xml:space="preserve">
+    <value>e halfYearly</value>
+  </data>
+  <data name="inventory" xml:space="preserve">
+    <value>e inventory</value>
+  </data>
+  <data name="itemDescription" xml:space="preserve">
+    <value>e itemDescription</value>
+  </data>
+  <data name="languageOfText" xml:space="preserve">
+    <value>e languageOfText</value>
+  </data>
+  <data name="myOrders" xml:space="preserve">
+    <value>e myOrders</value>
+  </data>
+  <data name="noOrders" xml:space="preserve">
+    <value>e noOrders</value>
+  </data>
+  <data name="noSearchResults" xml:space="preserve">
+    <value>e noSearchResults</value>
+  </data>
+  <data name="ordersDate" xml:space="preserve">
+    <value>e ordersDate</value>
+  </data>
+  <data name="ordersFollowingItems" xml:space="preserve">
+    <value>e ordersFollowingItems</value>
+  </data>
+  <data name="ordersInfo001" xml:space="preserve">
+    <value>e ordersInfo001</value>
+  </data>
+  <data name="ordersInfo002" xml:space="preserve">
+    <value>e ordersInfo002</value>
+  </data>
+  <data name="ordersInfo003" xml:space="preserve">
+    <value>e ordersInfo003</value>
+  </data>
+  <data name="oridinalShort" xml:space="preserve">
+    <value>e oridinalShort</value>
+  </data>
+  <data name="paralellTitle" xml:space="preserve">
+    <value>e paralellTitle</value>
+  </data>
+  <data name="publicationPlace" xml:space="preserve">
+    <value>e publicationPlace</value>
+  </data>
+  <data name="serie" xml:space="preserve">
+    <value>e serie</value>
+  </data>
+  <data name="titleOfPublicationSource" xml:space="preserve">
+    <value>e titleOfPublicationSource</value>
+  </data>
+  <data name="toOrder" xml:space="preserve">
+    <value>e toOrder</value>
+  </data>
+  <data name="userDeleted" xml:space="preserve">
+    <value>e userDeleted</value>
+  </data>
+  <data name="yearOfPublishing" xml:space="preserve">
+    <value>e yearOfPublishing</value>
+  </data>
+  <data name="advancedSearch" xml:space="preserve">
+    <value>e advancedSearch</value>
+  </data>
+  <data name="myBorrows" xml:space="preserve">
+    <value>e myBorrows</value>
+  </data>
+  <data name="orderState" xml:space="preserve">
+    <value>e orderState</value>
+  </data>
+  <data name="returnedBorrows" xml:space="preserve">
+    <value>e returnedBorrows</value>
+  </data>
+  <data name="simpleSearch" xml:space="preserve">
+    <value>e simpleSearch</value>
+  </data>
+  <data name="toDelete" xml:space="preserve">
+    <value>e toDelete</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>e and</value>
+  </data>
+  <data name="ascending" xml:space="preserve">
+    <value>e ascending</value>
+  </data>
+  <data name="descending" xml:space="preserve">
+    <value>e descending</value>
+  </data>
+  <data name="enterPhrase" xml:space="preserve">
+    <value>e enterPhrase</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>e or</value>
+  </data>
+  <data name="publicationCountry" xml:space="preserve">
+    <value>e publicationCountry</value>
+  </data>
+  <data name="sortBy" xml:space="preserve">
+    <value>e sortBy</value>
+  </data>
+  <data name="clearCriteria" xml:space="preserve">
+    <value>e clearCriteria</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value>e first</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>e last</value>
+  </data>
+  <data name="phraseSearched" xml:space="preserve">
+    <value>e phraseSearched</value>
+  </data>
+  <data name="searchWithSources" xml:space="preserve">
+    <value>e searchWithSources</value>
+  </data>
+  <data name="hasSources" xml:space="preserve">
+    <value>e hasSources</value>
+  </data>
+  <data name="editor" xml:space="preserve">
+    <value>e editor</value>
+  </data>
+  <data name="filesToDL" xml:space="preserve">
+    <value>e filesToDL</value>
+  </data>
+  <data name="numberYear" xml:space="preserve">
+    <value>e numberYear</value>
+  </data>
+  <data name="publicationPlaceDate" xml:space="preserve">
+    <value>e publicationPlaceDate</value>
+  </data>
+  <data name="cpy" xml:space="preserve">
+    <value>e cpy</value>
+  </data>
+  <data name="noCpy" xml:space="preserve">
+    <value>e noCpy</value>
+  </data>
+  <data name="numberOfVolumes" xml:space="preserve">
+    <value>e numberOfVolumes</value>
+  </data>
+  <data name="pleaseWait" xml:space="preserve">
+    <value>e pleaseWait</value>
+  </data>
+  <data name="ukd" xml:space="preserve">
+    <value>e ukd</value>
+  </data>
+  <data name="invalid_username_or_password" xml:space="preserve">
+    <value>e invalid username or password</value>
+  </data>
+  <data name="invalid_sign_in" xml:space="preserve">
+    <value>e invalid sign in</value>
+  </data>
+  <data name="refresh" xml:space="preserve">
+    <value>e refresh</value>
+  </data>
+  <data name="change_inventory" xml:space="preserve">
+    <value>e change inventory</value>
+  </data>
+  <data name="inventory_not_chosen" xml:space="preserve">
+    <value>e inventory not chosen</value>
+  </data>
+  <data name="choose_inventory" xml:space="preserve">
+    <value>e choose inventory</value>
+  </data>
+  <data name="change_invertory" xml:space="preserve">
+    <value>e change invertory</value>
+  </data>
+  <data name="choose_invertory_and_press_key" xml:space="preserve">
+    <value>e choose invertory and press key</value>
+  </data>
+  <data name="all_invertories" xml:space="preserve">
+    <value>e all invertories</value>
+  </data>
+  <data name="inventory001" xml:space="preserve">
+    <value>e inventory</value>
+  </data>
+  <data name="stat_Oczekuje" xml:space="preserve">
+    <value>e stat Oczekuje</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>e status</value>
+  </data>
+  <data name="stat_Zrealizowane" xml:space="preserve">
+    <value>e stat Zrealizowane</value>
+  </data>
+  <data name="stat_Rezygnacja" xml:space="preserve">
+    <value>e stat Rezygnacja</value>
+  </data>
+  <data name="stat_Przygotowane" xml:space="preserve">
+    <value>e stat Przygotowane</value>
+  </data>
+  <data name="blocked" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="edit_author" xml:space="preserve">
+    <value>e edit author</value>
+  </data>
+  <data name="for_magazine" xml:space="preserve">
+    <value>e for magazine</value>
+  </data>
+  <data name="for_departament" xml:space="preserve">
+    <value>e for departament</value>
+  </data>
+  <data name="esc_to_close" xml:space="preserve">
+    <value>e esc to close</value>
+  </data>
+  <data name="language_was_deleted" xml:space="preserve">
+    <value>e language was deleted</value>
+  </data>
+  <data name="language_added" xml:space="preserve">
+    <value>e language added</value>
+  </data>
+  <data name="inv_was_added" xml:space="preserve">
+    <value>e inv was added</value>
+  </data>
+  <data name="inv_was_deleted" xml:space="preserve">
+    <value>e inv was deleted</value>
+  </data>
+  <data name="inv_was_modified" xml:space="preserve">
+    <value>e inv was modified</value>
+  </data>
+  <data name="for" xml:space="preserve">
+    <value>e for</value>
+  </data>
+  <data name="del_this_resp" xml:space="preserve">
+    <value>e del this resp</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>e edit</value>
+  </data>
+  <data name="serie_added" xml:space="preserve">
+    <value>e serie added</value>
+  </data>
+  <data name="serie_adding" xml:space="preserve">
+    <value>e serie adding</value>
+  </data>
+  <data name="country_deleting" xml:space="preserve">
+    <value>e country deleting</value>
+  </data>
+  <data name="author_appears_in" xml:space="preserve">
+    <value>e author appears in</value>
+  </data>
+  <data name="language_deleting" xml:space="preserve">
+    <value>e language deleting</value>
+  </data>
+  <data name="keyword" xml:space="preserve">
+    <value>e keyword</value>
+  </data>
+  <data name="db_deleting" xml:space="preserve">
+    <value>e db deleting</value>
+  </data>
+  <data name="was_deleted" xml:space="preserve">
+    <value>e was deleted</value>
+  </data>
+  <data name="others" xml:space="preserve">
+    <value>e others</value>
+  </data>
+  <data name="confirm_delete" xml:space="preserve">
+    <value>e confirm delete</value>
+  </data>
+  <data name="inv_adding" xml:space="preserve">
+    <value>e inv adding</value>
+  </data>
+  <data name="inv_deleting" xml:space="preserve">
+    <value>e inv_deleting</value>
+  </data>
+  <data name="inv_edit" xml:space="preserve">
+    <value>e inv edit</value>
+  </data>
+  <data name="serie_edit" xml:space="preserve">
+    <value>e serie edit</value>
+  </data>
+  <data name="show_res" xml:space="preserve">
+    <value>e show res</value>
+  </data>
+  <data name="publisher_added" xml:space="preserve">
+    <value>e publisher added</value>
+  </data>
+  <data name="publisher_adding" xml:space="preserve">
+    <value>e publisher adding</value>
+  </data>
+  <data name="publisher_edited" xml:space="preserve">
+    <value>e publisher edited</value>
+  </data>
+  <data name="publisher_edit" xml:space="preserve">
+    <value>e publisher edit</value>
+  </data>
+  <data name="user_added" xml:space="preserve">
+    <value>e user added</value>
+  </data>
+  <data name="user_adding" xml:space="preserve">
+    <value>e user adding</value>
+  </data>
+  <data name="department_modify" xml:space="preserve">
+    <value>e department modify</value>
+  </data>
+  <data name="admin_about" xml:space="preserve">
+    <value>e admin about</value>
+  </data>
+  <data name="admin_app_name" xml:space="preserve">
+    <value>e admin app name</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>e port</value>
+  </data>
+  <data name="authors_coauthors_institutions" xml:space="preserve">
+    <value>e authors coauthors institutions</value>
+  </data>
+  <data name="coauthors_001" xml:space="preserve">
+    <value>e coauthors 001</value>
+  </data>
+  <data name="publisher_001" xml:space="preserve">
+    <value>e publisher 001</value>
+  </data>
+  <data name="author1" xml:space="preserve">
+    <value>e author1</value>
+  </data>
+  <data name="books_deleting" xml:space="preserve">
+    <value>e books deleting</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>e ok</value>
+  </data>
+
+</root>
